@@ -24,6 +24,15 @@ def removeNumbers(text):
     text = ''.join([i for i in text if not i.isdigit()])         
     return text
 
+def replaceAlpha(text):
+    """ Removes integers """
+    sentence=""
+    for i in text:
+        if i.isalpha():
+            i=i.lower()
+        sentence+=i
+    return sentence
+
 def replaceURL(text):
     """ Replaces url address with "url" """
     text = re.sub('((www\.[^\s]+)|(https?://[^\s]+))','url',text)
@@ -75,6 +84,7 @@ class preprocessing:
         self.data['text']=self.data['text'].apply(removeEmoticons)
         self.data['text']=self.data['text'].apply(replaceMultiExclamationMark)
         self.data['text']=self.data['text'].apply(removeNumbers)
+        self.data['text']=self.data['text'].apply(replaceAlpha)
         self.data['text']=self.data['text'].apply(replaceAllSlang)
         
     def print_data(self):

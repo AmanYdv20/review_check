@@ -15,6 +15,7 @@ my_stopwords = "multiexclamation multiquestion multistop url atuser st rd nd th 
 stoplist = stoplist + my_stopwords.split()
 lemmatizer = WordNetLemmatizer() # set lemmatizer
 stemmer = PorterStemmer() # set stemmer
+i=0
 
 def addCapTag(word):
     """ Finds a word with at least 3 characters capitalized and adds the tag ALL_CAPS_ """
@@ -66,7 +67,8 @@ def tokenize(text):
             final_tokens.append(final_word)
     
     text=' '.join([i for i in final_tokens])
+    print("execute")
     return text
 
-sentence="This is not a good examle you are setting among the public!!"
-ans=tokenize(sentence)
+#sentence="This is not a good examle you are setting among the public!!"
+#ans=tokenize(sentence)

@@ -30,7 +30,7 @@ def countSlang(text):
 
 """ Replaces contractions from a string to their equivalents """
 contraction_patterns = [ (r'won\'t', 'will not'), (r'can\'t', 'cannot'),(r'cant', 'cannot'), (r'i\'m', 'i am'),(r'im', 'i am'), (r'ain\'t', 'is not'), (r'(\w+)\'ll', '\g<1> will'), (r'(\w+)n\'t', '\g<1> not'),
-                         (r'(\w+)\'ve', '\g<1> have'), (r'(\w+)\'s', '\g<1> is'), (r'(\w+)\'re', '\g<1> are'), (r'(\w+)\'d', '\g<1> would'), (r'&', 'and'), (r'dammit', 'damn it'), (r'dont', 'do not'), (r'wont', 'will not'),(r' ive', 'I have'),(r' id', 'I would')]
+                         (r'(\w+)\'ve', '\g<1> have'), (r'(\w+)\'s', '\g<1> is'), (r'(\w+)\'re', '\g<1> are'), (r'(\w+)\'d', '\g<1> would'), (r'&', 'and'), (r'dammit', 'damn it'), (r'dont', 'do not'), (r'wont', 'will not'),(r' ive', 'I have'),(r' id', 'I would'),(r'I\'m', 'I would')]
 def replaceContraction(text):
     patterns = [(re.compile(regex), repl) for (regex, repl) in contraction_patterns]
     for (pattern, repl) in patterns:
