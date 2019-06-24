@@ -41,6 +41,7 @@ def replaceElongated(word):
         return repl_word
 
 def tokenize(text):
+    global x
     final_tokens=[]
     tokens = nltk.word_tokenize(text)
     
@@ -67,7 +68,8 @@ def tokenize(text):
             final_tokens.append(final_word)
     
     text=' '.join([i for i in final_tokens])
-    print("execute")
+    print("execute" x)
+    x=x+1
     return text
 
 #sentence="This is not a good examle you are setting among the public!!"
