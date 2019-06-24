@@ -68,7 +68,7 @@ def tokenize(text):
             final_tokens.append(final_word)
     
     text=' '.join([i for i in final_tokens])
-    print("execute" x)
+    print("execute ", x)
     x=x+1
     return text
 
