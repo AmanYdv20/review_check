@@ -1,0 +1,110 @@
+#import pandas as pd
+import re
+#from functools import partial
+#from collections import Counter
+#import nltk
+from nltk.corpus import wordnet
+#from nltk.corpus import stopwords
+#from nltk.stem import WordNetLemmatizer
+#from nltk.stem.porter import PorterStemmer
+from changeSlang import replaceAllSlang
+#from nltk import word_tokenize
+#from nltk.corpus import stopwords
+#from num2words import num2words
+#from nltk.util import ngrams
+
+def removeUnicode(text):
+    """ Removes unicode strings like "\u002c" and "x96" """
+    text = re.sub(r'(\\u[0-9A-Fa-f]+)',r'', text)       
+    text = re.sub(r'[^\x00-\x7f]',r'',text)
+    return text
+
+def removeNumbers(text):
+    """ Removes integers """
+    text = ''.join([i for i in text if not i.isdigit()])         
+    return text
+
+def replaceURL(text):
+    """ Replaces url address with "url" """
+    text = re.sub('((www\.[^\s]+)|(https?://[^\s]+))','url',text)
+    text = re.sub(r'#([^\s]+)', r'\1', text)
+    return text
+
+def replaceAtUser(text):
+    """ Replaces "@user" with "atUser" """
+    text = re.sub('@[^\s]+','atUser',text)
+    return text
+
+def removeHashtagInFrontOfWord(text):
+    """ Removes hastag in front of a word """
+    text = re.sub(r'#([^\s]+)', r'\1', text)
+    return text
+
+
+def replaceMultiExclamationMark(text):
+    """ Replaces repetitions of exlamation marks """
+    text = re.sub(r"(\!)\1+", '!', text)
+    return text
+
+def replaceMultiQuestionMark(text):
+    """ Replaces repetitions of question marks """
+    text = re.sub(r"(\?)\1+", '', text)
+    return text
+
+def replaceMultiStopMark(text):
+    """ Replaces repetitions of stop marks """
+    text = re.sub(r"(\.)\1+", '.', text)
+    return text
+
+def removeEmoticons(text):
+    """ Removes emoticons from text """
+    text = re.sub(':\)|;\)|:-\)|\(-:|:-D|=D|:P|xD|X-p|\^\^|:-*|\^\.\^|\^\-\^|\^\_\^|\,-\)|\)-:|:\'\(|:\(|:-\(|:\S|T\.T|\.\_\.|:<|:-\S|:-<|\*\-\*|:O|=O|=\-O|O\.o|XO|O\_O|:-\@|=/|:/|X\-\(|>\.<|>=\(|D:', '', text)
+    return text
+
+#class for performing initials functions to the dataset
+class preprocessing:
+    def __init__(self,df):
+        self.data=df
+        #self.data['text']=self.data['text'].apply(replaceToLower)
+        self.data['text']=self.data['text'].apply(removeUnicode)
+        self.data['text']=self.data['text'].apply(replaceURL)
+        self.data['text']=self.data['text'].apply(removeHashtagInFrontOfWord)
+        self.data['text']=self.data['text'].apply(replaceAtUser)
+        self.data['text']=self.data['text'].apply(replaceMultiQuestionMark)
+        self.data['text']=self.data['text'].apply(replaceMultiStopMark)
+        self.data['text']=self.data['text'].apply(removeEmoticons)
+        self.data['text']=self.data['text'].apply(replaceMultiExclamationMark)
+        self.data['text']=self.data['text'].apply(removeNumbers)
+        self.data['text']=self.data['text'].apply(replaceAllSlang)
+        
+    def print_data(self):
+        print(self.data.head())
+
+#text=''
+#for i in data['text']:
+#    text+=i
+#    text+=' '
+#text = re.sub('<.*>','',text)
+#tokenized = text.split()
+#esBigrams = ngrams(tokenized, 2)
+#esBigramFreq = Counter(esBigrams)
+#most_frequent=esBigramFreq.most_common(380)
+
+#repr(most_frequent)
+#f = open( 'bigrams.txt', 'w' )
+#f.write( 'most frequent bigrams= ' + repr(most_frequent) + '\n' )
+#f.close()
+
+#triBigrams = ngrams(tokenized, 3)
+#triBigramFreq = Counter(triBigrams)
+#most_frequent_trigrams=triBigramFreq.most_common(100)
+
+
+#quadBigrams = ngrams(tokenized, 4)
+#quadBigramFreq = Counter(quadBigrams)
+#quadBigramFreq.most_common(65)
+
+
+#task 3 started
+
+        
