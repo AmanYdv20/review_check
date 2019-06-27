@@ -4,6 +4,7 @@ from check_stemer import tokenize
 from nltk.util import ngrams
 from collections import Counter
 from functools import partial
+import random
 
 filename=['amazon','facebook','google','google_map','google_play','messenger','outlook','snapchat','wechat','whatsapp']
 data=[]
@@ -20,7 +21,22 @@ for file in filename:
 data = pd.concat(data)
 pre=preprocessing(data)
 data=pre.data
+data.reset_index()
 
+
+data=data[data['text'].apply(lambda x: len(x.split(' ')) > 3)]
+random_subset = data.sample(n=7000)
+export_csv = data.to_csv (r'random_data.csv', index = None, header=True)
+
+
+#data=data[data['text'].apply(lambda x: len(x.split(' ')) > )]
+size=data.shape
+n=random.randint(1,size[0]-7000)
+data=data[n:n+7000]
+export_csv = data.to_csv (r'random_data_sequential.csv', index = None, header=True)
+
+data['text']=data['text'].apply(tokenize)
+export_csv = data.to_csv (r'random_data.csv', index = None, header=True)
 text=''
 for i in data['text']:
     text+=i

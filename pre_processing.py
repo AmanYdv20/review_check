@@ -35,7 +35,7 @@ def replaceAlpha(text):
 
 def replaceURL(text):
     """ Replaces url address with "url" """
-    text = re.sub('((www\.[^\s]+)|(https?://[^\s]+))','url',text)
+    text = re.sub('((www\.[^\s]+)|(https?://[^\s]+)|(pic\.[^\s]+))','url',text)
     text = re.sub(r'#([^\s]+)', r'\1', text)
     return text
 

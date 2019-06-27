@@ -55,17 +55,20 @@ def tokenize(text):
 ### NO POS TAGGING BEGIN (If you don't want to use POS Tagging keep this section uncommented) ###
     
     for w in tokens:
-
-        if (w not in stoplist): # Technique 10: remove stopwords
+        final_word = w.lower() # Technique 9: lowercases all characters
+        final_word = replaceElongated(final_word) # Technique 11: replaces an elongated word with its basic form, unless the word exists in the lexicon
+        if len(final_word)>1:
+            final_word = spell.correction(final_word)
+        final_tokens.append(final_word)
+        #if (w not in stoplist): # Technique 10: remove stopwords
             #final_word = addCapTag(w) # Technique 8: Finds a word with at least 3 characters capitalized and adds the tag ALL_CAPS_
-            final_word = w.lower() # Technique 9: lowercases all characters
-            final_word = replaceElongated(final_word) # Technique 11: replaces an elongated word with its basic form, unless the word exists in the lexicon
-            if len(final_word)>1:
-                final_word = spell.correction(final_word) # Technique 12: correction of spelling errors
-            final_word = lemmatizer.lemmatize(final_word) # Technique 14: lemmatizes words
+            #final_word = w.lower() # Technique 9: lowercases all characters
+            #final_word = replaceElongated(final_word) # Technique 11: replaces an elongated word with its basic form, unless the word exists in the lexicon
+            #if len(final_word)>1:
+                #final_word = spell.correction(final_word) # Technique 12: correction of spelling errors
+            #final_word = lemmatizer.lemmatize(final_word) # Technique 14: lemmatizes words
             #final_word = stemmer.stem(final_word) # Technique 15: apply stemming to words
             
-            final_tokens.append(final_word)
     
     text=' '.join([i for i in final_tokens])
     print("execution number", x)
