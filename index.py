@@ -26,7 +26,7 @@ data.reset_index()
 
 data=data[data['text'].apply(lambda x: len(x.split(' ')) > 3)]
 random_subset = data.sample(n=7000)
-export_csv = data.to_csv (r'random_data.csv', index = None, header=True)
+export_csv = random_subset.to_csv (r'random_data_7000.csv', index = None, header=True)
 
 
 #data=data[data['text'].apply(lambda x: len(x.split(' ')) > )]
