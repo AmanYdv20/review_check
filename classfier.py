@@ -14,6 +14,9 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk import pos_tag
+import pickle
+from scipy import sparse
+from scipy.sparse import hstack
 
 stoplist = stopwords.words('english')
 my_stopwords = "whatsit atuser url" # my extra stopwords
@@ -24,7 +27,25 @@ Corpus=Corpus.drop(['Unnamed: 7','Unnamed: 8','Unnamed: 9'],axis=1)
 Corpus=Corpus.dropna()
 Corpus=Corpus[Corpus['Bug_report'].apply(lambda x: str(x).isdigit())]
 Corpus.Bug_report = pd.to_numeric(Corpus.Bug_report, errors='coerce')
-Corpus.reset_index()
+Corpus=Corpus.reset_index(drop=True)
+
+#blob = TextBlob(Corpus['text'][100])
+#ans=blob.sentiment
+
+sentiment_tweet=[]
+for i in range(len(Corpus)):
+    blob = TextBlob(Corpus['text'][i])
+    ans=blob.sentiment
+    sentiment_tweet.append(ans[0])
+    
+#X_senti = np.array(sentiment_tweet)
+senti_train=sentiment_tweet[:719]
+senti_test=sentiment_tweet[719:]
+senti_train = np.array(senti_train).reshape(719,1)
+senti_test = np.array(senti_test).reshape(309,1)
+senti_train = sparse.csr_matrix(senti_train)
+senti_test = sparse.csr_matrix(senti_test)
+#X_senti = np.array(sentiment_tweet)
 
 Corpus=pd.read_csv('classifier_final.csv')
 #pre=preprocessing(data)
@@ -62,8 +83,6 @@ for index,entry in enumerate(Corpus['text']):
 
  
 Train_X, Test_X, Train_Y, Test_Y = model_selection.train_test_split(Corpus['text_final'],Corpus['Bug_report'],test_size=0.3)
-
-
 Encoder = LabelEncoder()
 Train_Y = Encoder.fit_transform(Train_Y)
 Test_Y = Encoder.fit_transform(Test_Y)
@@ -73,20 +92,36 @@ Tfidf_vect.fit(Corpus['text_final'])
 
 Train_X_Tfidf = Tfidf_vect.transform(Train_X)
 Test_X_Tfidf = Tfidf_vect.transform(Test_X)
+#*******************************************
+filename = 'assigned_topics.pickle'
+infile = open(filename,'rb')
+test_pic = pickle.load(infile)
+infile.close()
+
+train_pic=test_pic[:719]
+test_pic=test_pic[719:]
+
+X_train = np.array(train_pic)
+X_train = sparse.csr_matrix(X_train) 
+X_test = np.array(test_pic)
+X_test = sparse.csr_matrix(X_test)
+#Train_X_Tfidf=np.asanyarray(Train_X_Tfidf)
+final_train=hstack((Train_X_Tfidf, senti_train))
+#combined_train=hstack((final_train,senti_train))
+final_test=hstack((Test_X_Tfidf, senti_test))
+#combined_test=hstack((final_test,senti_test))
+#final_data=np.concatenate((Train_X_Tfidf, X_topic), axis=1)
 
 Naive = naive_bayes.MultinomialNB()
-Naive.fit(Train_X_Tfidf,Train_Y)
+Naive.fit(final_train,Train_Y)
 
-predictions_NB = Naive.predict(Test_X_Tfidf)
+predictions_NB = Naive.predict(final_test)
 print("Naive Bayes Accuracy Score -> ",accuracy_score(predictions_NB, Test_Y)*100)
+
+#********************************************************************************
+SVM = svm.SVC(C=1.0, kernel='linear', degree=3, gamma='auto')
+SVM.fit(Train_X_Tfidf,Train_Y)
+predictions_SVM = SVM.predict(Test_X_Tfidf)
+print("SVM Accuracy Score -> ",accuracy_score(predictions_SVM, Test_Y)*100)
 #Corpus=Corpus.reset_index(drop=True)
-
-blob = TextBlob(Corpus['text'][100])
-ans=blob.sentiment
-
-sentiment_tweet=[]
-for i in range(1028):
-    blob = TextBlob(Corpus['text'][i])
-    ans=blob.sentiment
-    sentiment_tweet.append(ans[0])
 
