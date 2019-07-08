@@ -1,17 +1,25 @@
-#import pandas as pd
 import re
-#from functools import partial
-#from collections import Counter
-#import nltk
+import spacy
+import neuralcoref
 from nltk.corpus import wordnet
+#import pandas as pd
 #from nltk.corpus import stopwords
 #from nltk.stem import WordNetLemmatizer
 #from nltk.stem.porter import PorterStemmer
 from changeSlang import replaceAllSlang
+
 #from nltk import word_tokenize
 #from nltk.corpus import stopwords
 #from num2words import num2words
 #from nltk.util import ngrams
+nlp=spacy.load('en')
+neuralcoref.add_to_pipe(nlp)
+
+def coreference_resolution(text):
+    print('execute')
+    doc=nlp(text)
+    ans=doc._.coref_resolved
+    return ans
 
 def removeUnicode(text):
     """ Removes unicode strings like "\u002c" and "x96" """
@@ -86,9 +94,14 @@ class preprocessing:
         self.data['text']=self.data['text'].apply(removeNumbers)
         self.data['text']=self.data['text'].apply(replaceAlpha)
         self.data['text']=self.data['text'].apply(replaceAllSlang)
+        self.data['text']=self.data['text'].apply(coreference_resolution)
+        
         
     def print_data(self):
         print(self.data.head())
+
+#df=pd.read_csv('random_data.csv')
+#pre=preprocessing(df)
 
 #text=''
 #for i in data['text']:

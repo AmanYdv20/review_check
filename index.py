@@ -9,6 +9,8 @@ import random
 filename=['amazon','facebook','google','google_map','google_play','messenger','outlook','snapchat','wechat','whatsapp']
 data=[]
 
+#data=pd.read_csv('./data/amazon2.csv')
+
 for file in filename:
     count=0
     for i in range(1,5):
