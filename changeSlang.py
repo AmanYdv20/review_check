@@ -1,13 +1,13 @@
 import re
-import pandas as pd
-import re
 from functools import partial
-from collections import Counter
 import nltk
-from nltk.corpus import wordnet
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.stem.porter import PorterStemmer
+#import pandas as pd
+#import re
+#from collections import Counter
+#from nltk.corpus import wordnet
+#from nltk.corpus import stopwords
+#from nltk.stem import WordNetLemmatizer
+#from nltk.stem.porter import PorterStemmer
 """ Creates a dictionary with slangs and their equivalents and replaces them """
 with open('slang.txt') as file:
     slang_map = dict(map(str.strip, line.partition('\t')[::2])

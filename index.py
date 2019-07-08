@@ -5,6 +5,7 @@ from nltk.util import ngrams
 from collections import Counter
 from functools import partial
 import random
+from finding_grams import finding_ngram
 
 filename=['amazon','facebook','google','google_map','google_play','messenger','outlook','snapchat','wechat','whatsapp']
 data=[]
@@ -21,9 +22,11 @@ for file in filename:
     print(file+'contains',count, 'tweets')
 
 data = pd.concat(data)
-pre=preprocessing(data)
-data=pre.data
-data.reset_index()
+#pre=preprocessing(data)
+#data=pre.data
+data=data.reset_index()
+
+finding_ngram(data,2000,3)
 
 
 data=data[data['text'].apply(lambda x: len(x.split(' ')) > 3)]
@@ -39,37 +42,7 @@ export_csv = data.to_csv (r'random_data_sequential.csv', index = None, header=Tr
 
 data['text']=data['text'].apply(tokenize)
 export_csv = data.to_csv (r'random_data.csv', index = None, header=True)
-text=''
-for i in data['text']:
-    text+=i
-    text+=' '
-tokenized = text.split()
-esBigrams = ngrams(tokenized, 2)
-esBigramFreq = Counter(esBigrams)
-most_frequent=esBigramFreq.most_common(4500)
-print(most_frequent)
 
-f = open( 'bigrams.txt', 'w' )
-f.write( 'most frequent bigrams= ' + repr(most_frequent) + '\n' )
-f.close()
-
-triBigrams = ngrams(tokenized, 3)
-triBigramFreq = Counter(triBigrams)
-most_frequent=triBigramFreq.most_common(2000)
-print(most_frequent)
-
-f = open( 'trigrams.txt', 'w' )
-f.write( 'most frequent bigrams= ' + repr(most_frequent) + '\n' )
-f.close()
-
-quadBigrams = ngrams(tokenized, 4)
-quadBigramFreq = Counter(quadBigrams)
-most_frequent=quadBigramFreq.most_common(750)
-print(most_frequent)
-
-f = open( 'quadgrams.txt', 'w' )
-f.write( 'most frequent bigrams= ' + repr(most_frequent) + '\n' )
-f.close()
 #data=pd.read_csv('facebook.csv')
 #data=data.drop_duplicates()
 #pre=preprocessing(data)

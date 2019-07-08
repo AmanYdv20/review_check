@@ -13,6 +13,11 @@ spell=SpellChecker()
 stoplist = stopwords.words('english')
 my_stopwords = "multiexclamation multiquestion multistop url atuser st rd nd th am pm" # my extra stopwords
 stoplist = stoplist + my_stopwords.split()
+extra_words = ['still','not','as','soon','into','to','in','it\'s','this','is','have','been','do','does','did','doing','because','until','while','having']
+for word in extra_words:
+    if word in stoplist:
+        stoplist.remove(word)
+
 lemmatizer = WordNetLemmatizer() # set lemmatizer
 stemmer = PorterStemmer() # set stemmer
 x=0
