@@ -2,11 +2,16 @@ import re
 import spacy
 import neuralcoref
 from nltk.corpus import wordnet
-#import pandas as pd
+import pandas as pd
 #from nltk.corpus import stopwords
 #from nltk.stem import WordNetLemmatizer
 #from nltk.stem.porter import PorterStemmer
 from changeSlang import replaceAllSlang
+
+import logging
+logging.basicConfig(filename="newfile.log", format='%(asctime)s %(message)s', filemode='w')
+logger=logging.getLogger()
+logger.setLevel(logging.INFO)
 
 #from nltk import word_tokenize
 #from nltk.corpus import stopwords
@@ -16,6 +21,7 @@ nlp=spacy.load('en')
 neuralcoref.add_to_pipe(nlp)
 
 def coreference_resolution(text):
+    logger.info("Executed successfully") 
     print('execute')
     doc=nlp(text)
     ans=doc._.coref_resolved
@@ -23,6 +29,7 @@ def coreference_resolution(text):
 
 def removeUnicode(text):
     """ Removes unicode strings like "\u002c" and "x96" """
+    text=str(text)
     text = re.sub(r'(\\u[0-9A-Fa-f]+)',r'', text)       
     text = re.sub(r'[^\x00-\x7f]',r'',text)
     return text
@@ -101,6 +108,7 @@ class preprocessing:
         print(self.data.head())
 
 #df=pd.read_csv('random_data.csv')
+#df=df[:200]
 #pre=preprocessing(df)
 
 #text=''
