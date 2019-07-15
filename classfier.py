@@ -17,13 +17,12 @@ from nltk import pos_tag
 import pickle
 from scipy import sparse
 from scipy.sparse import hstack
+from sklearn.metrics import confusion_matrix
+#from finding_corpus import remove_stopwords, lemmatization
+from finding_corpus import findCorpus
 
-stoplist = stopwords.words('english')
-my_stopwords = "whatsit atuser url" # my extra stopwords
-stoplist = stoplist + my_stopwords.split()
-
-Corpus=pd.read_csv('random_data_7000.csv')
-Corpus=Corpus.drop(['Unnamed: 7','Unnamed: 8','Unnamed: 9'],axis=1)
+Corpus=pd.read_csv('labelled_tweets.csv',encoding="latin-1")
+Corpus=Corpus.drop(['Unnamed: 7'],axis=1)
 Corpus=Corpus.dropna()
 Corpus=Corpus[Corpus['Bug_report'].apply(lambda x: str(x).isdigit())]
 Corpus.Bug_report = pd.to_numeric(Corpus.Bug_report, errors='coerce')
@@ -47,22 +46,34 @@ senti_train = sparse.csr_matrix(senti_train)
 senti_test = sparse.csr_matrix(senti_test)
 #X_senti = np.array(sentiment_tweet)
 
+def convert(text):
+    return str(text)
+
 Corpus=pd.read_csv('classifier_final.csv')
+
+corpus_class=findCorpus(Corpus)
+
+final_data=corpus_class.final_data
+
+Corpus['text_final']=pd.Series(final_data)
+Corpus['text_final']=Corpus['text_final'].apply(convert)
 #pre=preprocessing(data)
 #df=pre.data
 # Step - a : Remove blank rows if any.
-Corpus['text'].dropna(inplace=True)
+#Corpus['text'].dropna(inplace=True)
 
 # Step - b : Change all the text to lower case. This is required as python interprets 'dog' and 'DOG' differently
-Corpus['text'] = [entry.lower() for entry in Corpus['text']]
+#Corpus['text'] = [entry.lower() for entry in Corpus['text']]
 
+#Corpus['text']=Corpus['text'].apply(remove_stopwords)
+#Corpus['text']=Corpus['text'].apply(lemmatization)
 # Step - c : Tokenization : In this each entry in the corpus will be broken into set of words
-Corpus['text']= [word_tokenize(entry) for entry in Corpus['text']]
+#Corpus['text']= [word_tokenize(entry) for entry in Corpus['text']]
 
 # Step - d : Remove Stop words, Non-Numeric and perfom Word Stemming/Lemmenting.
 
 # WordNetLemmatizer requires Pos tags to understand if the word is noun or verb or adjective etc. By default it is set to Noun
-tag_map = defaultdict(lambda : wn.NOUN)
+'''tag_map = defaultdict(lambda : wn.NOUN)
 tag_map['J'] = wn.ADJ
 tag_map['V'] = wn.VERB
 tag_map['R'] = wn.ADV
@@ -79,7 +90,7 @@ for index,entry in enumerate(Corpus['text']):
             word_Final = word_Lemmatized.lemmatize(word,tag_map[tag[0]])
             Final_words.append(word_Final)
     # The final processed set of words for each iteration will be stored in 'text_final'
-    Corpus.loc[index,'text_final'] = str(Final_words)
+    Corpus.loc[index,'text_final'] = str(Final_words) '''
 
  
 Train_X, Test_X, Train_Y, Test_Y = model_selection.train_test_split(Corpus['text_final'],Corpus['Bug_report'],test_size=0.3)
@@ -105,12 +116,28 @@ X_train = np.array(train_pic)
 X_train = sparse.csr_matrix(X_train) 
 X_test = np.array(test_pic)
 X_test = sparse.csr_matrix(X_test)
-#Train_X_Tfidf=np.asanyarray(Train_X_Tfidf)
+#*******************************************
 final_train=hstack((Train_X_Tfidf, senti_train))
 #combined_train=hstack((final_train,senti_train))
 final_test=hstack((Test_X_Tfidf, senti_test))
 #combined_test=hstack((final_test,senti_test))
 #final_data=np.concatenate((Train_X_Tfidf, X_topic), axis=1)
+
+#Code for parameter tuning
+from sklearn.model_selection import GridSearchCV
+# Grid Search
+# Parameter Grid
+param_grid = {'C': [0.1, 1, 10, 100], 'gamma': [1, 0.1, 0.01, 0.001, 0.00001, 10]}
+ 
+# Make grid search classifier
+clf_grid = GridSearchCV(svm.SVC(), param_grid, verbose=1)
+ 
+# Train the classifier
+clf_grid.fit(Train_X_Tfidf, Train_Y)
+ 
+# clf = grid.best_estimator_()
+print("Best Parameters:\n", clf_grid.best_params_)
+print("Best Estimators:\n", clf_grid.best_estimator_)
 
 Naive = naive_bayes.MultinomialNB()
 Naive.fit(final_train,Train_Y)
@@ -119,9 +146,13 @@ predictions_NB = Naive.predict(final_test)
 print("Naive Bayes Accuracy Score -> ",accuracy_score(predictions_NB, Test_Y)*100)
 
 #********************************************************************************
-SVM = svm.SVC(C=1.0, kernel='linear', degree=3, gamma='auto')
+#SVM = svm.SVC(C=1.0, kernel='linear', degree=3, gamma='auto')
+
+SVM = svm.SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,decision_function_shape='ovr', degree=3, gamma=1, kernel='rbf', max_iter=-1,probability=False, random_state=None, shrinking=True, tol=0.001, verbose=False)
 SVM.fit(Train_X_Tfidf,Train_Y)
 predictions_SVM = SVM.predict(Test_X_Tfidf)
 print("SVM Accuracy Score -> ",accuracy_score(predictions_SVM, Test_Y)*100)
+confusion_matrix(Test_Y, predictions_SVM)
+
 #Corpus=Corpus.reset_index(drop=True)
 

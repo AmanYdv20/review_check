@@ -16,7 +16,7 @@ from nltk.corpus import stopwords
 nlp = spacy.load('en', disable=['parser', 'ner'])
 
 stop_words = stopwords.words('english')
-stop_words.extend(['from', 'subject', 're', 'edu','whatsit','atUse'])
+stop_words.extend(['from', 'subject', 're', 'edu','whatsit','atuser','url'])
 
 extra_words = ['still','not','as','soon','into','to','in','it\'s','this','is','have','been','do','does','did','doing','because','until','while','having']
 for word in extra_words:

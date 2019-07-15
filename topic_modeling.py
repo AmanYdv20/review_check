@@ -1,20 +1,11 @@
-import re
 import pandas as pd
-import numpy as np
 import random
 from pprint import pprint
 import gensim
-import gensim.corpora as corpora
-from gensim.utils import simple_preprocess
 from gensim.models import CoherenceModel
-import spacy
 from pre_processing import preprocessing
 from check_stemer import tokenize
-# Plotting tools
-import pyLDAvis
-import pyLDAvis.gensim  # don't skip this
-import matplotlib.pyplot as plt
-from nltk.corpus import stopwords
+
 import pickle
 from finding_corpus import findCorpus
 #%matplotlib inline
@@ -28,18 +19,7 @@ warnings.filterwarnings("ignore",category=DeprecationWarning)
 
 random.seed(1000)
 
-stop_words = stopwords.words('english')
-stop_words.extend(['from', 'subject', 're', 'edu','whatsit','atUse'])
-
-extra_words = ['still','not','as','soon','into','to','in','it\'s','this','is','have','been','do','does','did','doing','because','until','while','having']
-for word in extra_words:
-    if word in stop_words:
-        stop_words.remove(word)
-
 mallet_path = './mallet-2.0.8/bin/mallet' # update this path
-
-# Initialize spacy 'en' model
-nlp = spacy.load('en', disable=['parser', 'ner'])
     
 def compute_coherence_values(dictionary, corpus, texts, limit, start=2, step=3):
     """
@@ -68,7 +48,7 @@ def compute_coherence_values(dictionary, corpus, texts, limit, start=2, step=3):
     return model_list, coherence_values
 
 data=[]
-for i in range(1,7):
+for i in range(1,5):
     df=pd.read_csv('./lemmetized_data/output_'+str(i)+'.csv')
     data.append(df)
 
@@ -110,8 +90,8 @@ print(ldamallet[corpus[10]])
 
 #*************************************************************
 
-df=pd.read_csv('random_data_7000.csv')
-df=df.drop(['Unnamed: 7','Unnamed: 8','Unnamed: 9'],axis=1)
+df=pd.read_csv('labelled_tweets.csv', encoding="latin-1")
+df=df.drop(['Unnamed: 7'],axis=1)
 df=df.dropna()
 df=df[df['Bug_report'].apply(lambda x: str(x).isdigit())]
 df.Bug_report = pd.to_numeric(df.Bug_report, errors='coerce')
@@ -147,7 +127,3 @@ outfile.close()
 infile = open(filename,'rb')
 test_pic = pickle.load(infile)
 infile.close()
-
-
-
-
