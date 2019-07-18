@@ -53,6 +53,7 @@ for i in range(1,5):
     data.append(df)
 
 data = pd.concat(data)
+data=data.drop(['Unnamed: 0'],axis=1)
 
 corpus_class=findCorpus(data)
 corpus=corpus_class.corpus

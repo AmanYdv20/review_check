@@ -1,0 +1,6 @@
+tweet-id,timestamp,text,app_name,comment,bug_report
+1109198856913182721,2019-03-22 21:03:10,"@Outlook OK, Outlook froze on me. I relaunch, it can't open the .ost file and exits. Google points me to SCANPST.EXE, problem fixed.
+
+Question: Why isn't Outlook smart enough to run SCANPST automatically?
+
+BTW, in 32 years of use, Eudora never corrupted a data file.",outlook,"['outlook', 'froze', 'relaunch', 'can', 'not', 'open', 'ost', 'file', 'exit', 'google', 'point', 'scanpst', 'exe', 'problem', 'fix', 'question', 'be', 'not', 'outlook', 'smart', 'enough', 'run', 'scanpst', 'automatically', 'btw', 'year', 'use', 'eudora', 'never', 'corrupt', 'datum', 'file']",1

@@ -1,15 +1,39 @@
-2019-07-14 19:27:38,100 'pattern' package not found; tag filters are not available for English
-2019-07-14 19:27:59,890 collecting all words and their counts
-2019-07-14 19:27:59,890 PROGRESS: at sentence #0, processed 0 words and 0 word types
-2019-07-14 19:28:00,050 collected 43296 word types from a corpus of 78761 words (unigram + bigrams) and 2780 sentences
-2019-07-14 19:28:00,050 using 43296 counts as vocab in Phrases<0 vocab, min_count=10, threshold=30, max_vocab_size=40000000>
-2019-07-14 19:28:00,050 collecting all words and their counts
-2019-07-14 19:28:00,050 PROGRESS: at sentence #0, processed 0 words and 0 word types
-2019-07-14 19:28:00,618 collected 43509 word types from a corpus of 78051 words (unigram + bigrams) and 2780 sentences
-2019-07-14 19:28:00,618 using 43509 counts as vocab in Phrases<0 vocab, min_count=5, threshold=30, max_vocab_size=40000000>
-2019-07-14 19:28:00,618 source_vocab length 43296
-2019-07-14 19:28:01,130 Phraser built with 29 phrasegrams
-2019-07-14 19:28:01,130 source_vocab length 43509
-2019-07-14 19:28:01,639 Phraser built with 103 phrasegrams
-2019-07-14 19:28:12,786 adding document #0 to Dictionary(0 unique tokens: [])
-2019-07-14 19:28:12,853 built Dictionary(4618 unique tokens: ['fix', 'frustrating', 'accept', 'ago', 'anyway']...) from 2780 documents (total 42488 corpus positions)
+2019-07-17 11:44:17,687 'pattern' package not found; tag filters are not available for English
+2019-07-17 11:49:41,208 collecting all words and their counts
+2019-07-17 11:49:41,208 PROGRESS: at sentence #0, processed 0 words and 0 word types
+2019-07-17 11:49:41,370 collected 44085 word types from a corpus of 80548 words (unigram + bigrams) and 2842 sentences
+2019-07-17 11:49:41,370 using 44085 counts as vocab in Phrases<0 vocab, min_count=10, threshold=30, max_vocab_size=40000000>
+2019-07-17 11:49:41,370 collecting all words and their counts
+2019-07-17 11:49:41,371 PROGRESS: at sentence #0, processed 0 words and 0 word types
+2019-07-17 11:49:41,943 collected 44303 word types from a corpus of 79805 words (unigram + bigrams) and 2842 sentences
+2019-07-17 11:49:41,944 using 44303 counts as vocab in Phrases<0 vocab, min_count=5, threshold=30, max_vocab_size=40000000>
+2019-07-17 11:49:41,944 source_vocab length 44085
+2019-07-17 11:49:42,447 Phraser built with 32 phrasegrams
+2019-07-17 11:49:42,447 source_vocab length 44303
+2019-07-17 11:49:42,950 Phraser built with 110 phrasegrams
+2019-07-17 11:49:54,358 adding document #0 to Dictionary(0 unique tokens: [])
+2019-07-17 11:49:54,424 built Dictionary(4699 unique tokens: ['album', 'already', 'be', 'category', 'fix']...) from 2842 documents (total 43416 corpus positions)
+2019-07-17 11:50:02,966 collecting all words and their counts
+2019-07-17 11:50:02,966 PROGRESS: at sentence #0, processed 0 words and 0 word types
+2019-07-17 11:50:03,477 PROGRESS: at sentence #10000, processed 249628 words and 112077 word types
+2019-07-17 11:50:04,121 PROGRESS: at sentence #20000, processed 555792 words and 193455 word types
+2019-07-17 11:50:04,203 collected 203847 word types from a corpus of 591456 words (unigram + bigrams) and 21540 sentences
+2019-07-17 11:50:04,203 using 203847 counts as vocab in Phrases<0 vocab, min_count=10, threshold=30, max_vocab_size=40000000>
+2019-07-17 11:50:04,204 collecting all words and their counts
+2019-07-17 11:50:04,204 PROGRESS: at sentence #0, processed 0 words and 0 word types
+2019-07-17 11:50:05,980 PROGRESS: at sentence #10000, processed 242981 words and 113858 word types
+2019-07-17 11:50:08,111 PROGRESS: at sentence #20000, processed 527448 words and 196869 word types
+2019-07-17 11:50:08,373 collected 207495 word types from a corpus of 561915 words (unigram + bigrams) and 21540 sentences
+2019-07-17 11:50:08,373 using 207495 counts as vocab in Phrases<0 vocab, min_count=5, threshold=30, max_vocab_size=40000000>
+2019-07-17 11:50:08,373 source_vocab length 203847
+2019-07-17 11:50:10,783 Phraser built with 258 phrasegrams
+2019-07-17 11:50:10,784 source_vocab length 207495
+2019-07-17 11:50:13,299 Phraser built with 1170 phrasegrams
+2019-07-17 11:51:37,218 adding document #0 to Dictionary(0 unique tokens: [])
+2019-07-17 11:51:37,440 adding document #10000 to Dictionary(11516 unique tokens: ['amazon', 'app', 'be', 'bit', 'companion']...)
+2019-07-17 11:51:37,683 adding document #20000 to Dictionary(18144 unique tokens: ['amazon', 'app', 'be', 'bit', 'companion']...)
+2019-07-17 11:51:37,717 built Dictionary(19152 unique tokens: ['amazon', 'app', 'be', 'bit', 'companion']...) from 21540 documents (total 308949 corpus positions)
+2019-07-17 12:03:04,756 Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-07-17 12:03:04,756 Invalid alias: The name more can't be aliased because it is another magic command.
+2019-07-17 12:03:04,756 Invalid alias: The name less can't be aliased because it is another magic command.
+2019-07-17 12:03:04,757 Invalid alias: The name man can't be aliased because it is another magic command.

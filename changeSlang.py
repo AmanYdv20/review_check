@@ -38,6 +38,7 @@ def replaceContraction(text):
     return text
 
 def replaceAllSlang(text):
+    text=str(text)
     totalSlangs=0
     totalSlangsFound = []
     temp_slangs, temp_slangsFound = countSlang(text)
