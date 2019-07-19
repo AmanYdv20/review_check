@@ -163,10 +163,13 @@ from sklearn import model_selection,linear_model, naive_bayes, metrics, svm
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.model_selection import KFold
 from sklearn import decomposition, ensemble
+from sklearn.preprocessing import LabelBinarizer
 
 #from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from changeSlang import replaceAllSlang
+
+lb = LabelBinarizer()
 
 def split_train_test(dataframe, train_feature_name, train_label):
     """splits a given dataframe to train and validation sets"""
@@ -188,9 +191,15 @@ def train_model_accuracy_calculator(train_feature_data, train_label, max_feature
     model = svm.SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,decision_function_shape='ovr', degree=3, gamma=1, kernel='rbf', max_iter=-1,probability=True, random_state=None, shrinking=True, tol=0.001, verbose=False)
     scores=cross_val_score(model,build_feature(train_feature_data,max_features), train_label,cv=7)
     accuracy_r2_score = np.mean(scores)
-    
+    y_train = np.array([number[0] for number in lb.fit_transform(train_label)])
+    recall = cross_val_score(model,build_feature(train_feature_data,max_features), y_train,cv=7, scoring='recall')
+    final_recall=np.mean(recall)
+    precision = cross_val_score(model,build_feature(train_feature_data,max_features), y_train,cv=7, scoring='precision')
+    final_precision=np.mean(precision)
+    f1_score = cross_val_score(model,build_feature(train_feature_data,max_features), y_train,cv=7, scoring='f1')
+    f1_score=np.mean(f1_score)
     model=model.fit(build_feature(train_feature_data,max_features),Train_Y)
-    return model, accuracy_r2_score
+    return model, accuracy_r2_score, final_recall,final_precision,f1_score
 
 def make_predictions(classifier_model, predic_feature_vetor):
     """make predictions for the unseen data"""
@@ -254,9 +263,12 @@ unlabel_comment_feature = build_feature(unlabel["comment"],max_features= 15000)
 print(unlabel_comment_feature.shape)
 print(seed_comment_feature.shape)
 
-model, accuracy = train_model_accuracy_calculator(train_feature_data=seed['comment'], train_label=Train_Y,max_features=5000)
+model, accuracy,recall_score, precision_score,f1_score = train_model_accuracy_calculator(train_feature_data=seed['comment'], train_label=Train_Y,max_features=5000)
 print(model)
 print(accuracy)
+print(recall_score)
+print(precision_score)
+print(f1_score)
 
 margins = uncertainty(make_predictions(classifier_model=model,predic_feature_vetor=unlabel_comment_feature))
 query(margins, unlabel, "margins", 100)
