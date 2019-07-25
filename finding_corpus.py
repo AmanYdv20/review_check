@@ -25,6 +25,7 @@ for word in extra_words:
 
 def replaceImage(text):
     """ Replaces url address with "url" """
+    text=str(text)
     text = re.sub('((www\.[^\s]+)|(https?://[^\s]+)|(pictwiter[^\s]+))','',text)
     return text
 

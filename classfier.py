@@ -137,8 +137,6 @@ predictions_SVM = SVM.predict(Test_X_Tfidf)
 print("SVM Accuracy Score -> ",accuracy_score(predictions_SVM, Test_Y)*100)
 confusion_matrix(Test_Y, predictions_SVM)
 
-from sklearn.ensemble import RandomForestClassifier
-
 cross_val_score(svm.SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,decision_function_shape='ovr', degree=3, gamma=1, kernel='rbf', max_iter=-1,probability=False, random_state=None, shrinking=True, tol=0.001, verbose=False),Train_X_Tfidf,Train_Y,cv=5)
 
 #Corpus=Corpus.reset_index(drop=True)
@@ -157,7 +155,7 @@ unlabel_df.to_csv("unlabel.csv", index=False)
 
 oracle_filtered.to_csv('seed.csv',index=False)
 
-import pandas as pd
+'''import pandas as pd
 import numpy as np
 from sklearn import model_selection,linear_model, naive_bayes, metrics, svm
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
@@ -281,3 +279,4 @@ unlabel=unlabel[unlabel['text'].apply(lambda x: len(x.split(' ')) > 4)]
 
 unlabel.to_csv('final_classification.csv',index=False)
 update_files(query_file="query.csv", seed_file="classifier_test.csv", unlabel_file="unlabel.csv")
+'''

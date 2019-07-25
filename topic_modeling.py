@@ -47,13 +47,31 @@ def compute_coherence_values(dictionary, corpus, texts, limit, start=2, step=3):
 
     return model_list, coherence_values
 
-data=[]
+'''data=[]
 for i in range(1,5):
     df=pd.read_csv('./lemmetized_data/output_'+str(i)+'.csv')
     data.append(df)
 
 data = pd.concat(data)
-data=data.drop(['Unnamed: 0'],axis=1)
+data=data.drop(['Unnamed: 0'],axis=1)'''
+
+#all the code below it is for reviews
+data=[]
+app_name=['amazon','facebook','google','googleplay','maps','messenger','outlook','snapchat','wechat','whatsapp']
+month=['march','april','may']
+
+for mon in month:
+    for name in app_name:
+        df=pd.read_csv('./detailed_google_reviews/'+name+'_'+mon+'.csv')
+        data.append(df)
+        
+app_name2=['amazon','googleplay','messenger','snapchat','wechat','whatsapp']       
+ 
+for name in app_name2:
+    df=pd.read_csv('./detailed_google_reviews/'+name+'_'+'feb.csv')
+    data.append(df)
+    
+data = pd.concat(data)
 
 corpus_class=findCorpus(data)
 corpus=corpus_class.corpus
@@ -91,6 +109,23 @@ print(ldamallet[corpus[10]])
 
 #*************************************************************
 
+
+def find_topics(data):
+    train_vecs = []
+    for i in range(len(df)):
+        print('executing tweet number', i)
+        #top_topics = lda_train.get_document_topics(train_corpus[i], minimum_probability=0.0)
+        top_topics = ldamallet[corpus2[i]]
+        topic_vec = [top_topics[i][1] for i in range(20)]
+        #topic_vec.extend([rev_train.iloc[i].real_counts]) # counts of reviews for restaurant
+        #topic_vec.extend([len(rev_train.iloc[i].text)]) # length review
+        train_vecs.append(topic_vec)
+        filename = 'assigned_topics.pickle'
+        outfile = open(filename,'wb')
+        pickle.dump(train_vecs,outfile)
+        outfile.close()
+    
+
 df=pd.read_csv('labelled_tweets.csv', encoding="latin-1")
 df=df.drop(['Unnamed: 7'],axis=1)
 df=df.dropna()
@@ -102,11 +137,13 @@ df=pre.data
 df['text']=df['text'].apply(tokenize)
 df.to_csv('classifier_final.csv')
 df=pd.read_csv('classifier_final.csv')
-
+df=df[:20]
 corpus_class=findCorpus(df)
 corpus2=corpus_class.corpus
 id2word2=corpus_class.id2word
 final_data2=corpus_class.final_data
+
+find_topics(corpus)
 
 train_vecs = []
 for i in range(len(df)):
