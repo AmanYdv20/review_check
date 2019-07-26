@@ -1,0 +1,68 @@
+2019-07-25 16:40:38,878 collecting all words and their counts
+2019-07-25 16:40:38,879 PROGRESS: at sentence #0, processed 0 words and 0 word types
+2019-07-25 16:40:39,311 PROGRESS: at sentence #10000, processed 212481 words and 81788 word types
+2019-07-25 16:40:39,656 PROGRESS: at sentence #20000, processed 374776 words and 126554 word types
+2019-07-25 16:40:39,946 PROGRESS: at sentence #30000, processed 517801 words and 161212 word types
+2019-07-25 16:40:40,311 PROGRESS: at sentence #40000, processed 689658 words and 200514 word types
+2019-07-25 16:40:40,631 PROGRESS: at sentence #50000, processed 845803 words and 227996 word types
+2019-07-25 16:40:40,953 PROGRESS: at sentence #60000, processed 1003543 words and 256006 word types
+2019-07-25 16:40:41,327 PROGRESS: at sentence #70000, processed 1185407 words and 281782 word types
+2019-07-25 16:40:41,878 PROGRESS: at sentence #80000, processed 1422817 words and 310316 word types
+2019-07-25 16:40:42,211 PROGRESS: at sentence #90000, processed 1570682 words and 337997 word types
+2019-07-25 16:40:42,569 PROGRESS: at sentence #100000, processed 1732146 words and 366219 word types
+2019-07-25 16:40:42,924 PROGRESS: at sentence #110000, processed 1904699 words and 394444 word types
+2019-07-25 16:40:43,235 PROGRESS: at sentence #120000, processed 2051064 words and 418556 word types
+2019-07-25 16:40:43,590 PROGRESS: at sentence #130000, processed 2217164 words and 444326 word types
+2019-07-25 16:40:43,946 PROGRESS: at sentence #140000, processed 2390236 words and 465295 word types
+2019-07-25 16:40:44,321 PROGRESS: at sentence #150000, processed 2570771 words and 486050 word types
+2019-07-25 16:40:44,729 PROGRESS: at sentence #160000, processed 2768330 words and 504744 word types
+2019-07-25 16:40:45,097 PROGRESS: at sentence #170000, processed 2942399 words and 528750 word types
+2019-07-25 16:40:45,458 PROGRESS: at sentence #180000, processed 3115233 words and 555197 word types
+2019-07-25 16:40:45,761 PROGRESS: at sentence #190000, processed 3259632 words and 576766 word types
+2019-07-25 16:40:46,139 PROGRESS: at sentence #200000, processed 3438396 words and 602342 word types
+2019-07-25 16:40:46,443 PROGRESS: at sentence #210000, processed 3585242 words and 618525 word types
+2019-07-25 16:40:46,797 PROGRESS: at sentence #220000, processed 3754697 words and 634459 word types
+2019-07-25 16:40:47,146 PROGRESS: at sentence #230000, processed 3922046 words and 651011 word types
+2019-07-25 16:40:47,498 PROGRESS: at sentence #240000, processed 4089728 words and 672536 word types
+2019-07-25 16:40:47,878 PROGRESS: at sentence #250000, processed 4271200 words and 689967 word types
+2019-07-25 16:40:48,326 PROGRESS: at sentence #260000, processed 4461968 words and 709884 word types
+2019-07-25 16:40:48,364 collected 712078 word types from a corpus of 4480084 words (unigram + bigrams) and 260958 sentences
+2019-07-25 16:40:48,364 using 712078 counts as vocab in Phrases<0 vocab, min_count=10, threshold=30, max_vocab_size=40000000>
+2019-07-25 16:40:48,364 collecting all words and their counts
+2019-07-25 16:40:48,364 PROGRESS: at sentence #0, processed 0 words and 0 word types
+2019-07-25 16:40:49,901 PROGRESS: at sentence #10000, processed 209366 words and 82856 word types
+2019-07-25 16:40:51,102 PROGRESS: at sentence #20000, processed 369354 words and 128556 word types
+2019-07-25 16:40:52,164 PROGRESS: at sentence #30000, processed 510205 words and 164014 word types
+2019-07-25 16:40:53,439 PROGRESS: at sentence #40000, processed 679489 words and 204385 word types
+2019-07-25 16:40:54,594 PROGRESS: at sentence #50000, processed 832938 words and 232569 word types
+2019-07-25 16:40:55,766 PROGRESS: at sentence #60000, processed 988509 words and 261347 word types
+2019-07-25 16:40:57,110 PROGRESS: at sentence #70000, processed 1167709 words and 288072 word types
+2019-07-25 16:40:58,936 PROGRESS: at sentence #80000, processed 1401213 words and 317620 word types
+2019-07-25 16:41:00,067 PROGRESS: at sentence #90000, processed 1547449 words and 345985 word types
+2019-07-25 16:41:01,298 PROGRESS: at sentence #100000, processed 1706862 words and 374979 word types
+2019-07-25 16:41:02,577 PROGRESS: at sentence #110000, processed 1877034 words and 403963 word types
+2019-07-25 16:41:03,668 PROGRESS: at sentence #120000, processed 2021124 words and 428811 word types
+2019-07-25 16:41:04,902 PROGRESS: at sentence #130000, processed 2185061 words and 455391 word types
+2019-07-25 16:41:06,186 PROGRESS: at sentence #140000, processed 2355812 words and 477022 word types
+2019-07-25 16:41:07,528 PROGRESS: at sentence #150000, processed 2534084 words and 498486 word types
+2019-07-25 16:41:08,980 PROGRESS: at sentence #160000, processed 2729098 words and 517897 word types
+2019-07-25 16:41:10,302 PROGRESS: at sentence #170000, processed 2901337 words and 542542 word types
+2019-07-25 16:41:11,606 PROGRESS: at sentence #180000, processed 3072221 words and 569655 word types
+2019-07-25 16:41:12,692 PROGRESS: at sentence #190000, processed 3214719 words and 591806 word types
+2019-07-25 16:41:14,096 PROGRESS: at sentence #200000, processed 3391081 words and 618292 word types
+2019-07-25 16:41:15,200 PROGRESS: at sentence #210000, processed 3536292 words and 634958 word types
+2019-07-25 16:41:16,465 PROGRESS: at sentence #220000, processed 3703750 words and 651462 word types
+2019-07-25 16:41:17,720 PROGRESS: at sentence #230000, processed 3869253 words and 668515 word types
+2019-07-25 16:41:19,023 PROGRESS: at sentence #240000, processed 4034878 words and 690695 word types
+2019-07-25 16:41:20,424 PROGRESS: at sentence #250000, processed 4214189 words and 708760 word types
+2019-07-25 16:41:21,850 PROGRESS: at sentence #260000, processed 4402631 words and 729275 word types
+2019-07-25 16:41:21,985 collected 731527 word types from a corpus of 4420566 words (unigram + bigrams) and 260958 sentences
+2019-07-25 16:41:21,985 using 731527 counts as vocab in Phrases<0 vocab, min_count=5, threshold=30, max_vocab_size=40000000>
+2019-07-25 16:41:21,985 source_vocab length 712078
+2019-07-25 16:41:30,880 Phraser built with 650 phrasegrams
+2019-07-25 16:41:30,880 source_vocab length 731527
+2019-07-25 16:41:40,347 Phraser built with 3922 phrasegrams
+2019-07-25 16:57:27,566 Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-07-25 16:57:27,630 Invalid alias: The name more can't be aliased because it is another magic command.
+2019-07-25 16:57:27,630 Invalid alias: The name less can't be aliased because it is another magic command.
+2019-07-25 16:57:27,631 Invalid alias: The name man can't be aliased because it is another magic command.
