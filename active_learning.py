@@ -72,22 +72,28 @@ def update_files(query_file, unlabel_file, seed_file):
     
     oracle_filtered = oracle.dropna()
     
-    oracle_filtered_ids_list = oracle_filtered['tweet-id'].tolist()
+    oracle_filtered_ids_list = oracle_filtered['id'].tolist()
 
-    mask = unlabelled['tweet-id'].isin(oracle_filtered_ids_list)
+    mask = unlabelled['id'].isin(oracle_filtered_ids_list)
     unlabel_df = unlabelled[~mask]
     unlabel_df.to_csv("unlabel.csv", index=False)
     
-    pd.concat([oracle_filtered, seed], ignore_index= True).to_csv("classifier_test.csv", index=False)
+    pd.concat([oracle_filtered, seed], ignore_index= True).to_csv("seed.csv", index=False)
 
 def convert(text):
     return str(text)
 
-seed = pd.read_csv("classifier_test.csv")
+seed = pd.read_csv("seed.csv")
 #seed= seed.drop(['margins'],axis=1)
 unlabel = pd.read_csv("test_data.csv")
 unlabel['comment']=unlabel['comment'].apply(replaceAllSlang)
 
+'''
+seed = pd.read_csv("classifier_test.csv")
+#seed= seed.drop(['margins'],axis=1)
+unlabel = pd.read_csv("test_data.csv")
+unlabel['comment']=unlabel['comment'].apply(replaceAllSlang)
+'''
 seed_class=findCorpus(seed)
 final_data=seed_class.final_data
 seed['comment']=pd.Series(final_data)
