@@ -1,68 +1,83 @@
-2019-07-25 16:40:38,878 collecting all words and their counts
-2019-07-25 16:40:38,879 PROGRESS: at sentence #0, processed 0 words and 0 word types
-2019-07-25 16:40:39,311 PROGRESS: at sentence #10000, processed 212481 words and 81788 word types
-2019-07-25 16:40:39,656 PROGRESS: at sentence #20000, processed 374776 words and 126554 word types
-2019-07-25 16:40:39,946 PROGRESS: at sentence #30000, processed 517801 words and 161212 word types
-2019-07-25 16:40:40,311 PROGRESS: at sentence #40000, processed 689658 words and 200514 word types
-2019-07-25 16:40:40,631 PROGRESS: at sentence #50000, processed 845803 words and 227996 word types
-2019-07-25 16:40:40,953 PROGRESS: at sentence #60000, processed 1003543 words and 256006 word types
-2019-07-25 16:40:41,327 PROGRESS: at sentence #70000, processed 1185407 words and 281782 word types
-2019-07-25 16:40:41,878 PROGRESS: at sentence #80000, processed 1422817 words and 310316 word types
-2019-07-25 16:40:42,211 PROGRESS: at sentence #90000, processed 1570682 words and 337997 word types
-2019-07-25 16:40:42,569 PROGRESS: at sentence #100000, processed 1732146 words and 366219 word types
-2019-07-25 16:40:42,924 PROGRESS: at sentence #110000, processed 1904699 words and 394444 word types
-2019-07-25 16:40:43,235 PROGRESS: at sentence #120000, processed 2051064 words and 418556 word types
-2019-07-25 16:40:43,590 PROGRESS: at sentence #130000, processed 2217164 words and 444326 word types
-2019-07-25 16:40:43,946 PROGRESS: at sentence #140000, processed 2390236 words and 465295 word types
-2019-07-25 16:40:44,321 PROGRESS: at sentence #150000, processed 2570771 words and 486050 word types
-2019-07-25 16:40:44,729 PROGRESS: at sentence #160000, processed 2768330 words and 504744 word types
-2019-07-25 16:40:45,097 PROGRESS: at sentence #170000, processed 2942399 words and 528750 word types
-2019-07-25 16:40:45,458 PROGRESS: at sentence #180000, processed 3115233 words and 555197 word types
-2019-07-25 16:40:45,761 PROGRESS: at sentence #190000, processed 3259632 words and 576766 word types
-2019-07-25 16:40:46,139 PROGRESS: at sentence #200000, processed 3438396 words and 602342 word types
-2019-07-25 16:40:46,443 PROGRESS: at sentence #210000, processed 3585242 words and 618525 word types
-2019-07-25 16:40:46,797 PROGRESS: at sentence #220000, processed 3754697 words and 634459 word types
-2019-07-25 16:40:47,146 PROGRESS: at sentence #230000, processed 3922046 words and 651011 word types
-2019-07-25 16:40:47,498 PROGRESS: at sentence #240000, processed 4089728 words and 672536 word types
-2019-07-25 16:40:47,878 PROGRESS: at sentence #250000, processed 4271200 words and 689967 word types
-2019-07-25 16:40:48,326 PROGRESS: at sentence #260000, processed 4461968 words and 709884 word types
-2019-07-25 16:40:48,364 collected 712078 word types from a corpus of 4480084 words (unigram + bigrams) and 260958 sentences
-2019-07-25 16:40:48,364 using 712078 counts as vocab in Phrases<0 vocab, min_count=10, threshold=30, max_vocab_size=40000000>
-2019-07-25 16:40:48,364 collecting all words and their counts
-2019-07-25 16:40:48,364 PROGRESS: at sentence #0, processed 0 words and 0 word types
-2019-07-25 16:40:49,901 PROGRESS: at sentence #10000, processed 209366 words and 82856 word types
-2019-07-25 16:40:51,102 PROGRESS: at sentence #20000, processed 369354 words and 128556 word types
-2019-07-25 16:40:52,164 PROGRESS: at sentence #30000, processed 510205 words and 164014 word types
-2019-07-25 16:40:53,439 PROGRESS: at sentence #40000, processed 679489 words and 204385 word types
-2019-07-25 16:40:54,594 PROGRESS: at sentence #50000, processed 832938 words and 232569 word types
-2019-07-25 16:40:55,766 PROGRESS: at sentence #60000, processed 988509 words and 261347 word types
-2019-07-25 16:40:57,110 PROGRESS: at sentence #70000, processed 1167709 words and 288072 word types
-2019-07-25 16:40:58,936 PROGRESS: at sentence #80000, processed 1401213 words and 317620 word types
-2019-07-25 16:41:00,067 PROGRESS: at sentence #90000, processed 1547449 words and 345985 word types
-2019-07-25 16:41:01,298 PROGRESS: at sentence #100000, processed 1706862 words and 374979 word types
-2019-07-25 16:41:02,577 PROGRESS: at sentence #110000, processed 1877034 words and 403963 word types
-2019-07-25 16:41:03,668 PROGRESS: at sentence #120000, processed 2021124 words and 428811 word types
-2019-07-25 16:41:04,902 PROGRESS: at sentence #130000, processed 2185061 words and 455391 word types
-2019-07-25 16:41:06,186 PROGRESS: at sentence #140000, processed 2355812 words and 477022 word types
-2019-07-25 16:41:07,528 PROGRESS: at sentence #150000, processed 2534084 words and 498486 word types
-2019-07-25 16:41:08,980 PROGRESS: at sentence #160000, processed 2729098 words and 517897 word types
-2019-07-25 16:41:10,302 PROGRESS: at sentence #170000, processed 2901337 words and 542542 word types
-2019-07-25 16:41:11,606 PROGRESS: at sentence #180000, processed 3072221 words and 569655 word types
-2019-07-25 16:41:12,692 PROGRESS: at sentence #190000, processed 3214719 words and 591806 word types
-2019-07-25 16:41:14,096 PROGRESS: at sentence #200000, processed 3391081 words and 618292 word types
-2019-07-25 16:41:15,200 PROGRESS: at sentence #210000, processed 3536292 words and 634958 word types
-2019-07-25 16:41:16,465 PROGRESS: at sentence #220000, processed 3703750 words and 651462 word types
-2019-07-25 16:41:17,720 PROGRESS: at sentence #230000, processed 3869253 words and 668515 word types
-2019-07-25 16:41:19,023 PROGRESS: at sentence #240000, processed 4034878 words and 690695 word types
-2019-07-25 16:41:20,424 PROGRESS: at sentence #250000, processed 4214189 words and 708760 word types
-2019-07-25 16:41:21,850 PROGRESS: at sentence #260000, processed 4402631 words and 729275 word types
-2019-07-25 16:41:21,985 collected 731527 word types from a corpus of 4420566 words (unigram + bigrams) and 260958 sentences
-2019-07-25 16:41:21,985 using 731527 counts as vocab in Phrases<0 vocab, min_count=5, threshold=30, max_vocab_size=40000000>
-2019-07-25 16:41:21,985 source_vocab length 712078
-2019-07-25 16:41:30,880 Phraser built with 650 phrasegrams
-2019-07-25 16:41:30,880 source_vocab length 731527
-2019-07-25 16:41:40,347 Phraser built with 3922 phrasegrams
-2019-07-25 16:57:27,566 Invalid alias: The name clear can't be aliased because it is another magic command.
-2019-07-25 16:57:27,630 Invalid alias: The name more can't be aliased because it is another magic command.
-2019-07-25 16:57:27,630 Invalid alias: The name less can't be aliased because it is another magic command.
-2019-07-25 16:57:27,631 Invalid alias: The name man can't be aliased because it is another magic command.
+2019-08-02 13:55:13,979 collecting all words and their counts
+2019-08-02 13:55:13,979 PROGRESS: at sentence #0, processed 0 words and 0 word types
+2019-08-02 13:55:14,146 collected 43629 word types from a corpus of 79543 words (unigram + bigrams) and 2806 sentences
+2019-08-02 13:55:14,146 using 43629 counts as vocab in Phrases<0 vocab, min_count=10, threshold=30, max_vocab_size=40000000>
+2019-08-02 13:55:14,146 collecting all words and their counts
+2019-08-02 13:55:14,147 PROGRESS: at sentence #0, processed 0 words and 0 word types
+2019-08-02 13:55:14,745 collected 43845 word types from a corpus of 78826 words (unigram + bigrams) and 2806 sentences
+2019-08-02 13:55:14,745 using 43845 counts as vocab in Phrases<0 vocab, min_count=5, threshold=30, max_vocab_size=40000000>
+2019-08-02 13:55:14,746 source_vocab length 43629
+2019-08-02 13:55:15,323 Phraser built with 29 phrasegrams
+2019-08-02 13:55:15,323 source_vocab length 43845
+2019-08-02 13:55:15,879 Phraser built with 104 phrasegrams
+2019-08-02 13:55:27,467 adding document #0 to Dictionary(0 unique tokens: [])
+2019-08-02 13:55:27,538 built Dictionary(4650 unique tokens: ['be', 'big', 'everyone', 'let', 'long']...) from 2806 documents (total 42912 corpus positions)
+2019-08-02 13:55:50,121 serializing temporary corpus to /tmp/dba2ef_corpus.txt
+2019-08-02 13:55:50,267 converting temporary corpus to MALLET format with ./mallet-2.0.8/bin/mallet import-file --preserve-case --keep-sequence --remove-stopwords --token-regex "\S+" --input /tmp/dba2ef_corpus.txt --output /tmp/dba2ef_corpus.mallet
+2019-08-02 13:55:54,592 training MALLET LDA with ./mallet-2.0.8/bin/mallet train-topics --input /tmp/dba2ef_corpus.mallet --num-topics 20  --alpha 50 --optimize-interval 0 --num-threads 4 --output-state /tmp/dba2ef_state.mallet.gz --output-doc-topics /tmp/dba2ef_doctopics.txt --output-topic-keys /tmp/dba2ef_topickeys.txt --num-iterations 1000 --inferencer-filename /tmp/dba2ef_inferencer.mallet --doc-topics-threshold 0.0  --random-seed 0
+2019-08-02 13:56:30,312 loading assigned topics from /tmp/dba2ef_state.mallet.gz
+2019-08-02 13:57:31,782 topic #0 (2.500): 0.158*"friend" + 0.079*"snapshot" + 0.077*"hang" + 0.044*"block" + 0.038*"put" + 0.037*"life" + 0.032*"dint" + 0.032*"real" + 0.025*"mom" + 0.021*"kid"
+2019-08-02 13:57:31,783 topic #1 (2.500): 0.183*"snapshot" + 0.086*"filter" + 0.063*"shit" + 0.056*"talk" + 0.036*"bitch" + 0.030*"big" + 0.028*"hate" + 0.028*"brother" + 0.026*"open" + 0.024*"boy"
+2019-08-02 13:57:31,783 topic #2 (2.500): 0.160*"break" + 0.056*"call" + 0.056*"happen" + 0.050*"play" + 0.043*"hour" + 0.030*"pic" + 0.018*"song" + 0.017*"music" + 0.016*"online" + 0.014*"fan"
+2019-08-02 13:57:31,783 topic #3 (2.500): 0.236*"fix" + 0.178*"phone" + 0.057*"camera" + 0.049*"android" + 0.039*"photo" + 0.022*"quality" + 0.014*"kiss" + 0.011*"single" + 0.010*"annoy" + 0.009*"samsung"
+2019-08-02 13:57:31,783 topic #4 (2.500): 0.192*"bad" + 0.151*"make" + 0.088*"snapshot" + 0.063*"feel" + 0.054*"good" + 0.022*"today" + 0.020*"leave" + 0.018*"night" + 0.012*"party" + 0.010*"sleep"
+2019-08-02 13:57:31,783 topic #5 (2.500): 0.226*"people" + 0.079*"instagram" + 0.041*"love" + 0.036*"lot" + 0.035*"trouble" + 0.026*"affect" + 0.024*"social_medium" + 0.018*"place" + 0.018*"money" + 0.016*"road"
+2019-08-02 13:57:31,784 topic #6 (2.500): 0.120*"snapshot" + 0.103*"guy" + 0.100*"video" + 0.070*"fuck" + 0.051*"start" + 0.031*"glitch" + 0.027*"hope" + 0.021*"dude" + 0.019*"concert" + 0.016*"meet"
+2019-08-02 13:57:31,784 topic #7 (2.500): 0.193*"snapshot" + 0.151*"story" + 0.055*"laugh" + 0.049*"watch" + 0.039*"crash" + 0.033*"loud" + 0.023*"today" + 0.019*"drive" + 0.018*"private" + 0.015*"remember"
+2019-08-02 13:57:31,784 topic #8 (2.500): 0.154*"time" + 0.140*"fix" + 0.053*"give" + 0.045*"person" + 0.041*"year" + 0.038*"wrong" + 0.031*"notification" + 0.028*"man" + 0.020*"miss" + 0.018*"response"
+2019-08-02 13:57:31,785 topic #9 (2.500): 0.095*"back" + 0.089*"fix" + 0.059*"add" + 0.046*"change" + 0.042*"email" + 0.039*"password" + 0.033*"show" + 0.028*"soon_possible" + 0.022*"frustrating" + 0.020*"map"
+2019-08-02 13:57:31,785 topic #10 (2.500): 0.078*"thing" + 0.043*"ad" + 0.040*"stop" + 0.038*"fail" + 0.036*"reason" + 0.035*"month" + 0.033*"platform" + 0.025*"horrible" + 0.023*"feature" + 0.023*"team"
+2019-08-02 13:57:31,785 topic #11 (2.500): 0.279*"issue" + 0.052*"report" + 0.033*"resolve" + 0.031*"contact" + 0.027*"ban" + 0.027*"service" + 0.023*"end" + 0.018*"option" + 0.017*"head" + 0.017*"mail"
+2019-08-02 13:57:31,785 topic #12 (2.500): 0.171*"problem" + 0.145*"send" + 0.103*"message" + 0.039*"reply" + 0.030*"group" + 0.027*"wait" + 0.026*"solve" + 0.026*"week" + 0.025*"chat" + 0.023*"receive"
+2019-08-02 13:57:31,785 topic #13 (2.500): 0.208*"account" + 0.079*"log" + 0.067*"error" + 0.040*"login" + 0.038*"number" + 0.038*"support" + 0.037*"code" + 0.028*"lock" + 0.021*"link" + 0.021*"check"
+2019-08-02 13:57:31,786 topic #14 (2.500): 0.093*"snap" + 0.081*"girl" + 0.081*"bug" + 0.060*"find" + 0.032*"text" + 0.030*"show" + 0.030*"screen" + 0.021*"send" + 0.021*"view" + 0.018*"minute"
+2019-08-02 13:57:31,786 topic #15 (2.500): 0.353*"face" + 0.081*"page" + 0.046*"business" + 0.031*"having_trouble" + 0.029*"access" + 0.016*"create" + 0.015*"facebokdown" + 0.015*"share" + 0.015*"close" + 0.012*"family"
+2019-08-02 13:57:31,786 topic #16 (2.500): 0.152*"post" + 0.104*"day" + 0.055*"memory" + 0.051*"picture" + 0.045*"delete" + 0.037*"messenger" + 0.029*"comment" + 0.027*"save" + 0.025*"ago" + 0.021*"lose"
+2019-08-02 13:57:31,786 topic #17 (2.500): 0.223*"problem" + 0.090*"doe" + 0.035*"goole" + 0.029*"profile" + 0.025*"company" + 0.020*"care" + 0.015*"wife" + 0.015*"information" + 0.015*"ignore" + 0.013*"review"
+2019-08-02 13:57:31,786 topic #18 (2.500): 0.177*"snapshot" + 0.142*"bad" + 0.034*"twitter" + 0.022*"listen" + 0.022*"idea" + 0.019*"streak" + 0.019*"follow" + 0.017*"part" + 0.017*"int" + 0.015*"boyfriend"
+2019-08-02 13:57:31,787 topic #19 (2.500): 0.190*"application" + 0.097*"update" + 0.092*"work" + 0.047*"fix" + 0.038*"user" + 0.024*"instal" + 0.020*"download" + 0.020*"version" + 0.018*"load" + 0.017*"late"
+2019-08-02 14:00:00,063 collecting all words and their counts
+2019-08-02 14:00:00,063 PROGRESS: at sentence #0, processed 0 words and 0 word types
+2019-08-02 14:00:00,701 PROGRESS: at sentence #10000, processed 310796 words and 104858 word types
+2019-08-02 14:00:01,148 collected 161969 word types from a corpus of 524205 words (unigram + bigrams) and 18135 sentences
+2019-08-02 14:00:01,148 using 161969 counts as vocab in Phrases<0 vocab, min_count=10, threshold=30, max_vocab_size=40000000>
+2019-08-02 14:00:01,149 collecting all words and their counts
+2019-08-02 14:00:01,149 PROGRESS: at sentence #0, processed 0 words and 0 word types
+2019-08-02 14:00:03,386 PROGRESS: at sentence #10000, processed 296880 words and 106291 word types
+2019-08-02 14:00:04,996 collected 164519 word types from a corpus of 506515 words (unigram + bigrams) and 18135 sentences
+2019-08-02 14:00:04,996 using 164519 counts as vocab in Phrases<0 vocab, min_count=5, threshold=30, max_vocab_size=40000000>
+2019-08-02 14:00:04,996 source_vocab length 161969
+2019-08-02 14:00:06,989 Phraser built with 187 phrasegrams
+2019-08-02 14:00:06,989 source_vocab length 164519
+2019-08-02 14:00:09,066 Phraser built with 833 phrasegrams
+2019-08-02 14:01:20,453 adding document #0 to Dictionary(0 unique tokens: [])
+2019-08-02 14:01:20,694 adding document #10000 to Dictionary(9403 unique tokens: ['account', 'error_message', 'having_trouble', 'log', 'login']...)
+2019-08-02 14:01:20,872 built Dictionary(13028 unique tokens: ['account', 'error_message', 'having_trouble', 'log', 'login']...) from 18135 documents (total 271790 corpus positions)
+2019-08-02 14:02:26,719 serializing temporary corpus to /tmp/32c26d_corpus.txt
+2019-08-02 14:02:27,016 converting temporary corpus to MALLET format with ./mallet-2.0.8/bin/mallet import-file --preserve-case --keep-sequence --remove-stopwords --token-regex "\S+" --input /tmp/32c26d_corpus.txt --output /tmp/32c26d_corpus.mallet
+2019-08-02 14:02:28,846 training MALLET LDA with ./mallet-2.0.8/bin/mallet train-topics --input /tmp/32c26d_corpus.mallet --num-topics 20  --alpha 50 --optimize-interval 0 --num-threads 4 --output-state /tmp/32c26d_state.mallet.gz --output-doc-topics /tmp/32c26d_doctopics.txt --output-topic-keys /tmp/32c26d_topickeys.txt --num-iterations 1000 --inferencer-filename /tmp/32c26d_inferencer.mallet --doc-topics-threshold 0.0  --random-seed 0
+2019-08-02 14:03:08,454 loading assigned topics from /tmp/32c26d_state.mallet.gz
+2019-08-02 14:03:45,843 topic #0 (2.500): 0.216*"people" + 0.101*"snapshot" + 0.067*"girl" + 0.060*"fuck" + 0.022*"life" + 0.019*"live" + 0.016*"broke" + 0.014*"car" + 0.013*"hit" + 0.012*"literally"
+2019-08-02 14:03:45,844 topic #1 (2.500): 0.199*"account" + 0.129*"time" + 0.094*"team" + 0.075*"reason" + 0.071*"link" + 0.069*"unable" + 0.057*"unlock" + 0.052*"login_error" + 0.052*"message_check" + 0.052*"seeing_generic"
+2019-08-02 14:03:45,845 topic #2 (2.500): 0.151*"send" + 0.079*"message" + 0.053*"give" + 0.049*"delete" + 0.036*"reply" + 0.026*"messenger" + 0.023*"respond" + 0.023*"text" + 0.021*"mail" + 0.017*"chat"
+2019-08-02 14:03:45,846 topic #3 (2.500): 0.164*"snapshot" + 0.101*"bad" + 0.061*"shit" + 0.043*"laugh" + 0.030*"loud" + 0.026*"feel" + 0.021*"stop" + 0.020*"dint" + 0.020*"hate" + 0.017*"stupid"
+2019-08-02 14:03:45,846 topic #4 (2.500): 0.300*"fix" + 0.139*"phone" + 0.039*"camera" + 0.020*"turn" + 0.019*"damn" + 0.015*"quality" + 0.015*"aps" + 0.014*"zoom" + 0.013*"kiss" + 0.011*"annoying"
+2019-08-02 14:03:45,847 topic #5 (2.500): 0.137*"friend" + 0.132*"snapshot" + 0.116*"story" + 0.054*"hang" + 0.043*"watch" + 0.020*"put" + 0.020*"play" + 0.017*"game" + 0.015*"family" + 0.011*"music"
+2019-08-02 14:03:45,847 topic #6 (2.500): 0.063*"show" + 0.044*"find" + 0.039*"doe" + 0.032*"ad" + 0.030*"goole" + 0.027*"map" + 0.026*"wrong" + 0.021*"place" + 0.020*"kid" + 0.014*"list"
+2019-08-02 14:03:45,847 topic #7 (2.500): 0.054*"hour" + 0.051*"time" + 0.047*"fix" + 0.044*"problem" + 0.043*"happen" + 0.037*"trouble" + 0.036*"check" + 0.027*"lot" + 0.027*"month" + 0.024*"long"
+2019-08-02 14:03:45,847 topic #8 (2.500): 0.157*"post" + 0.093*"day" + 0.053*"today" + 0.040*"memory" + 0.040*"year" + 0.035*"break" + 0.026*"group" + 0.026*"save" + 0.025*"comment" + 0.025*"share"
+2019-08-02 14:03:45,848 topic #9 (2.500): 0.162*"fix" + 0.132*"work" + 0.078*"error" + 0.030*"glitch" + 0.021*"device" + 0.019*"site" + 0.016*"remove" + 0.016*"week" + 0.015*"download" + 0.014*"fine"
+2019-08-02 14:03:45,848 topic #10 (2.500): 0.093*"break" + 0.092*"guy" + 0.081*"snapshot" + 0.052*"talk" + 0.025*"love" + 0.019*"dude" + 0.019*"follow" + 0.018*"leave" + 0.018*"hang" + 0.016*"care"
+2019-08-02 14:03:45,848 topic #11 (2.500): 0.116*"account" + 0.080*"log" + 0.070*"back" + 0.050*"login" + 0.041*"error_message" + 0.038*"having_trouble" + 0.038*"support" + 0.035*"soon_possible" + 0.034*"email" + 0.032*"code"
+2019-08-02 14:03:45,849 topic #12 (2.500): 0.311*"face" + 0.077*"issue" + 0.059*"report" + 0.059*"page" + 0.024*"business" + 0.020*"response" + 0.017*"resolve" + 0.017*"company" + 0.014*"facebokdown" + 0.013*"profile"
+2019-08-02 14:03:45,849 topic #13 (2.500): 0.173*"application" + 0.078*"update" + 0.060*"bug" + 0.038*"android" + 0.033*"doe" + 0.030*"open" + 0.024*"notification" + 0.021*"instal" + 0.019*"user" + 0.018*"feature"
+2019-08-02 14:03:45,849 topic #14 (2.500): 0.301*"problem" + 0.042*"change" + 0.036*"number" + 0.036*"solve" + 0.034*"block" + 0.032*"contact" + 0.027*"password" + 0.023*"ban" + 0.019*"user" + 0.018*"create"
+2019-08-02 14:03:45,850 topic #15 (2.500): 0.265*"issue" + 0.075*"end" + 0.074*"option" + 0.074*"select" + 0.073*"experience" + 0.067*"head" + 0.065*"form" + 0.059*"match" + 0.057*"submit_ticket" + 0.055*"enter_detail"
+2019-08-02 14:03:45,850 topic #16 (2.500): 0.119*"snapshot" + 0.081*"video" + 0.072*"thing" + 0.046*"picture" + 0.040*"horrible" + 0.038*"call" + 0.034*"person" + 0.029*"bad" + 0.020*"boy" + 0.015*"brother"
+2019-08-02 14:03:45,850 topic #17 (2.500): 0.144*"snapshot" + 0.142*"bad" + 0.123*"make" + 0.080*"filter" + 0.033*"feel" + 0.032*"man" + 0.029*"bitch" + 0.022*"pic" + 0.016*"woman" + 0.011*"fun"
+2019-08-02 14:03:45,850 topic #18 (2.500): 0.078*"instagram" + 0.062*"bad" + 0.050*"good" + 0.036*"twitter" + 0.030*"fail" + 0.026*"social_medium" + 0.023*"platform" + 0.019*"world" + 0.019*"idea" + 0.018*"news"
+2019-08-02 14:03:45,851 topic #19 (2.500): 0.105*"snapshot" + 0.068*"snap" + 0.058*"add" + 0.045*"photo" + 0.041*"crash" + 0.030*"hope" + 0.028*"start" + 0.019*"pay" + 0.018*"streak" + 0.016*"money"
+2019-08-02 14:04:59,908 Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-08-02 14:04:59,908 Invalid alias: The name more can't be aliased because it is another magic command.
+2019-08-02 14:04:59,909 Invalid alias: The name less can't be aliased because it is another magic command.
+2019-08-02 14:04:59,909 Invalid alias: The name man can't be aliased because it is another magic command.

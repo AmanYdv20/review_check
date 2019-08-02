@@ -46,5 +46,25 @@ def createChunk(df,app_name,start,end):
     df=df[(df['timestamp']>=start) & (df['timestamp']<=end)]
     df.to_csv(app_name+start+'_'+end+'.csv',index=False)
     
-createChunk(count,'outlook','2019-04-22','2019-05-31')
+createChunk(count,'play_music','2019-02-01','2019-03-23')
 #snapchat=snapchat[(snapchat['timestamp']>='2019-03-10') & (snapchat['timestamp']<'2019-03-20')]
+
+
+#testing code start from here
+#df=pd.read_json('all.json')
+
+#code for separating bug_report
+
+count=pd.read_csv('bug_report_data_reviews.csv')
+#count=count[count['date']>='February 18,2019']
+
+def createChunk(df,app_name,start,end):
+    df=df[df['appTitle']==app_name]
+    df=df[df['Bug_report']==1]
+    df=df[(df['date']>=start) & (df['date']<=end)]
+    df.to_csv(app_name+start+'_'+end+'.csv',index=False)
+    
+#count=count[count['appTitle']=='Amazon']
+count['date'] = pd.to_datetime(count['date'])
+createChunk(count,'Amazon','2019-04-14', '2019-05-31')
+print(type(count['date'][21]))

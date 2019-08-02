@@ -76,6 +76,8 @@ for name in app_name2:
     df=pd.read_csv('./detailed_google_reviews/'+name+'_'+'feb.csv')
     data.append(df)
     
+#data=pd.read_csv('tweet_data_files/unlabel.csv')
+    
 data = pd.concat(data)
 
 corpus_class=findCorpus(data)
