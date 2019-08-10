@@ -1,0 +1,214 @@
+quadgrams_tweets,frequency,quadgrams_reviews,frequency_reviews
+"('please', 'fix', 'this', 'issue')",17,"('please', 'fix', 'this', 'issue')",17.0
+"('please', 'fix', 'this', 'problem')",13,"('please', 'fix', 'this', 'problem')",13.0
+"('please', 'fix', 'this', 'bug')",13,"('please', 'fix', 'this', 'bug')",13.0
+"('download', 'unable', 'complete', 'please')",10,"('download', 'unable', 'complete', 'please')",10.0
+"('unable', 'complete', 'please', 'try')",10,"('unable', 'complete', 'please', 'try')",10.0
+"('fix', 'this', 'soon', 'possible')",9,"('fix', 'this', 'soon', 'possible')",9.0
+"('video', 'call', 'not', 'good')",9,"('video', 'call', 'not', 'good')",9.0
+"('complete', 'please', 'try', 'later')",8,"('complete', 'please', 'try', 'later')",8.0
+"('not', 'see', 'friend', 'status')",8,"('not', 'see', 'friend', 'status')",8.0
+"('please', 'fix', 'this', 'soon')",8,"('please', 'fix', 'this', 'soon')",8.0
+"('video', 'call', 'not', 'clear')",8,"('video', 'call', 'not', 'clear')",8.0
+"('please', 'solve', 'this', 'problem')",7,"('please', 'solve', 'this', 'problem')",7.0
+"('please', 'fix', 'this', 'not')",7,"('please', 'fix', 'this', 'not')",7.0
+"('new', 'update', 'doe', 'not')",7,"('new', 'update', 'doe', 'not')",7.0
+"('whatsit', 'not', 'working', 'properly')",7,"('whatsit', 'not', 'working', 'properly')",7.0
+"('this', 'application', 'doe', 'not')",7,"('this', 'application', 'doe', 'not')",7.0
+"('this', 'problem', 'soon', 'possible')",7,"('this', 'problem', 'soon', 'possible')",7.0
+"('new', 'update', 'new', 'update')",6,"('new', 'update', 'new', 'update')",6.0
+"('this', 'issue', 'soon', 'possible')",6,"('this', 'issue', 'soon', 'possible')",6.0
+"('remove', 'muted', 'status', 'update')",6,"('remove', 'muted', 'status', 'update')",6.0
+"('not', 'working', 'properly', 'not')",6,"('not', 'working', 'properly', 'not')",6.0
+"('please', 'solve', 'this', 'issue')",5,"('please', 'solve', 'this', 'issue')",5.0
+"('latest', 'update', 'not', 'able')",5,"('latest', 'update', 'not', 'able')",5.0
+"('fix', 'this', 'issue', 'soon')",5,"('fix', 'this', 'issue', 'soon')",5.0
+"('whatsit', 'please', 'fix', 'this')",5,"('whatsit', 'please', 'fix', 'this')",5.0
+"('last', 'update', 'not', 'send')",5,"('last', 'update', 'not', 'send')",5.0
+"('update', 'not', 'send', 'image')",5,"('update', 'not', 'send', 'image')",5.0
+"('please', 'fix', 'soon', 'possible')",5,"('please', 'fix', 'soon', 'possible')",5.0
+"('last', 'update', 'not', 'able')",5,"('last', 'update', 'not', 'able')",5.0
+"('not', 'install', 'this', 'application')",5,"('not', 'install', 'this', 'application')",5.0
+"('this', 'application', 'this', 'application')",5,"('this', 'application', 'this', 'application')",5.0
+"('fix', 'this', 'problem', 'soon')",5,"('fix', 'this', 'problem', 'soon')",5.0
+"('not', 'get', 'verification', 'code')",5,"('not', 'get', 'verification', 'code')",5.0
+"('not', 'able', 'see', 'status')",5,"('not', 'able', 'see', 'status')",5.0
+"('since', 'last', 'update', 'not')",5,"('since', 'last', 'update', 'not')",5.0
+"('screen', 'doe', 'not', 'turn')",5,"('screen', 'doe', 'not', 'turn')",5.0
+"('not', 'see', 'profile', 'photo')",4,"('not', 'see', 'profile', 'photo')",4.0
+"('solve', 'this', 'problem', 'not')",4,"('solve', 'this', 'problem', 'not')",4.0
+"('not', 'clear', 'video', 'call')",4,"('not', 'clear', 'video', 'call')",4.0
+"('even', 'person', 'not', 'typing')",4,"('even', 'person', 'not', 'typing')",4.0
+"('update', 'please', 'fix', 'status')",4,"('update', 'please', 'fix', 'status')",4.0
+"('not', 'working', 'whatsit', 'not')",4,"('not', 'working', 'whatsit', 'not')",4.0
+"('unable', 'send', 'picture', 'whatsit')",4,"('unable', 'send', 'picture', 'whatsit')",4.0
+"('not', 'able', 'unload', 'status')",4,"('not', 'able', 'unload', 'status')",4.0
+"('not', 'able', 'send', 'audio')",4,"('not', 'able', 'send', 'audio')",4.0
+"('whats', 'application', 'not', 'working')",4,"('whats', 'application', 'not', 'working')",4.0
+"('application', 'not', 'working', 'properly')",4,"('application', 'not', 'working', 'properly')",4.0
+"('not', 'send', 'picture', 'video')",4,"('not', 'send', 'picture', 'video')",4.0
+"('not', 'send', 'receive', 'message')",4,"('not', 'send', 'receive', 'message')",4.0
+"('new', 'update', 'not', 'good')",4,"('new', 'update', 'not', 'good')",4.0
+"('doe', 'not', 'work', 'not')",4,"('doe', 'not', 'work', 'not')",4.0
+"('since', 'last', 'update', 'unable')",4,"('since', 'last', 'update', 'unable')",4.0
+"('not', 'send', 'receive', 'picture')",4,"('not', 'send', 'receive', 'picture')",4.0
+"('not', 'able', 'update', 'status')",4,"('not', 'able', 'update', 'status')",4.0
+"('update', 'not', 'send', 'picture')",4,"('update', 'not', 'send', 'picture')",4.0
+"('update', 'doe', 'not', 'show')",4,"('update', 'doe', 'not', 'show')",4.0
+"('this', 'application', 'not', 'working')",4,"('this', 'application', 'not', 'working')",4.0
+"('soon', 'possible', 'not', 'able')",4,"('soon', 'possible', 'not', 'able')",4.0
+"('new', 'update', 'bad', 'not')",4,"('new', 'update', 'bad', 'not')",4.0
+"('not', 'able', 'send', 'video')",4,"('not', 'able', 'send', 'video')",4.0
+"('not', 'send', 'photo', 'update')",4,"('not', 'send', 'photo', 'update')",4.0
+"('not', 'working', 'video', 'call')",4,"('not', 'working', 'video', 'call')",4.0
+"('application', 'doe', 'not', 'work')",4,"('application', 'doe', 'not', 'work')",4.0
+"('message', 'please', 'fix', 'this')",4,"('message', 'please', 'fix', 'this')",4.0
+"('whatsit', 'video', 'call', 'not')",4,"('whatsit', 'video', 'call', 'not')",4.0
+"('please', 'resolve', 'this', 'issue')",4,"('please', 'resolve', 'this', 'issue')",4.0
+"('not', 'working', 'properly', 'in')",4,"('not', 'working', 'properly', 'in')",4.0
+"('video', 'call', 'not', 'working')",4,"('video', 'call', 'not', 'working')",4.0
+"('not', 'see', 'status', 'update')",4,"('not', 'see', 'status', 'update')",4.0
+"('not', 'like', 'this', 'application')",4,"('not', 'like', 'this', 'application')",4.0
+"('contact', 'profile', 'pic', 'set')",4,"('contact', 'profile', 'pic', 'set')",4.0
+"('profile', 'pic', 'set', 'in')",4,"('profile', 'pic', 'set', 'in')",4.0
+"('pic', 'set', 'in', 'contact')",4,"('pic', 'set', 'in', 'contact')",4.0
+"('set', 'in', 'contact', 'aplicationit')",4,"('set', 'in', 'contact', 'aplicationit')",4.0
+"('update', 'whatsit', 'not', 'working')",4,"('update', 'whatsit', 'not', 'working')",4.0
+"('voice', 'message', 'not', 'working')",4,"('voice', 'message', 'not', 'working')",4.0
+"('voice', 'call', 'video', 'call')",4,"('voice', 'call', 'video', 'call')",4.0
+"('update', 'not', 'able', 'send')",4,"('update', 'not', 'able', 'send')",4.0
+"('error', 'message', 'saying', 'whatsit')",4,"('error', 'message', 'saying', 'whatsit')",4.0
+"('message', 'saying', 'whatsit', 'stopped')",4,"('message', 'saying', 'whatsit', 'stopped')",4.0
+"('saying', 'whatsit', 'stopped', 'working')",4,"('saying', 'whatsit', 'stopped', 'working')",4.0
+"('please', 'help', 'unable', 'send')",3,,
+"('show', 'typing', 'even', 'person')",3,,
+"('typing', 'even', 'person', 'not')",3,,
+"('status', 'please', 'fix', 'this')",3,,
+"('doe', 'not', 'work', 'in')",3,,
+"('not', 'see', 'people', 'status')",3,,
+"('whatsit', 'call', 'video', 'call')",3,,
+"('issue', 'unable', 'send', 'picture')",3,,
+"('this', 'whatsit', 'not', 'working')",3,,
+"('not', 'working', 'in', 'phone')",3,,
+"('update', 'screen', 'doe', 'not')",3,,
+"('application', 'not', 'work', 'properly')",3,,
+"('not', 'able', 'send', 'medium')",3,,
+"('not', 'able', 'use', 'whatsit')",3,,
+"('update', 'not', 'send', 'video')",3,,
+"('unable', 'send', 'picture', 'video')",3,,
+"('in', 'whatsit', 'please', 'fix')",3,,
+"('file', 'format', 'not', 'supported')",3,,
+"('still', 'update', 'remove', 'muted')",3,,
+"('update', 'remove', 'muted', 'status')",3,,
+"('muted', 'status', 'update', 'requesting')",3,,
+"('status', 'update', 'requesting', 'this')",3,,
+"('update', 'requesting', 'this', 'month')",3,,
+"('requesting', 'this', 'month', 'ignored')",3,,
+"('this', 'month', 'ignored', 'muted')",3,,
+"('month', 'ignored', 'muted', 'status')",3,,
+"('ignored', 'muted', 'status', 'update')",3,,
+"('muted', 'status', 'update', 'still')",3,,
+"('status', 'update', 'still', 'visible')",3,,
+"('update', 'still', 'visible', 'really')",3,,
+"('still', 'visible', 'really', 'annoying')",3,,
+"('visible', 'really', 'annoying', 'please')",3,,
+"('really', 'annoying', 'please', 'remove')",3,,
+"('annoying', 'please', 'remove', 'muted')",3,,
+"('please', 'remove', 'muted', 'status')",3,,
+"('not', 'send', 'voice', 'message')",3,,
+"('update', 'not', 'send', 'photo')",3,,
+"('not', 'send', 'photo', 'video')",3,,
+"('not', 'open', 'in', 'mobile')",3,,
+"('doe', 'not', 'work', 'properly')",3,,
+"('not', 'open', 'whats', 'application')",3,,
+"('not', 'send', 'image', 'video')",3,,
+"('update', 'not', 'working', 'properly')",3,,
+"('time', 'this', 'application', 'not')",3,,
+"('call', 'not', 'good', 'not')",3,,
+"('screen', 'doe', 'not', 'wake')",3,,
+"('fix', 'bug', 'soon', 'possible')",3,,
+"('profile', 'picture', 'not', 'send')",3,,
+"('update', 'unable', 'send', 'medium')",3,,
+"('whatsit', 'not', 'able', 'see')",3,,
+"('delete', 'horrible', 'security', 'feature')",3,,
+"('please', 'fix', 'this', 'thanks')",3,,
+"('doe', 'not', 'show', 'message')",3,,
+"('solve', 'this', 'problem', 'fast')",3,,
+"('voice', 'video', 'call', 'not')",3,,
+"('bad', 'service', 'try', 'contact')",3,,
+"('service', 'try', 'contact', 'whatsit')",3,,
+"('try', 'contact', 'whatsit', 'reply')",3,,
+"('contact', 'whatsit', 'reply', 'whatsit')",3,,
+"('whatsit', 'reply', 'whatsit', 'banned')",3,,
+"('reply', 'whatsit', 'banned', 'this')",3,,
+"('whatsit', 'banned', 'this', 'sad')",3,,
+"('banned', 'this', 'sad', 'help')",3,,
+"('this', 'sad', 'help', 'bad')",3,,
+"('sad', 'help', 'bad', 'service')",3,,
+"('help', 'bad', 'service', 'provided')",3,,
+"('bad', 'service', 'provided', 'whatsit')",3,,
+"('service', 'provided', 'whatsit', 'give')",3,,
+"('provided', 'whatsit', 'give', 'zero')",3,,
+"('whatsit', 'give', 'zero', 'star')",3,,
+"('give', 'zero', 'star', 'whatsit')",3,,
+"('picture', 'not', 'send', 'photo')",3,,
+"('please', 'resolve', 'this', 'problem')",3,,
+"('update', 'doe', 'not', 'work')",3,,
+"('not', 'send', 'voice', 'note')",3,,
+"('last', 'update', 'unable', 'send')",3,,
+"('update', 'unable', 'send', 'image')",3,,
+"('fix', 'problem', 'not', 'send')",3,,
+"('please', 'fix', 'not', 'send')",3,,
+"('whatsit', 'doe', 'not', 'show')",3,,
+"('saying', 'file', 'picked', 'not')",3,,
+"('voice', 'call', 'not', 'clear')",3,,
+"('not', 'see', 'others', 'status')",3,,
+"('please', 'help', 'fix', 'this')",3,,
+"('update', 'not', 'able', 'see')",3,,
+"('not', 'able', 'see', 'friend')",3,,
+"('fix', 'this', 'new', 'update')",3,,
+"('application', 'found', 'whatsit', 'started')",3,,
+"('found', 'whatsit', 'started', 'installing')",3,,
+"('whatsit', 'started', 'installing', 'ad')",3,,
+"('started', 'installing', 'ad', 'appeared')",3,,
+"('installing', 'ad', 'appeared', 'arrive')",3,,
+"('ad', 'appeared', 'arrive', 'in')",3,,
+"('appeared', 'arrive', 'in', 'screen')",3,,
+"('arrive', 'in', 'screen', 'display')",3,,
+"('this', 'new', 'update', 'not')",3,,
+"('receive', 'message', 'unles', 'open')",3,,
+"('message', 'unles', 'open', 'application')",3,,
+"('please', 'fix', 'message', 'not')",3,,
+"('status', 'update', 'not', 'see')",3,,
+"('not', 'use', 'this', 'application')",3,,
+"('improve', 'video', 'call', 'quality')",3,,
+"('solve', 'this', 'problem', 'immediately')",3,,
+"('file', 'doe', 'not', 'exist')",3,,
+"('not', 'able', 'see', 'profile')",3,,
+"('friend', 'satish', 'kumar', 'facing')",3,,
+"('satish', 'kumar', 'facing', 'problem')",3,,
+"('try', 'later', 'please', 'fix')",3,,
+"('later', 'please', 'fix', 'this')",3,,
+"('file', 'picked', 'not', 'photo')",3,,
+"('call', 'not', 'clear', 'not')",3,,
+"('status', 'not', 'downloaded', 'in')",3,,
+"('not', 'download', 'picture', 'video')",3,,
+"('call', 'video', 'call', 'not')",3,,
+"('call', 'doe', 'not', 'work')",3,,
+"('bug', 'in', 'new', 'update')",3,,
+"('several', 'people', 'using', 'whatsit')",3,,
+"('message', 'until', 'open', 'application')",3,,
+"('doe', 'not', 'appear', 'in')",3,,
+"('send', 'application', 'installed', 'in')",3,,
+"('application', 'installed', 'in', 'phone')",3,,
+"('please', 'fix', 'this', 'in')",3,,
+"('not', 'see', 'video', 'status')",3,,
+"('different', 'phone', 'please', 'fix')",3,,
+"('play', 'video', 'in', 'couture')",3,,
+"('not', 'able', 'see', 'whatsit')",3,,
+"('best', 'application', 'butt', 'time')",3,,
+"('even', 'go', 'online', 'also')",3,,
+"('go', 'online', 'also', 'application')",3,,
+"('online', 'also', 'application', 'showing')",3,,
+"('also', 'application', 'showing', 'online')",3,,
+"('application', 'showing', 'online', 'friend')",3,,

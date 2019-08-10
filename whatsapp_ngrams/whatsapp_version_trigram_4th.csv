@@ -1,0 +1,60 @@
+trigrams_tweets,frequency,quadgrams_reviews,frequency_reviews
+"('please', 'fix', 'this')",6.0,"('please', 'fix', 'this')",31
+"('please', 'solve', 'problem')",6.0,"('video', 'call', 'not')",21
+"('please', 'rectify', 'this')",5.0,"('doe', 'not', 'work')",18
+"('please', 'help', 'whatsap')",4.0,"('not', 'working', 'properly')",16
+"('whatsap', 'getting', 'null')",4.0,"('this', 'application', 'not')",14
+"('toast', 'message', 'please')",4.0,"('application', 'doe', 'not')",12
+"('message', 'please', 'rectify')",4.0,"('doe', 'not', 'show')",10
+"('rectify', 'this', 'issue')",4.0,"('application', 'not', 'working')",10
+"('this', 'issue', 'soon')",3.0,"('fix', 'this', 'issue')",9
+"('banned', 'using', 'whatsap')",3.0,"('call', 'video', 'call')",9
+"('problem', 'whatsap', 'number')",3.0,"('since', 'last', 'update')",8
+"('fix', 'this', 'issue')",3.0,"('worst', 'application', 'ever')",8
+"('this', 'issue', 'since')",3.0,"('fix', 'this', 'problem')",7
+"('doe', 'not', 'work')",3.0,"('issue', 'soon', 'possible')",7
+"('account', 'temporarily', 'banned')",3.0,"('this', 'application', 'this')",7
+"('having', 'problem', 'whatsap')",3.0,"('please', 'solve', 'this')",7
+"('mobile', 'number', 'banned')",3.0,"('whatsit', 'not', 'working')",7
+"('issue', 'found', 'whatsap')",3.0,"('this', 'new', 'update')",7
+"('found', 'whatsap', 'getting')",3.0,"('in', 'video', 'call')",7
+,,"('call', 'not', 'good')",6
+,,"('application', 'this', 'application')",6
+,,"('use', 'this', 'application')",6
+,,"('application', 'please', 'fix')",6
+,,"('please', 'fix', 'problem')",6
+,,"('not', 'work', 'properly')",6
+,,"('not', 'able', 'use')",6
+,,"('audio', 'video', 'call')",6
+,,"('not', 'able', 'see')",6
+,,"('not', 'able', 'send')",6
+,,"('solve', 'this', 'problem')",6
+,,"('this', 'stupid', 'application')",6
+,,"('high', 'priority', 'notification')",6
+,,"('priority', 'notification', 'this')",6
+,,"('notification', 'this', 'one')",6
+,,"('this', 'one', 'contact')",6
+,,"('this', 'soon', 'possible')",5
+,,"('notification', 'doe', 'not')",5
+,,"('not', 'good', 'not')",5
+,,"('please', 'try', 'later')",5
+,,"('please', 'fix', 'bug')",5
+,,"('fix', 'this', 'bug')",5
+,,"('please', 'fix', 'whatsit')",5
+,,"('not', 'send', 'message')",5
+,,"('whats', 'application', 'not')",5
+,,"('not', 'receive', 'message')",5
+,,"('update', 'application', 'not')",5
+,,"('status', 'video', 'not')",5
+,,"('download', 'this', 'application')",5
+,,"('latest', 'update', 'not')",5
+,,"('not', 'able', 'download')",5
+,,"('in', 'this', 'application')",5
+,,"('not', 'see', 'friend')",5
+,,"('able', 'use', 'whatsit')",5
+,,"('not', 'able', 'open')",5
+,,"('this', 'application', 'doe')",5
+,,"('soon', 'possible', 'not')",5
+,,"('not', 'see', 'status')",5
+,,"('issue', 'notification', 'delayed')",5
+,,"('notification', 'delayed', 'message')",5

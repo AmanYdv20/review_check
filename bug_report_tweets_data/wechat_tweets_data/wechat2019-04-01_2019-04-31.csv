@@ -1,0 +1,14 @@
+tweet-id,timestamp,text,app_name,comment,bug_report
+1120518439603404800,2019-04-23 02:43:08,"@WeChatApp Hi, there is a problem when calling the Wechat official account API, how can I get the support? I cannot find any real people to help.",wechat,"['be', 'problem', 'call', 'wechat', 'official', 'account', 'api', 'get', 'support', 'can', 'not', 'find', 'real', 'people', 'help']",1
+1119253610435686400,2019-04-19 14:57:10,Yeah same is happening to me. What is the fix?,wechat,"['be', 'happen', 'be', 'fix']",1
+1115277867255042048,2019-04-08 15:38:59,@WeChatApp having a problem verifying my account. Please help I need to do business on there.,wechat,"['have', 'problem', 'verify', 'account', 'help', 'need', 'do', 'business']",1
+1120866078559748098,2019-04-24 01:44:32,"@WeChatApp 
+
+I changed my iPhone & got a new number (different than my WeChat account)
+ 
+After trying all the FAQs & attemptsat resets, they all fail. 
+
+Can I #please get a response & resolution so I can get back in @WeChatApp ?
+
+Please!",wechat,"['change', 'iphone', 'get', 'new', 'number', 'different', 'wechat', 'account', 'try', 'faqs', 'attemptsat', 'reset', 'fail', 'get', 'response', 'resolution', 'get', 'back']",1
+1117094528803119106,2019-04-13 15:57:44,"@WeChatApp I have troubles to use we pay, I bound a MasterCard to it today, but it can't be used. The second problem is that I can't receive red packet from my friend, the system said that I need to bind a Chinese bank card first.please help as I need to use we chat to pay asap.",wechat,"['have', 'trouble', 'use', 'pay', 'bind', 'mastercard', 'today', 'can', 'not', 'use', 'second', 'problem', 'be', 'can', 'not', 'receive', 'red', 'packet', 'friend', 'system', 'say', 'need', 'bind', 'chinese', 'bank', 'card', 'first', 'help', 'need', 'use', 'chat', 'pay']",1

@@ -20,12 +20,12 @@ logger.setLevel(logging.INFO)
 nlp=spacy.load('en')
 neuralcoref.add_to_pipe(nlp)
 
-def coreference_resolution(text):
+'''def coreference_resolution(text):
     logger.info("Executed successfully") 
     print('execute')
     doc=nlp(text)
     ans=doc._.coref_resolved
-    return ans
+    return ans'''
 
 def removeUnicode(text):
     """ Removes unicode strings like "\u002c" and "x96" """
@@ -50,13 +50,13 @@ def replaceAlpha(text):
 
 def replaceURL(text):
     """ Replaces url address with "url" """
-    text = re.sub('((www\.[^\s]+)|(https?://[^\s]+)|(pic\.[^\s]+))','url',text)
+    text = re.sub('((www\.[^\s]+)|(https?://[^\s]+)|(pic\.[^\s]+))',r'',text)
     text = re.sub(r'#([^\s]+)', r'\1', text)
     return text
 
 def replaceAtUser(text):
     """ Replaces "@user" with "atUser" """
-    text = re.sub('@[^\s]+','atUser',text)
+    text = re.sub('@[^\s]+',r'',text)
     return text
 
 def removeHashtagInFrontOfWord(text):
@@ -101,7 +101,7 @@ class preprocessing:
         self.data['text']=self.data['text'].apply(removeNumbers)
         self.data['text']=self.data['text'].apply(replaceAlpha)
         self.data['text']=self.data['text'].apply(replaceAllSlang)
-        self.data['text']=self.data['text'].apply(coreference_resolution)
+        #self.data['text']=self.data['text'].apply(coreference_resolution)
         
         
     def print_data(self):

@@ -18,7 +18,7 @@ nlp = spacy.load('en', disable=['parser', 'ner'])
 stop_words = stopwords.words('english')
 stop_words.extend(['from', 'subject', 're', 'edu','whatsit','atuser','url'])
 
-extra_words = ['still','not','as','soon','into','to','in','it\'s','this','is','have','been','do','does','did','doing','because','until','while','having']
+extra_words = ['still','not','soon','into','in','have','been','doing','because','until','having']
 for word in extra_words:
     if word in stop_words:
         stop_words.remove(word)

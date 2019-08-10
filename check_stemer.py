@@ -70,8 +70,8 @@ def tokenize(text):
             final_word = addCapTag(w) # Technique 8: Finds a word with at least 3 characters capitalized and adds the tag ALL_CAPS_
             #final_word = w.lower() # Technique 9: lowercases all characters
             final_word = replaceElongated(final_word) # Technique 11: replaces an elongated word with its basic form, unless the word exists in the lexicon
-            if len(final_word)>1:
-                final_word = spell.correction(final_word) # Technique 12: correction of spelling errors
+            #if len(final_word)>1:
+                #final_word = spell.correction(final_word) # Technique 12: correction of spelling errors
             final_word = lemmatizer.lemmatize(final_word) # Technique 14: lemmatizes words
             #final_word = stemmer.stem(final_word) # Technique 15: apply stemming to words
         

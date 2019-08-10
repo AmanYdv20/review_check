@@ -5,9 +5,11 @@ import gensim
 from gensim.models import CoherenceModel
 from pre_processing import preprocessing
 from check_stemer import tokenize
+import re
 
 import pickle
 from finding_corpus import findCorpus
+
 #%matplotlib inline
 
 # Enable logging for gensim - optional
@@ -75,10 +77,14 @@ app_name2=['amazon','googleplay','messenger','snapchat','wechat','whatsapp']
 for name in app_name2:
     df=pd.read_csv('./detailed_google_reviews/'+name+'_'+'feb.csv')
     data.append(df)
-    
-#data=pd.read_csv('tweet_data_files/unlabel.csv')
-    
+
 data = pd.concat(data)
+
+data=pd.read_csv('./bug_report_reviews_data/google_music_reviews/Google_Music2019-02-01_2019-03-23.csv')
+
+pre=preprocessing(data)
+data['text']=data['text'].apply(tokenize)
+
 
 corpus_class=findCorpus(data)
 corpus=corpus_class.corpus
@@ -110,13 +116,86 @@ plt.xlabel("Num Topics")
 plt.ylabel("Coherence score")
 plt.legend(("coherence_values"), loc='best')
 plt.show()'''
+model_list, coherence_values = compute_coherence_values(dictionary=id2word, corpus=corpus, texts=final_data, start=5, limit=25, step=5)
+
+limit=25; start=5; step=5;
+x = range(start, limit, step)
+plt.plot(x, coherence_values)
+plt.xlabel("Num Topics")
+plt.ylabel("Coherence score")
+plt.legend(("coherence_values"), loc='best')
+plt.show()
 
 ldamallet = gensim.models.wrappers.LdaMallet(mallet_path, corpus=corpus, num_topics=20, id2word=id2word)
 pprint(ldamallet.show_topics(formatted=False))
 
 result=ldamallet.print_topic(8,topn=10)
 
-ldamallet.print_topics(num_topics=20, num_words=10)
+topics=ldamallet.print_topics(num_topics=20, num_words=10)
+#print(topics[0][1])
+all_st=[]
+all_wt=[]
+for topic in topics:
+    lst_st=[]
+    lst_wt=[]
+    s=topic[1]
+    val=s.split('+')
+    for i in val:
+        num,st=i.split('*')
+        #print(st)
+        st = re.sub('[""]', '', st)
+        lst_st.append(str(st.strip()))
+        print(lst_st)
+        lst_wt.append(float(num))
+    all_st.append(lst_st)
+    all_wt.append(lst_wt)
+    
+d={'Keywords_reviews': all_st, 'weights_reviews': all_wt}
+#d={'Keywords_tweets': all_st, 'weights_tweets': all_wt}
+
+
+df1=pd.read_csv('google_music_version_1st.csv')
+df2=pd.DataFrame(d)
+d=[]
+d.append(df1)
+d.append(df2)
+
+d=pd.concat(d,axis=1)
+
+d.to_csv('google_music_version_1st.csv',index=False)
+
+
+#df.to_csv('snapchat_version_1st.csv',index=False)
+
+df.resize((20,4))
+
+df['reviews_keywords']=all_st
+df['reviews_weights']=all_wt
+    
+d={'Keywords_tweets': all_st, 'weights_tweets': all_wt}
+d=pd.DataFrame(d)
+
+d.to_csv('google_music_version_1st.csv',index=False)
+
+dt=pd.DataFrame(d)
+dt.to_csv('google_version_reviews_4th.csv',index=False)
+
+s=topics[0][1]
+
+val=s.split('+')
+
+for i in val:
+    num,st=i.split('*')
+    #print(type(float(num)))
+    print(st.strip())
+    #print(num, st)
+
+filename = 'Snapchat_version_version_1st.pickle'
+outfile = open(filename,'wb')
+pickle.dump(topics,outfile)
+outfile.close()
+
+
 
 coherence_model_ldamallet = CoherenceModel(model=ldamallet, texts=final_data, dictionary=id2word, coherence='c_v')
 coherence_ldamallet = coherence_model_ldamallet.get_coherence()

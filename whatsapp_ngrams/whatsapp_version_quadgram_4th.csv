@@ -1,0 +1,30 @@
+quadgrams_tweets,frequency,quadgrams_reviews,frequency_reviews
+"('toast', 'message', 'please', 'rectify')",4.0,"('high', 'priority', 'notification', 'this')",6
+"('message', 'please', 'rectify', 'this')",4.0,"('priority', 'notification', 'this', 'one')",6
+"('please', 'rectify', 'this', 'issue')",4.0,"('notification', 'this', 'one', 'contact')",6
+"('issue', 'found', 'whatsap', 'getting')",3.0,"('please', 'fix', 'this', 'problem')",5
+"('found', 'whatsap', 'getting', 'null')",3.0,"('this', 'application', 'this', 'application')",5
+,,"('not', 'able', 'use', 'whatsit')",5
+,,"('call', 'video', 'call', 'not')",5
+,,"('issue', 'notification', 'delayed', 'message')",5
+,,"('open', 'application', 'please', 'fix')",4
+,,"('please', 'fix', 'this', 'issue')",4
+,,"('application', 'please', 'fix', 'this')",4
+,,"('application', 'not', 'working', 'properly')",4
+,,"('video', 'call', 'not', 'good')",4
+,,"('please', 'fix', 'this', 'bug')",4
+,,"('this', 'application', 'doe', 'not')",4
+,,"('please', 'solve', 'this', 'problem')",4
+,,"('this', 'application', 'not', 'working')",3
+,,"('update', 'not', 'working', 'properly')",3
+,,"('not', 'sending', 'verification', 'code')",3
+,,"('problem', 'in', 'unloading', 'video')",3
+,,"('whatsit', 'audio', 'video', 'call')",3
+,,"('video', 'call', 'not', 'working')",3
+,,"('doe', 'not', 'work', 'properly')",3
+,,"('fix', 'this', 'soon', 'possible')",3
+,,"('this', 'issue', 'soon', 'possible')",3
+,,"('video', 'call', 'voice', 'call')",3
+,,"('not', 'use', 'this', 'application')",3
+,,"('see', 'time', 'message', 'deleted')",3
+,,"('not', 'sure', 'able', 'get')",3

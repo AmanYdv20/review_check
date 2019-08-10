@@ -209,6 +209,7 @@ data['Bug_report']=predictions_SVM
 data.to_csv('final_review_file',index=False)
 
 data=pd.read_csv('final_review_file.csv')
+data1.groupby(['appTitle']).agg(['count'])
 data1=data[data['Bug_report']==1]
 data1.to_csv('bug_report_data_reviews.csv',index=False)
 data2=data[data['Bug_report']==0]

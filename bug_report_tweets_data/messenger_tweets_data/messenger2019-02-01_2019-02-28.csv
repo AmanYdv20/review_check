@@ -1,0 +1,45 @@
+tweet-id,timestamp,text,app_name,comment,bug_report
+1.09245E+18,2019-02-04 15:46,@messenger bug detected . The app change all day between the past and new update. Please fix it,messenger,"['bug', 'detect', 'app', 'change', 'day', 'new', 'update', 'fix']",1
+1.09332E+18,2019-02-07 1:34,Its not a big problem lol,messenger,"['not', 'big', 'problem', 'lol']",1
+1.09336E+18,2019-02-07 3:46,"I actually have a real problem with your product, however I don't have a Facebook account so I can't contact support. Can you help me?",messenger,"['actually', 'have', 'real', 'problem', 'product', 'however', 'do', 'not', 'have', 'facebook', 'account', 'can', 'not', 'contact', 'support', 'help']",1
+1.09397E+18,2019-02-08 20:39,@messenger I just uninstalled Messenger.  I cannot find a fix for my issue. Messenger all of a sudden started thinking my first language is French...It keeps autocorrecting from my English typing into French.  It is impossible to use the app. My setting is English,messenger,"['uninstalled', 'messenger', 'can', 'not', 'find', 'fix', 'issue', 'messenger', 'sudden', 'start', 'think', 'first', 'language', 'be', 'french', 'keep', 'autocorrecte', 'english', 'typing', 'french', 'be', 'impossible', 'use', 'app', 'set', 'be', 'english']",1
+1.09459E+18,2019-02-10 13:29,"@messenger has a serious #bug, one can share live video on screen, even after he/she blocked him/her.
+This needs to be fixed immediately.",messenger,"['serious', 'bug', 'share', 'live', 'video', 'screen', 'even', 'block', 'need', 'fix', 'immediately']",1
+1.09512E+18,2019-02-12 0:36,@messenger fix your photo quality please AMPANGIT NG BAGONG UPDATE!,messenger,"['fix', 'photo', 'quality', 'ampangit', 'bagong', 'update']",1
+1.09543E+18,2019-02-12 21:12,Need bug fixes and optimisation ,messenger,"['need', 'bug', 'fix', 'optimisation']",1
+1.0955E+18,2019-02-13 1:36,@messenger please fix your app keeps going back to the old design every once in a while,messenger,"['fix', 'app', 'keep', 'go', 'back', 'old', 'design', 'while']",1
+1.09593E+18,2019-02-14 6:17,"@messenger after deleting a message, it shouldn't leave behind a residue that the message was deleted. And after forwarding a message, it shouldn't show that the message was forwarded. Please fix it.",messenger,"['delete', 'message', 'should', 'not', 'leave', 'residue', 'message', 'delete', 'forward', 'message', 'should', 'not', 'show', 'message', 'forward', 'fix']",1
+1.09705E+18,2019-02-17 8:27,@messenger i am getting frustrated with the quality of the pictures I am sending through messenger! My recipient always complains! Watdahell,messenger,"['get', 'frustrated', 'quality', 'picture', 'send', 'messenger', 'recipient', 'always', 'complain', 'watdahell']",1
+1.09913E+18,2019-02-23 2:26,"@messenger after so many continuous updates here in the Philippines, we still don't have darkmode. It's so frustrating. Other countries have it already, why not us?",messenger,"['many', 'continuous', 'update', 'philippine', 'still', 'do', 'not', 'have', 'darkmode', 'frustrating', 'country', 'have', 'already', 'not']",1
+1.09928E+18,2019-02-23 12:03,@messenger Messenger team I have trouble sending messages to people from yesterday. Please help me. Thanks Messenger Team,messenger,"['messenger', 'team', 'have', 'trouble', 'send', 'message', 'people', 'yesterday', 'help', 'thank', 'messenger', 'team']",1
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

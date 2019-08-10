@@ -36,8 +36,18 @@ final_data=final_data.drop(['like','replies_x','retweets','timestamp2','likes','
 final_data.to_csv('test_data.csv',index=False)
 
 count=pd.read_csv('final_classification.csv')
+count=count[count['bug_report']==1]
 
-snapchat=count[count['app_name']=='snapchat']
+count.reset_index()
+count=count.drop_duplicates()
+
+count.groupby(['app_name']).size()
+
+#count.to_csv('bug_report_data_tweets.csv',index=False)
+d=pd.read_csv('bug_report_data_tweets.csv')
+d.groupby(['app_name']).agg(['count'])
+
+snapchat=count[count['app_name']=='messenger']
 snapchat=snapchat[snapchat['bug_report']==1]
 
 def createChunk(df,app_name,start,end):
@@ -46,7 +56,7 @@ def createChunk(df,app_name,start,end):
     df=df[(df['timestamp']>=start) & (df['timestamp']<=end)]
     df.to_csv(app_name+start+'_'+end+'.csv',index=False)
     
-createChunk(count,'play_music','2019-02-01','2019-03-23')
+createChunk(count,'google_play','2019-03-24','2019-05-31')
 #snapchat=snapchat[(snapchat['timestamp']>='2019-03-10') & (snapchat['timestamp']<'2019-03-20')]
 
 
@@ -66,5 +76,5 @@ def createChunk(df,app_name,start,end):
     
 #count=count[count['appTitle']=='Amazon']
 count['date'] = pd.to_datetime(count['date'])
-createChunk(count,'Amazon','2019-04-14', '2019-05-31')
+createChunk(count,'Maps','2019-02-01', '2019-03-31')
 print(type(count['date'][21]))

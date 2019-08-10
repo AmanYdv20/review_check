@@ -1,0 +1,56 @@
+trigrams_tweets,frequency,trigrams_reviews,frequency_reviews
+"('please', 'fix', 'this')",16.0,"('doe', 'not', 'work')",38
+"('get', 'help', 'account')",8.0,"('please', 'fix', 'this')",25
+"('help', 'account', 'problem')",8.0,"('since', 'last', 'update')",18
+"('account', 'problem', 'tried')",8.0,"('application', 'doe', 'not')",15
+"('problem', 'tried', 'contact')",8.0,"('faceon', 'doe', 'not')",13
+"('tried', 'contact', 'facebok')",8.0,"('this', 'application', 'not')",13
+"('contact', 'facebok', 'many')",8.0,"('application', 'keep', 'crashing')",10
+"('facebok', 'many', 'time')",8.0,"('market', 'place', 'not')",10
+"('many', 'time', 'many')",8.0,"('doe', 'not', 'load')",9
+"('time', 'many', 'way')",8.0,"('log', 'back', 'in')",9
+"('many', 'way', 'never')",8.0,"('not', 'even', 'open')",9
+"('way', 'never', 'never')",8.0,"('application', 'not', 'working')",9
+"('never', 'never', 'got')",8.0,"('since', 'latest', 'update')",9
+"('never', 'got', 'answer')",8.0,"('in', 'news', 'feed')",8
+"('banning', 'people', 'reason')",7.0,"('not', 'work', 'properly')",8
+"('way', 'get', 'help')",7.0,"('post', 'day', 'ago')",7
+"('please', 'fix', 'bug')",5.0,"('update', 'faceon', 'application')",7
+"('not', 'log', 'in')",5.0,"('update', 'this', 'application')",7
+"('incase', 'didnt', 'realize')",5.0,"('application', 'this', 'application')",7
+"('bot', 'problem', 'banning')",5.0,"('fix', 'this', 'problem')",7
+"('problem', 'banning', 'people')",5.0,"('fix', 'soon', 'possible')",7
+"('people', 'reason', 'sent')",5.0,"('this', 'application', 'phone')",7
+"('email', 'work', 'order')",5.0,"('new', 'post', 'friend')",7
+"('resolve', 'issue', 'people')",5.0,"('delete', 'this', 'application')",7
+"('people', 'actually', 'working')",5.0,"('hate', 'this', 'application')",7
+"('doe', 'not', 'work')",5.0,"('doe', 'not', 'show')",6
+"('id', 'please', 'fix')",5.0,"('news', 'feed', 'not')",6
+"('show', 'recent', 'in')",5.0,"('this', 'application', 'take')",6
+"('recent', 'in', 'facebok')",5.0,"('last', 'update', 'not')",6
+"('in', 'facebok', 'mobile')",5.0,"('application', 'phone', 'not')",6
+"('facebok', 'mobile', 'broken')",5.0,"('fix', 'this', 'issue')",6
+"('mobile', 'broken', 'unles')",5.0,"('while', 'watching', 'video')",6
+"('broken', 'unles', 'feel')",5.0,"('not', 'working', 'properly')",6
+"('unles', 'feel', 'yesterday')",5.0,"('choice', 'delete', 'this')",6
+"('feel', 'yesterday', 'hour')",5.0,"('feed', 'doe', 'not')",5
+"('yesterday', 'hour', 'ago')",5.0,"('this', 'application', 'doe')",5
+"('hour', 'ago', 'recent')",5.0,"('this', 'application', 'still')",5
+"('ago', 'recent', 'minute')",5.0,"('unfortunately', 'faceon', 'stopped')",5
+"('recent', 'minute', 'ago')",5.0,"('not', 'see', 'comment')",5
+,,"('in', 'middle', 'reading')",5
+,,"('doe', 'not', 'refresh')",5
+,,"('market', 'place', 'doe')",5
+,,"('not', 'work', 'not')",5
+,,"('marketplace', 'not', 'working')",5
+,,"('comment', 'not', 'load')",5
+,,"('please', 'fix', 'soon')",5
+,,"('faceon', 'not', 'responding')",5
+,,"('doe', 'not', 'even')",5
+,,"('faceon', 'not', 'working')",5
+,,"('please', 'fix', 'not')",5
+,,"('worst', 'application', 'in')",5
+,,"('update', 'faceon', 'not')",5
+,,"('not', 'log', 'in')",5
+,,"('application', 'every', 'time')",5
+,,"('see', 'new', 'comment')",5

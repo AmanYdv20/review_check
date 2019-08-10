@@ -1,0 +1,19 @@
+trigrams_tweets,frequency,trigrams_reviews,frequency_reviews
+"('not', 'open', 'application')",2.0,"('doe', 'not', 'work')",28
+"('google', 'assistant', 'application')",2.0,"('please', 'fix', 'this')",13
+,,"('since', 'last', 'update')",12
+,,"('update', 'this', 'application')",11
+,,"('access', 'voice', 'match')",9
+,,"('every', 'time', 'try')",6
+,,"('voice', 'command', 'not')",6
+,,"('gole', 'assistant', 'not')",6
+,,"('ok', 'gole', 'not')",6
+,,"('doe', 'not', 'load')",5
+,,"('application', 'not', 'working')",5
+,,"('not', 'working', 'properly')",5
+,,"('not', 'work', 'anymore')",5
+,,"('gole', 'not', 'working')",5
+,,"('update', 'update', 'update')",5
+,,"('please', 'fix', 'issue')",5
+,,"('update', 'every', 'day')",5
+,,"('assistant', 'doe', 'not')",5

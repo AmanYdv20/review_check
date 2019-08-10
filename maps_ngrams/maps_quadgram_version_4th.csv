@@ -1,0 +1,22 @@
+quadgrams_tweets,frequency,quadgrams_reviews,frequency_reviews
+"('showed', 'biking', 'work', 'around')",5.0,"('this', 'application', 'this', 'application')",13
+"('glad', 'hear', 'issue', 'resolved')",4.0,"('application', 'doe', 'not', 'work')",12
+"('hear', 'issue', 'resolved', 'feel')",4.0,"('this', 'application', 'doe', 'not')",11
+"('issue', 'resolved', 'feel', 'free')",4.0,"('gole', 'map', 'doe', 'not')",10
+"('resolved', 'feel', 'free', 'reach')",4.0,"('gole', 'map', 'not', 'working')",9
+"('feel', 'free', 'reach', 'question')",4.0,"('doe', 'not', 'work', 'properly')",9
+"('first', 'lost', 'soul', 'day')",3.0,"('please', 'fix', 'this', 'issue')",8
+,,"('this', 'application', 'not', 'working')",7
+,,"('not', 'working', 'properly', 'not')",6
+,,"('not', 'working', 'properly', 'in')",6
+,,"('map', 'not', 'working', 'properly')",6
+,,"('please', 'fix', 'soon', 'possible')",6
+,,"('say', 'gps', 'signal', 'lost')",6
+,,"('navigation', 'not', 'working', 'properly')",6
+,,"('could', 'delete', 'whole', 'damned')",5
+,,"('delete', 'whole', 'damned', 'application')",5
+,,"('whole', 'damned', 'application', 'phone')",5
+,,"('map', 'doe', 'not', 'show')",5
+,,"('single', 'important', 'application', 'phone')",5
+,,"('notification', 'used', 'pushed', 'this')",5
+,,"('used', 'pushed', 'this', 'option')",5

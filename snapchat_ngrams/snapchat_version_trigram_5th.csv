@@ -1,0 +1,82 @@
+trigrams_tweets,frequency,trigrams_reviews,frequency_reviews
+"('snapchat', 'not', 'working')",12.0,"('please', 'fix', 'this')",60
+"('reason', 'account', 'could')",10.0,"('camera', 'zoomed', 'in')",31
+"('account', 'could', 'locked')",10.0,"('this', 'new', 'update')",29
+"('could', 'locked', 'learn')",10.0,"('doe', 'not', 'work')",24
+"('locked', 'learn', 'team')",10.0,"('front', 'facing', 'camera')",23
+"('learn', 'team', 'snapchat')",10.0,"('new', 'update', 'not')",18
+"('team', 'snapchat', 'unable')",10.0,"('since', 'last', 'update')",17
+"('snapchat', 'unable', 'unlock')",10.0,"('application', 'keep', 'crashing')",15
+"('unable', 'unlock', 'account')",10.0,"('love', 'this', 'application')",15
+"('unlock', 'account', 'this')",10.0,"('since', 'new', 'update')",14
+"('account', 'this', 'time')",10.0,"('this', 'application', 'this')",12
+"('this', 'time', 'seeing')",10.0,"('update', 'this', 'application')",12
+"('time', 'seeing', 'generic')",10.0,"('fix', 'this', 'issue')",11
+"('seeing', 'generic', 'login')",10.0,"('fix', 'soon', 'possible')",10
+"('generic', 'login', 'error')",10.0,"('way', 'zoomed', 'in')",10
+"('login', 'error', 'message')",10.0,"('this', 'application', 'not')",10
+"('error', 'message', 'check')",10.0,"('application', 'this', 'application')",10
+"('message', 'check', 'this')",10.0,"('doe', 'not', 'let')",10
+"('check', 'this', 'link')",10.0,"('please', 'fix', 'not')",9
+"('not', 'working', 'everything')",10.0,"('zoomed', 'in', 'front')",9
+"('working', 'everything', 'fix')",10.0,"('front', 'camera', 'zoomed')",9
+"('hey', 'reason', 'account')",7.0,"('camera', 'way', 'zoomed')",8
+"('still', 'having', 'trouble')",6.0,"('not', 'let', 'log')",8
+"('please', 'reach', 'select')",5.0,"('log', 'back', 'in')",8
+"('reach', 'select', 'account')",5.0,"('update', 'doe', 'not')",8
+"('select', 'account', 'login')",5.0,"('fix', 'this', 'problem')",8
+"('account', 'login', 'see')",5.0,"('in', 'this', 'application')",7
+"('login', 'see', 'error')",5.0,"('please', 'fix', 'soon')",7
+"('see', 'error', 'message')",5.0,"('zoomed', 'in', 'not')",7
+"('error', 'message', 'log')",5.0,"('new', 'update', 'suck')",7
+"('message', 'log', 'in')",5.0,"('in', 'new', 'update')",7
+"('please', 'dm', 'screnshot')",5.0,"('hate', 'new', 'update')",7
+"('everything', 'fix', 'snapchat')",5.0,"('application', 'doe', 'not')",7
+"('fix', 'snapchat', 'not')",5.0,"('zoomed', 'in', 'galaxy')",7
+,,"('let', 'log', 'in')",6
+,,"('camera', 'quality', 'bad')",6
+,,"('worst', 'application', 'ever')",6
+,,"('use', 'this', 'application')",6
+,,"('not', 'save', 'story')",6
+,,"('not', 'getting', 'notification')",6
+,,"('snapshot', 'doe', 'not')",6
+,,"('doe', 'not', 'even')",6
+,,"('not', 'select', 'one')",6
+,,"('in', 'please', 'fix')",6
+,,"('application', 'please', 'fix')",6
+,,"('fix', 'this', 'not')",6
+,,"('update', 'fix', 'this')",6
+,,"('extremely', 'zoomed', 'in')",6
+,,"('not', 'select', 'multiple')",6
+,,"('select', 'multiple', 'snap')",6
+,,"('year', 'ago', 'today')",6
+,,"('new', 'update', 'snapshot')",5
+,,"('fix', 'this', 'application')",5
+,,"('this', 'update', 'suck')",5
+,,"('this', 'update', 'this')",5
+,,"('fix', 'this', 'please')",5
+,,"('new', 'update', 'really')",5
+,,"('install', 'this', 'application')",5
+,,"('select', 'one', 'picture')",5
+,,"('not', 'like', 'new')",5
+,,"('new', 'update', 'android')",5
+,,"('not', 'log', 'in')",5
+,,"('last', 'update', 'not')",5
+,,"('update', 'not', 'getting')",5
+,,"('really', 'zoomed', 'in')",5
+,,"('new', 'update', 'doe')",5
+,,"('doe', 'not', 'show')",5
+,,"('camera', 'quality', 'terrible')",5
+,,"('new', 'snapshot', 'update')",5
+,,"('not', 'see', 'memory')",5
+,,"('like', 'this', 'application')",5
+,,"('please', 'fix', 'camera')",5
+,,"('this', 'soon', 'possible')",5
+,,"('not', 'even', 'let')",5
+,,"('snapshot', 'please', 'fix')",5
+,,"('new', 'updated', 'snap')",5
+,,"('application', 'keep', 'closing')",5
+,,"('camera', 'extremely', 'zoomed')",5
+,,"('camera', 'super', 'zoomed')",5
+,,"('super', 'zoomed', 'in')",5
+,,"('ever', 'since', 'new')",5
