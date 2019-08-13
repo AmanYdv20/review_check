@@ -54,13 +54,14 @@ def compute_coherence_values(dictionary, corpus, texts, limit, start=2, step=3):
 
     return model_list, coherence_values
 
-df1=pd.read_csv('./bug_report_tweets_data/snapchat_tweets_data/snapchat2019-02-012019-03-08.csv')
+df1=pd.read_csv('./bug_report_tweets_data/whatsapp_tweets_data/whatsapp2019-03-01_2019-03-31.csv')
 
 pre=preprocessing(df1)
 df1['text']=df1['text'].apply(tokenize)
 
-df2=pd.read_csv('./bug_report_reviews_data/snapchat_reviews_data/Snapchat2019-02-01_2019-03-08.csv')
-
+df2=pd.read_csv('./bug_report_reviews_data/Whatsapp_reviews/Whatsapp2019-03-01_2019-03-31.csv')
+df1=df1.reset_index()
+df2=df2.reset_index()
 df=[]
 df.append(df1)
 df.append(df2)
@@ -95,7 +96,7 @@ corpus_class_tweets=findCorpus(df1)
 corpus_tweets=corpus_class_tweets.corpus
 
 result=ldamallet[corpus_tweets[0]]
-
+execu_no=0
 act_dist_vc=[]
 s=time.time()
 for corpus_num in corpus_tweets:
@@ -103,7 +104,8 @@ for corpus_num in corpus_tweets:
     dist_vc=[]
     for i in result:
         dist_vc.append(i[1])
-    print(dist_vc)
+    print(execu_no)
+    execu_no=execu_no+1
     act_dist_vc.append(dist_vc)
 f=time.time()
 print((f-s)/60,"minutes")
@@ -111,7 +113,7 @@ print((f-s)/60,"minutes")
 print(act_dist_vc)
 act_dis_ser=pd.Series(act_dist_vc)
 df1['topic_distribution']=act_dis_ser
-df1.to_csv('snapchat_version_1st.csv',index=False)
+df1.to_csv('whatsapp_version_2nd.csv',index=False)
 
 corpus_class_reviews=findCorpus(df2)
 corpus_reviews=corpus_class_reviews.corpus
@@ -131,10 +133,12 @@ for corpus_num in corpus_reviews:
 f=time.time()
 print((f-s)/60,"minutes")
 
+
+
 print(act_dist_reviews_vc)
 act_dis_reviews_ser=pd.Series(act_dist_reviews_vc)
 df2['topic_distribution']=act_dis_reviews_ser
-df2.to_csv('snapchat_reviews_version_1st.csv',index=False)
+df2.to_csv('whatsapp_reviews_version_2nd.csv',index=False)
 
 
     
