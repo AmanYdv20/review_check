@@ -1,0 +1,70 @@
+trigrams_tweets,frequency,trigrams_reviews,frequency_reviews
+"('application', 'doe', 'not')",3.0,"('doe', 'not', 'work')",48
+"('going', 'fix', 'google')",3.0,"('please', 'fix', 'this')",32
+"('google', 'podcasts', 'application')",2.0,"('since', 'last', 'update')",25
+"('keep', 'getting', 'this')",2.0,"('gole', 'not', 'working')",19
+"('google', 'search', 'application')",2.0,"('not', 'working', 'properly')",17
+"('idea', 'going', 'fix')",2.0,"('gole', 'not', 'responding')",15
+"('fix', 'google', 'application')",2.0,"('this', 'application', 'not')",15
+"('google', 'application', 'discovery')",2.0,"('this', 'gole', 'application')",13
+"('application', 'discovery', 'running')",2.0,"('gole', 'assistant', 'not')",12
+"('discovery', 'running', 'error')",2.0,"('doe', 'not', 'even')",12
+"('running', 'error', 'message')",2.0,"('gole', 'application', 'not')",12
+"('error', 'message', 'article')",2.0,"('doe', 'not', 'respond')",10
+"('message', 'article', 'day')",2.0,"('not', 'able', 'use')",9
+"('article', 'day', 'google')",2.0,"('gole', 'doe', 'not')",9
+"('day', 'google', 'pixel')",2.0,"('gole', 'assistant', 'in')",9
+"('google', 'pixel', 'xl')",2.0,"('gole', 'voice', 'search')",9
+,,"('update', 'this', 'application')",9
+,,"('gole', 'stopped', 'working')",9
+,,"('not', 'working', 'not')",8
+,,"('assistant', 'doe', 'not')",8
+,,"('not', 'work', 'properly')",8
+,,"('application', 'doe', 'not')",8
+,,"('this', 'application', 'this')",8
+,,"('last', 'update', 'not')",8
+,,"('this', 'last', 'update')",7
+,,"('update', 'ok', 'gole')",7
+,,"('every', 'time', 'try')",7
+,,"('application', 'not', 'working')",7
+,,"('application', 'this', 'application')",7
+,,"('ok', 'gole', 'not')",7
+,,"('search', 'doe', 'not')",6
+,,"('not', 'update', 'gole')",6
+,,"('sometimes', 'doe', 'not')",6
+,,"('since', 'recent', 'update')",6
+,,"('application', 'not', 'responding')",6
+,,"('update', 'doe', 'not')",6
+,,"('update', 'not', 'working')",6
+,,"('say', 'ok', 'gole')",6
+,,"('saying', 'gole', 'stopped')",6
+,,"('newish', 'model', 'running')",6
+,,"('model', 'running', 'android')",6
+,,"('working', 'not', 'working')",6
+,,"('not', 'work', 'gole')",6
+,,"('search', 'not', 'working')",5
+,,"('recent', 'update', 'gole')",5
+,,"('not', 'interested', 'in')",5
+,,"('ok', 'gole', 'voice')",5
+,,"('latest', 'update', 'not')",5
+,,"('not', 'getting', 'credit')",5
+,,"('problem', 'this', 'application')",5
+,,"('new', 'update', 'not')",5
+,,"('worst', 'application', 'ever')",5
+,,"('doe', 'not', 'open')",5
+,,"('gole', 'assistant', 'doe')",5
+,,"('update', 'latest', 'update')",5
+,,"('latest', 'update', 'gole')",5
+,,"('not', 'reach', 'gole')",5
+,,"('stopped', 'working', 'not')",5
+,,"('fix', 'this', 'issue')",5
+,,"('assistant', 'not', 'working')",5
+,,"('like', 'this', 'application')",5
+,,"('application', 'not', 'even')",5
+,,"('not', 'able', 'update')",5
+,,"('not', 'getting', 'rupee')",5
+,,"('please', 'fix', 'not')",5
+,,"('work', 'please', 'fix')",5
+,,"('not', 'use', 'gole')",5
+,,"('fix', 'this', 'problem')",5
+,,"('previous', 'visited', 'webster')",5

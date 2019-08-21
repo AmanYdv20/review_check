@@ -1,0 +1,268 @@
+trigrams_tweets,frequency,trigrams_reviews,frequency_reviews
+"('snapchat', 'unable', 'unlock', 'account')",665,"('this', 'application', 'this', 'application')",35.0
+"('unable', 'unlock', 'account', 'this')",665,"('not', 'let', 'log', 'in')",22.0
+"('team', 'snapchat', 'unable', 'unlock')",664,"('new', 'update', 'doe', 'not')",18.0
+"('unlock', 'account', 'this', 'time')",664,"('please', 'fix', 'soon', 'possible')",17.0
+"('generic', 'login', 'error', 'message')",661,"('fix', 'this', 'soon', 'possible')",17.0
+"('login', 'error', 'message', 'check')",661,"('please', 'fix', 'this', 'issue')",16.0
+"('error', 'message', 'check', 'this')",661,"('front', 'facing', 'camera', 'zoomed')",14.0
+"('message', 'check', 'this', 'link')",661,"('camera', 'zoomed', 'in', 'not')",14.0
+"('learn', 'team', 'snapchat', 'unable')",660,"('please', 'fix', 'this', 'problem')",14.0
+"('seeing', 'generic', 'login', 'error')",660,"('front', 'camera', 'zoomed', 'in')",13.0
+"('account', 'this', 'time', 'seeing')",659,"('facing', 'camera', 'zoomed', 'in')",13.0
+"('this', 'time', 'seeing', 'generic')",659,"('camera', 'way', 'zoomed', 'in')",13.0
+"('time', 'seeing', 'generic', 'login')",659,"('this', 'application', 'doe', 'not')",12.0
+"('locked', 'learn', 'team', 'snapchat')",657,"('please', 'fix', 'this', 'soon')",11.0
+"('reason', 'account', 'could', 'locked')",656,"('ever', 'since', 'last', 'update')",11.0
+"('account', 'could', 'locked', 'learn')",656,"('please', 'fix', 'this', 'not')",11.0
+"('could', 'locked', 'learn', 'team')",656,"('ops', 'something', 'went', 'wrong')",10.0
+"('hey', 'reason', 'account', 'could')",447,"('application', 'not', 'even', 'open')",10.0
+"('check', 'this', 'link', 'hey')",184,"('please', 'fix', 'this', 'application')",10.0
+"('login', 'see', 'error', 'message')",139,"('camera', 'super', 'zoomed', 'in')",10.0
+"('account', 'login', 'see', 'error')",138,"('something', 'went', 'wrong', 'please')",9.0
+"('see', 'error', 'message', 'log')",138,"('went', 'wrong', 'please', 'try')",9.0
+"('error', 'message', 'log', 'in')",138,"('this', 'new', 'update', 'not')",9.0
+"('select', 'account', 'login', 'see')",137,"('front', 'camera', 'super', 'zoomed')",9.0
+"('reach', 'select', 'account', 'login')",132,"('camera', 'zoomed', 'in', 'way')",9.0
+"('please', 'reach', 'select', 'account')",125,"('not', 'like', 'new', 'update')",9.0
+"('message', 'log', 'in', 'select')",103,"('this', 'application', 'not', 'let')",9.0
+"('log', 'in', 'select', 'yes')",103,"('not', 'let', 'post', 'story')",9.0
+"('in', 'select', 'yes', 'submit')",103,"('new', 'filter', 'not', 'working')",9.0
+"('this', 'link', 'hey', 'reason')",102,"('not', 'even', 'open', 'application')",8.0
+"('link', 'hey', 'reason', 'account')",102,"('please', 'fix', 'this', 'snapshot')",8.0
+"('select', 'yes', 'submit', 'support')",96,"('still', 'doe', 'not', 'work')",8.0
+"('yes', 'submit', 'support', 'ticket')",96,"('since', 'last', 'update', 'not')",8.0
+"('get', 'back', 'via', 'email')",64,"('zoomed', 'in', 'please', 'fix')",8.0
+"('team', 'get', 'back', 'via')",63,"('doe', 'not', 'work', 'not')",8.0
+"('via', 'email', 'soon', 'possible')",57,"('please', 'fix', 'this', 'this')",8.0
+"('back', 'via', 'email', 'soon')",56,"('not', 'download', 'this', 'application')",8.0
+"('member', 'team', 'get', 'back')",52,"('please', 'fix', 'this', 'bug')",8.0
+"('ticket', 'member', 'team', 'get')",51,"('filter', 'doe', 'not', 'work')",8.0
+"('check', 'this', 'link', 'snapchat')",48,"('camera', 'doe', 'not', 'work')",7.0
+"('submit', 'support', 'ticket', 'member')",48,"('ever', 'since', 'new', 'update')",7.0
+"('support', 'ticket', 'member', 'team')",48,"('say', 'something', 'went', 'wrong')",7.0
+"('see', 'error', 'message', 'attempting')",42,"('application', 'not', 'working', 'properly')",6.0
+"('error', 'message', 'attempting', 'login')",42,"('doe', 'not', 'work', 'this')",6.0
+"('sorry', 'hear', 'having', 'trouble')",38,"('love', 'this', 'application', 'this')",6.0
+"('login', 'please', 'reach', 'select')",36,"('hate', 'this', 'new', 'update')",6.0
+"('message', 'attempting', 'login', 'please')",35,"('issue', 'front', 'facing', 'camera')",6.0
+"('still', 'having', 'trouble', 'please')",34,"('doe', 'not', 'work', 'well')",6.0
+"('attempting', 'login', 'please', 'reach')",34,"('not', 'select', 'multiple', 'snap')",6.0
+"('having', 'trouble', 'please', 'reach')",32,"('application', 'this', 'new', 'update')",6.0
+"('trouble', 'please', 'reach', 'select')",32,"('snapshot', 'camera', 'zoomed', 'in')",6.0
+"('having', 'trouble', 'adding', 'friend')",27,"('not', 'let', 'sign', 'in')",6.0
+"('snapchat', 'account', 'limited', 'having')",26,"('hate', 'new', 'update', 'not')",6.0
+"('account', 'limited', 'having', 'friend')",26,"('new', 'update', 'new', 'update')",6.0
+"('limited', 'having', 'friend', 'time')",26,"('not', 'letting', 'log', 'in')",6.0
+"('limit', 'many', 'people', 'add')",26,"('update', 'doe', 'not', 'allow')",6.0
+"('trouble', 'adding', 'friend', 'make')",25,"('not', 'fix', 'notification', 'issue')",6.0
+"('adding', 'friend', 'make', 'sure')",25,"('good', 'application', 'spite', 'new')",6.0
+"('friend', 'make', 'sure', 'strong')",25,"('application', 'spite', 'new', 'update')",6.0
+"('make', 'sure', 'strong', 'network')",25,"('spite', 'new', 'update', 'force')",6.0
+"('note', 'snapchat', 'account', 'limited')",25,"('new', 'update', 'force', 'reboot')",6.0
+"('having', 'friend', 'time', 'however')",25,"('update', 'force', 'reboot', 'samsung')",6.0
+"('friend', 'time', 'however', 'limit')",25,"('force', 'reboot', 'samsung', 'galaxy')",6.0
+"('time', 'however', 'limit', 'many')",25,"('reboot', 'samsung', 'galaxy', 'note')",6.0
+"('however', 'limit', 'many', 'people')",25,"('want', 'post', 'multi', 'snap')",6.0
+"('sure', 'strong', 'network', 'entering')",24,"('post', 'multi', 'snap', 'story')",6.0
+"('strong', 'network', 'entering', 'username')",24,"('one', 'person', 'in', 'list')",6.0
+"('network', 'entering', 'username', 'correctly')",24,"('wrong', 'please', 'try', 'later')",6.0
+"('many', 'people', 'add', 'hope')",24,"('galaxy', 'front', 'facing', 'camera')",5.0
+"('people', 'add', 'hope', 'this')",24,"('not', 'like', 'this', 'application')",5.0
+"('add', 'hope', 'this', 'help')",24,"('time', 'please', 'fix', 'this')",5.0
+"('please', 'note', 'snapchat', 'account')",23,"('front', 'facing', 'camera', 'galaxy')",5.0
+"('hey', 'sorry', 'hear', 'having')",21,"('in', 'please', 'fix', 'this')",5.0
+"('entering', 'username', 'correctly', 'please')",21,"('please', 'fix', 'new', 'update')",5.0
+"('username', 'correctly', 'please', 'note')",21,"('log', 'log', 'back', 'in')",5.0
+"('correctly', 'please', 'note', 'snapchat')",21,"('log', 'in', 'new', 'phone')",5.0
+"('email', 'soon', 'possible', 'hey')",21,"('new', 'phone', 'snapshot', 'not')",5.0
+"('check', 'this', 'link', 'hi')",21,"('please', 'help', 'fix', 'this')",5.0
+"('soon', 'possible', 'hey', 'reason')",18,"('new', 'update', 'not', 'even')",5.0
+"('possible', 'hey', 'reason', 'account')",18,"('this', 'soon', 'possible', 'please')",5.0
+"('check', 'this', 'link', 'please')",16,"('not', 'even', 'use', 'snapshot')",5.0
+"('help', 'hey', 'reason', 'account')",15,"('not', 'work', 'this', 'application')",5.0
+"('check', 'this', 'link', 'not')",15,"('zoomed', 'in', 'way', 'much')",5.0
+"('hope', 'this', 'help', 'hey')",15,"('not', 'let', 'open', 'application')",5.0
+"('able', 'provide', 'support', 'in')",14,"('fix', 'notification', 'issue', 'edit')",5.0
+"('provide', 'support', 'in', 'english')",14,"('new', 'update', 'suck', 'not')",5.0
+"('please', 'dm', 'screnshot', 'error')",13,"('ever', 'since', 'this', 'new')",5.0
+"('this', 'link', 'snapchat', 'need')",13,"('since', 'this', 'new', 'update')",5.0
+"('fix', 'hey', 'reason', 'account')",13,"('every', 'time', 'open', 'application')",5.0
+"('this', 'time', 'able', 'provide')",13,"('love', 'this', 'application', 'not')",5.0
+"('time', 'able', 'provide', 'support')",13,"('new', 'filter', 'not', 'work')",5.0
+"('support', 'in', 'english', 'issue')",13,"('not', 'use', 'new', 'filter')",5.0
+"('could', 'make', 'sure', 'youre')",12,"('gender', 'swap', 'filter', 'not')",5.0
+"('make', 'sure', 'youre', 'running')",12,"('since', 'new', 'update', 'not')",5.0
+"('sure', 'youre', 'running', 'latest')",12,"('this', 'application', 'use', 'golden')",5.0
+"('youre', 'running', 'latest', 'version')",12,"('please', 'help', 'this', 'application')",5.0
+"('running', 'latest', 'version', 'application')",12,"('bitmoji', 'widget', 'phone', 'home')",5.0
+"('let', 'know', 'still', 'having')",12,"('widget', 'phone', 'home', 'screen')",5.0
+"('know', 'still', 'having', 'trouble')",12,"('something', 'went', 'wrong', 'try')",5.0
+"('link', 'snapchat', 'need', 'fix')",12,"('doe', 'not', 'work', 'samsung')",5.0
+"('this', 'hey', 'reason', 'account')",12,"('old', 'story', 'page', 'back')",5.0
+"('check', 'this', 'link', 'see')",12,"('story', 'page', 'back', 'flash')",5.0
+"('this', 'link', 'see', 'error')",12,"('page', 'back', 'flash', 'back')",5.0
+"('link', 'see', 'error', 'message')",12,"('back', 'flash', 'back', 'feature')",5.0
+"('submit', 'support', 'ticket', 'hey')",12,"('someone', 'barely', 'open', 'message')",5.0
+"('in', 'english', 'issue', 'experiencing')",12,"('barely', 'open', 'message', 'second')",5.0
+"('latest', 'version', 'application', 'let')",11,"('open', 'message', 'second', 'ago')",5.0
+"('version', 'application', 'let', 'know')",11,,
+"('application', 'let', 'know', 'still')",11,,
+"('please', 'try', 'different', 'connection')",11,,
+"('try', 'different', 'connection', 'using')",11,,
+"('different', 'connection', 'using', 'data')",11,,
+"('connection', 'using', 'data', 'try')",11,,
+"('using', 'data', 'try', 'switching')",11,,
+"('data', 'try', 'switching', 'wifi')",11,,
+"('try', 'switching', 'wifi', 'vice')",11,,
+"('switching', 'wifi', 'vice', 'versa')",11,,
+"('dm', 'screnshot', 'error', 'message')",11,,
+"('snapchat', 'need', 'fix', 'this')",11,,
+"('snapchat', 'need', 'fix', 'shit')",11,,
+"('snapchat', 'really', 'need', 'fix')",11,,
+"('snapchat', 'memory', 'never', 'fail')",10,,
+"('screnshot', 'error', 'message', 'seeing')",10,,
+"('check', 'this', 'link', 'this')",10,,
+"('snapchat', 'fatal', 'crash', 'not')",10,,
+"('fatal', 'crash', 'not', 'quick')",10,,
+"('crash', 'not', 'quick', 'judge')",10,,
+"('hi', 'this', 'time', 'able')",10,,
+"('fix', 'this', 'hey', 'reason')",9,,
+"('snapchat', 'hey', 'reason', 'account')",9,,
+"('check', 'this', 'link', 'need')",9,,
+"('check', 'this', 'link', 'account')",9,,
+"('this', 'link', 'please', 'reach')",9,,
+"('link', 'please', 'reach', 'select')",9,,
+"('hey', 'having', 'trouble', 'adding')",9,,
+"('wifi', 'vice', 'versa', 'let')",8,,
+"('vice', 'versa', 'let', 'know')",8,,
+"('versa', 'let', 'know', 'help')",8,,
+"('issue', 'hey', 'reason', 'account')",8,,
+"('submitting', 'ticket', 'give', 'info')",8,,
+"('ticket', 'give', 'info', 'case')",8,,
+"('give', 'info', 'case', 'help')",8,,
+"('this', 'help', 'hey', 'reason')",8,,
+"('not', 'quick', 'judge', 'young')",8,,
+"('quick', 'judge', 'young', 'people')",8,,
+"('problem', 'hey', 'reason', 'account')",7,,
+"('info', 'case', 'help', 'investigate')",7,,
+"('case', 'help', 'investigate', 'issue')",7,,
+"('check', 'this', 'link', 'hello')",7,,
+"('log', 'back', 'into', 'application')",7,,
+"('first', 'make', 'sure', 'memory')",7,,
+"('make', 'sure', 'memory', 'successfully')",7,,
+"('sure', 'memory', 'successfully', 'backed')",7,,
+"('memory', 'successfully', 'backed', 'also')",7,,
+"('successfully', 'backed', 'also', 'login')",7,,
+"('backed', 'also', 'login', 'verification')",7,,
+"('also', 'login', 'verification', 'enabled')",7,,
+"('login', 'verification', 'enabled', 'please')",7,,
+"('verification', 'enabled', 'please', 'make')",7,,
+"('enabled', 'please', 'make', 'sure')",7,,
+"('please', 'make', 'sure', 'saved')",7,,
+"('make', 'sure', 'saved', 'recovery')",7,,
+"('sure', 'saved', 'recovery', 'code')",7,,
+"('saved', 'recovery', 'code', 'logging')",7,,
+"('check', 'this', 'link', 'thanks')",7,,
+"('check', 'this', 'link', 'problem')",7,,
+"('please', 'fix', 'this', 'hey')",7,,
+"('message', 'log', 'in', 'hey')",7,,
+"('message', 'attempting', 'login', 'reach')",7,,
+"('attempting', 'login', 'reach', 'select')",7,,
+"('login', 'reach', 'select', 'account')",7,,
+"('twitter', 'please', 'reach', 'select')",7,,
+"('twitter', 'still', 'having', 'trouble')",7,,
+"('problem', 'using', 'genderswap', 'snapchat')",7,,
+"('using', 'genderswap', 'snapchat', 'filter')",7,,
+"('genderswap', 'snapchat', 'filter', 'make')",7,,
+"('snapchat', 'filter', 'make', 'female')",7,,
+"('filter', 'make', 'female', 'president')",7,,
+"('hey', 'sorry', 'having', 'trouble')",6,,
+"('please', 'dm', 'screnshot', 'seeing')",6,,
+"('may', 'want', 'try', 'logging')",6,,
+"('want', 'try', 'logging', 'log')",6,,
+"('try', 'logging', 'log', 'back')",6,,
+"('logging', 'log', 'back', 'into')",6,,
+"('back', 'into', 'application', 'first')",6,,
+"('into', 'application', 'first', 'make')",6,,
+"('application', 'first', 'make', 'sure')",6,,
+"('check', 'this', 'link', 'oh')",6,,
+"('front', 'camera', 'iphone', 'xr')",6,,
+"('judge', 'young', 'people', 'via')",6,,
+"('thanks', 'reaching', 'please', 'dm')",6,,
+"('reaching', 'please', 'dm', 'screnshot')",6,,
+"('contact', 'internet', 'service', 'provider')",6,,
+"('check', 'this', 'link', 'still')",6,,
+"('ticket', 'team', 'get', 'back')",6,,
+"('unfortunately', 'due', 'account', 'security')",6,,
+"('due', 'account', 'security', 'unable')",6,,
+"('account', 'security', 'unable', 'provide')",6,,
+"('security', 'unable', 'provide', 'assistance')",6,,
+"('thanks', 'hey', 'reason', 'account')",6,,
+"('application', 'hey', 'reason', 'account')",6,,
+"('submit', 'support', 'ticket', 'team')",6,,
+"('unable', 'provide', 'assistance', 'twitter')",6,,
+"('provide', 'assistance', 'twitter', 'please')",6,,
+"('assistance', 'twitter', 'please', 'reach')",6,,
+"('snapchat', 'update', 'garbage', 'instagram')",6,,
+"('update', 'garbage', 'instagram', 'try')",6,,
+"('garbage', 'instagram', 'try', 'social')",6,,
+"('instagram', 'try', 'social', 'facebok')",6,,
+"('try', 'social', 'facebok', 'mainly')",6,,
+"('social', 'facebok', 'mainly', 'used')",6,,
+"('facebok', 'mainly', 'used', 'senior')",6,,
+"('mainly', 'used', 'senior', 'twitter')",6,,
+"('used', 'senior', 'twitter', 'man')",6,,
+"('senior', 'twitter', 'man', 'twitter')",6,,
+"('twitter', 'man', 'twitter', 'stayed')",6,,
+"('man', 'twitter', 'stayed', 'homie')",6,,
+"('twitter', 'stayed', 'homie', 'life')",6,,
+"('stayed', 'homie', 'life', 'anybody')",6,,
+"('homie', 'life', 'anybody', 'remember')",6,,
+"('life', 'anybody', 'remember', 'time')",6,,
+"('anybody', 'remember', 'time', 'twitter')",6,,
+"('remember', 'time', 'twitter', 'bad')",6,,
+"('time', 'twitter', 'bad', 'know')",6,,
+"('fix', 'this', 'soon', 'possible')",5,,
+"('please', 'go', 'select', 'snapstreaks')",5,,
+"('go', 'select', 'snapstreaks', 'disappeared')",5,,
+"('seeing', 'try', 'log', 'in')",5,,
+"('back', 'via', 'email', 'quickly')",5,,
+"('via', 'email', 'quickly', 'possible')",5,,
+"('email', 'quickly', 'possible', 'thanks')",5,,
+"('quickly', 'possible', 'thanks', 'patience')",5,,
+"('sorry', 'having', 'trouble', 'may')",5,,
+"('having', 'trouble', 'may', 'want')",5,,
+"('trouble', 'may', 'want', 'try')",5,,
+"('select', 'option', 'match', 'issue')",5,,
+"('yal', 'need', 'fix', 'this')",5,,
+"('fix', 'zoom', 'problem', 'in')",5,,
+"('zoom', 'problem', 'in', 'front')",5,,
+"('problem', 'in', 'front', 'camera')",5,,
+"('in', 'front', 'camera', 'iphone')",5,,
+"('need', 'help', 'something', 'else')",5,,
+"('check', 'this', 'link', 'issue')",5,,
+"('head', 'select', 'account', 'login')",5,,
+"('hey', 'thanks', 'reaching', 'please')",5,,
+"('error', 'message', 'seeing', 'attempting')",5,,
+"('device', 'may', 'fail', 'work')",5,,
+"('may', 'fail', 'work', 'snapchat')",5,,
+"('fail', 'work', 'snapchat', 'even')",5,,
+"('work', 'snapchat', 'even', 'official')",5,,
+"('snapchat', 'even', 'official', 'application')",5,,
+"('may', 'want', 'contact', 'internet')",5,,
+"('want', 'contact', 'internet', 'service')",5,,
+"('in', 'hey', 'reason', 'account')",5,,
+"('select', 'yes', 'submit', 'ticket')",5,,
+"('trouble', 'hey', 'reason', 'account')",5,,
+"('check', 'this', 'link', 'reason')",5,,
+"('this', 'link', 'reason', 'account')",5,,
+"('link', 'reason', 'account', 'could')",5,,
+"('support', 'ticket', 'team', 'get')",5,,
+"('additional', 'support', 'twitter', 'still')",5,,
+"('support', 'twitter', 'still', 'having')",5,,
+"('this', 'link', 'snapchat', 'memory')",5,,
+"('really', 'need', 'fix', 'this')",5,,
+"('play', 'around', 'snapchat', 'filter')",5,,
+"('check', 'this', 'link', 'tried')",5,,
+"('twitter', 'bad', 'know', 'not')",5,,

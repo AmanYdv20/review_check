@@ -1,0 +1,12 @@
+quadgrams_tweets,frequency,quadgrams_reviews,frequency_reviews
+"('idea', 'going', 'fix', 'google')",2,"('newish', 'model', 'running', 'android')",6.0
+"('going', 'fix', 'google', 'application')",2,"('this', 'application', 'this', 'application')",6.0
+"('fix', 'google', 'application', 'discovery')",2,"('gole', 'assistant', 'doe', 'not')",5.0
+"('google', 'application', 'discovery', 'running')",2,"('please', 'fix', 'this', 'issue')",5.0
+"('application', 'discovery', 'running', 'error')",2,"('ok', 'gole', 'not', 'working')",5.0
+"('discovery', 'running', 'error', 'message')",2,"('this', 'gole', 'application', 'not')",5.0
+"('running', 'error', 'message', 'article')",2,"('not', 'working', 'not', 'working')",5.0
+"('error', 'message', 'article', 'day')",2,,
+"('message', 'article', 'day', 'google')",2,,
+"('article', 'day', 'google', 'pixel')",2,,
+"('day', 'google', 'pixel', 'xl')",2,,

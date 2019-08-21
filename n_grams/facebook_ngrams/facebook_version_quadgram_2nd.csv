@@ -1,0 +1,114 @@
+quadgrams_tweets,frequency,quadgrams_reviews,frequency_reviews
+"('fix', 'this', 'soon', 'possible')",21.0,"('not', 'even', 'log', 'in')",23
+"('please', 'fix', 'soon', 'possible')",18.0,"('this', 'application', 'this', 'application')",21
+"('fix', 'fix', 'fix', 'fix')",17.0,"('not', 'let', 'log', 'in')",18
+"('please', 'fix', 'this', 'problem')",16.0,"('please', 'fix', 'this', 'problem')",18
+"('resolve', 'issue', 'soon', 'possible')",15.0,"('please', 'fix', 'soon', 'possible')",17
+"('working', 'resolve', 'issue', 'soon')",12.0,"('fix', 'this', 'soon', 'possible')",16
+"('still', 'not', 'log', 'in')",11.0,"('please', 'fix', 'this', 'not')",16
+"('please', 'fix', 'this', 'soon')",10.0,"('doe', 'not', 'work', 'not')",13
+"('please', 'fix', 'this', 'issue')",9.0,"('please', 'fix', 'this', 'issue')",13
+"('this', 'issue', 'soon', 'possible')",9.0,"('please', 'fix', 'this', 'application')",12
+"('anyone', 'else', 'having', 'this')",9.0,"('application', 'doe', 'not', 'work')",12
+"('focused', 'working', 'resolve', 'issue')",9.0,"('please', 'fix', 'this', 'soon')",12
+"('issue', 'not', 'related', 'attack')",9.0,"('not', 'let', 'post', 'anything')",12
+"('gon', 'na', 'fix', 'this')",8.0,"('not', 'log', 'back', 'in')",12
+"('not', 'log', 'into', 'account')",8.0,"('not', 'log', 'in', 'account')",12
+"('not', 'log', 'in', 'facebok')",8.0,"('not', 'change', 'cover', 'photo')",12
+"('confirm', 'issue', 'not', 'related')",8.0,"('still', 'not', 'log', 'in')",11
+"('having', 'trouble', 'accessing', 'facebok')",8.0,"('marketplace', 'doe', 'not', 'work')",11
+"('not', 'even', 'log', 'in')",8.0,"('this', 'application', 'not', 'let')",10
+"('keep', 'getting', 'error', 'message')",8.0,"('click', 'click', 'click', 'click')",10
+"('ops', 'something', 'went', 'wrong')",7.0,"('faceon', 'please', 'fix', 'this')",9
+"('not', 'log', 'into', 'facebok')",7.0,"('not', 'log', 'in', 'faceon')",9
+"('log', 'in', 'facebok', 'account')",6.0,"('application', 'keep', 'getting', 'worse')",9
+"('else', 'having', 'this', 'problem')",6.0,"('market', 'place', 'not', 'working')",8
+"('else', 'having', 'this', 'issue')",6.0,"('not', 'post', 'anything', 'not')",8
+"('fix', 'this', 'issue', 'soon')",5.0,"('not', 'working', 'properly', 'not')",8
+"('please', 'resolve', 'this', 'issue')",5.0,"('application', 'not', 'working', 'properly')",8
+"('keep', 'getting', 'this', 'error')",5.0,"('doe', 'not', 'work', 'well')",8
+"('having', 'trouble', 'logging', 'in')",5.0,"('this', 'application', 'keep', 'getting')",8
+"('issue', 'soon', 'possible', 'confirm')",5.0,"('please', 'fix', 'this', 'faceon')",8
+"('soon', 'possible', 'confirm', 'issue')",5.0,"('photo', 'not', 'large', 'enough')",7
+"('possible', 'confirm', 'issue', 'not')",5.0,"('since', 'new', 'update', 'not')",7
+"('keep', 'getting', 'error', 'code')",5.0,"('this', 'application', 'doe', 'not')",7
+"('this', 'problem', 'soon', 'possible')",5.0,"('not', 'post', 'not', 'comment')",7
+,,"('keep', 'getting', 'error', 'message')",7
+,,"('post', 'please', 'fix', 'this')",7
+,,"('application', 'this', 'application', 'not')",7
+,,"('please', 'solve', 'this', 'problem')",7
+,,"('not', 'let', 'post', 'comment')",7
+,,"('doe', 'not', 'work', 'properly')",7
+,,"('need', 'fixed', 'soon', 'possible')",7
+,,"('please', 'fix', 'this', 'bug')",7
+,,"('cover', 'photo', 'profile', 'picture')",7
+,,"('long', 'long', 'long', 'long')",7
+,,"('not', 'able', 'log', 'in')",6
+,,"('not', 'want', 'this', 'application')",6
+,,"('post', 'comment', 'like', 'anything')",6
+,,"('not', 'like', 'comment', 'post')",6
+,,"('post', 'not', 'comment', 'not')",6
+,,"('notification', 'not', 'go', 'away')",6
+,,"('like', 'comment', 'share', 'post')",6
+,,"('this', 'application', 'not', 'working')",6
+,,"('not', 'post', 'anything', 'comment')",6
+,,"('not', 'comment', 'like', 'post')",6
+,,"('this', 'problem', 'soon', 'possible')",6
+,,"('update', 'doe', 'not', 'work')",6
+,,"('faceon', 'not', 'log', 'in')",6
+,,"('say', 'something', 'went', 'wrong')",6
+,,"('not', 'log', 'into', 'account')",6
+,,"('not', 'post', 'comment', 'react')",6
+,,"('this', 'application', 'get', 'worse')",6
+,,"('doe', 'not', 'work', 'right')",6
+,,"('seeing', 'thing', 'day', 'ago')",6
+,,"('photo', 'cover', 'photo', 'profile')",6
+,,"('video', 'unloaded', 'faceon', 'page')",6
+,,"('new', 'update', 'not', 'working')",6
+,,"('not', 'working', 'please', 'fix')",5
+,,"('not', 'see', 'comment', 'post')",5
+,,"('fix', 'this', 'application', 'not')",5
+,,"('faceon', 'not', 'let', 'post')",5
+,,"('since', 'last', 'update', 'not')",5
+,,"('update', 'not', 'see', 'photo')",5
+,,"('not', 'even', 'let', 'log')",5
+,,"('not', 'log', 'in', 'keep')",5
+,,"('fix', 'this', 'problem', 'soon')",5
+,,"('log', 'back', 'in', 'faceon')",5
+,,"('get', 'back', 'into', 'account')",5
+,,"('not', 'let', 'log', 'back')",5
+,,"('let', 'log', 'back', 'in')",5
+,,"('able', 'log', 'back', 'in')",5
+,,"('this', 'application', 'not', 'work')",5
+,,"('new', 'update', 'not', 'let')",5
+,,"('problem', 'since', 'last', 'update')",5
+,,"('faceon', 'not', 'working', 'properly')",5
+,,"('new', 'update', 'suck', 'not')",5
+,,"('post', 'like', 'comment', 'anything')",5
+,,"('not', 'add', 'photo', 'album')",5
+,,"('post', 'comment', 'react', 'anything')",5
+,,"('not', 'get', 'back', 'in')",5
+,,"('doe', 'not', 'show', 'recent')",5
+,,"('not', 'even', 'log', 'back')",5
+,,"('get', 'worse', 'every', 'update')",5
+,,"('market', 'place', 'not', 'load')",5
+,,"('not', 'let', 'sign', 'in')",5
+,,"('in', 'faceon', 'application', 'not')",5
+,,"('doe', 'not', 'work', 'in')",5
+,,"('not', 'instal', 'this', 'application')",5
+,,"('application', 'please', 'fix', 'this')",5
+,,"('doe', 'not', 'make', 'sense')",5
+,,"('not', 'unload', 'photo', 'video')",5
+,,"('someone', 'doe', 'buy', 'seller')",5
+,,"('photo', 'profile', 'picture', 'fix')",5
+,,"('profile', 'picture', 'fix', 'photo')",5
+,,"('picture', 'fix', 'photo', 'cover')",5
+,,"('fix', 'photo', 'cover', 'photo')",5
+,,"('doe', 'not', 'work', 'anymore')",5
+,,"('guy', 'owns', 'faceon', 'ever')",5
+,,"('owns', 'faceon', 'ever', 'get')",5
+,,"('faceon', 'ever', 'get', 'hand')",5
+,,"('ever', 'get', 'hand', 'mark')",5
+,,"('get', 'hand', 'mark', 'zuckerberg')",5
+,,"('not', 'delete', 'this', 'application')",5
+,,"('photo', 'tab', 'in', 'group')",5

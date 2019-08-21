@@ -1,0 +1,19 @@
+For topic modelling we used Latent Dirichlet Allocation (LDA) from Gensim package along with the Mallet’s implementation (via Gensim). Mallet has an efficient implementation of the LDA. It is known to run faster and gives better topics segregation. And for the coherence score as well there is a big difference between those two. LDA from gensim gives us the corefernce score of 0.3021 which has a huge difference in comparison to LDA implementatin by mallet which gives the coherence score of 0.3852.
+
+For all the tweets we applied topic modelling for 2800 tweets and we got the coherence score of 0.3852. So after getting the results of topic modelling we tried it for the classifier. We ran it on SVM after proper parameter tuning using grid search.
+So we tried the SVM for diffferent features likes=----------
+1. TF-IDF (Accuracy- 84.4)
+2. Topic modelling results
+3. TF-IDF + topic modelling feature (Accuracy 84.0)
+4. TF-IDF + sentimental score(Note:- Here for sentimental score we used wordblob). 
+5. TFIDF + Topic modelling + Sentimental score of each tweet. (Near about 70%)
+
+So as according with the accuracy results we applied active learning on the remaining tweets with TF-IDF as a feature.
+After first iteration of 100 tweets for active learning we got a accuracy of 84.9 and which kept on decreasing. So we include 100 tweets to the data and classify the unlabelled tweets with the SVM model. 
+
+
+
+
+**********************************************************************************************************************************************************************************************************************************************************************************
+
+for the google reviews I got the best score at num_topics=20 with a coherence score of 0.5846225. So we assign topics to 1500 tweets and after that we got a matrix of 1500*20. 

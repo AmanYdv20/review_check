@@ -1,0 +1,93 @@
+trigrams_tweets,frequency,trigrams_reviews,frequency_reviews
+"('thank', 'reporting', 'problem')",19.0,"('not', 'working', 'properly')",53
+"('team', 'aware', 'issue')",19.0,"('doe', 'not', 'work')",40
+"('aware', 'issue', 'working')",19.0,"('map', 'not', 'working')",29
+"('reporting', 'problem', 'team')",18.0,"('this', 'application', 'not')",28
+"('problem', 'team', 'aware')",18.0,"('map', 'not', 'responding')",24
+"('issue', 'working', 'stay')",18.0,"('use', 'this', 'application')",23
+"('working', 'stay', 'tuned')",18.0,"('gole', 'map', 'not')",23
+"('stay', 'tuned', 'hi')",5.0,"('please', 'fix', 'this')",22
+"('google', 'map', 'application')",4.0,"('since', 'last', 'update')",21
+"('in', 'google', 'map')",4.0,"('application', 'not', 'working')",20
+"('google', 'map', 'let')",4.0,"('doe', 'not', 'show')",16
+"('map', 'let', 'know')",4.0,"('red', 'note', 'professional')",16
+"('hi', 'thank', 'reporting')",3.0,"('not', 'working', 'in')",16
+"('this', 'frustrating', 'not')",3.0,"('mi', 'note', 'professional')",15
+"('confirm', 'tried', 'step')",3.0,"('application', 'doe', 'not')",12
+"('tried', 'step', 'in')",3.0,"('map', 'doe', 'not')",12
+"('step', 'in', 'this')",3.0,"('navigation', 'not', 'working')",12
+"('in', 'this', 'guide')",3.0,"('using', 'this', 'application')",11
+"('doe', 'not', 'exist')",3.0,"('using', 'gole', 'map')",10
+,,"('last', 'update', 'not')",10
+,,"('this', 'latest', 'update')",9
+,,"('gps', 'signal', 'lost')",9
+,,"('update', 'gole', 'map')",9
+,,"('did', 'not', 'work')",9
+,,"('please', 'fix', 'issue')",8
+,,"('not', 'work', 'anymore')",8
+,,"('doe', 'not', 'update')",8
+,,"('update', 'this', 'application')",8
+,,"('fix', 'soon', 'possible')",8
+,,"('not', 'able', 'use')",8
+,,"('map', 'not', 'work')",8
+,,"('worst', 'application', 'ever')",8
+,,"('this', 'gole', 'map')",8
+,,"('not', 'add', 'stop')",8
+,,"('like', 'this', 'application')",7
+,,"('fix', 'this', 'issue')",7
+,,"('since', 'latest', 'update')",7
+,,"('not', 'use', 'this')",7
+,,"('use', 'gole', 'map')",7
+,,"('doe', 'not', 'even')",7
+,,"('doe', 'not', 'give')",7
+,,"('doe', 'not', 'allow')",7
+,,"('not', 'work', 'properly')",7
+,,"('add', 'multiple', 'stop')",7
+,,"('working', 'in', 'mi')",7
+,,"('hate', 'this', 'application')",7
+,,"('not', 'working', 'since')",7
+,,"('latest', 'update', 'not')",6
+,,"('update', 'not', 'working')",6
+,,"('this', 'new', 'update')",6
+,,"('new', 'update', 'not')",6
+,,"('open', 'this', 'application')",6
+,,"('this', 'application', 'show')",6
+,,"('this', 'application', 'doe')",6
+,,"('this', 'application', 'this')",6
+,,"('application', 'this', 'application')",6
+,,"('application', 'keep', 'crashing')",6
+,,"('this', 'application', 'need')",6
+,,"('in', 'mi', 'note')",6
+,,"('update', 'map', 'not')",6
+,,"('in', 'red', 'note')",6
+,,"('working', 'properly', 'not')",6
+,,"('location', 'this', 'application')",6
+,,"('gps', 'not', 'working')",6
+,,"('fix', 'this', 'soon')",5
+,,"('application', 'ever', 'since')",5
+,,"('because', 'gole', 'map')",5
+,,"('gole', 'map', 'work')",5
+,,"('not', 'working', 'please')",5
+,,"('this', 'application', 'year')",5
+,,"('please', 'fix', 'soon')",5
+,,"('constantly', 'searching', 'gps')",5
+,,"('application', 'not', 'work')",5
+,,"('love', 'this', 'application')",5
+,,"('solve', 'this', 'issue')",5
+,,"('updated', 'this', 'application')",5
+,,"('like', 'gole', 'map')",5
+,,"('not', 'let', 'add')",5
+,,"('application', 'every', 'time')",5
+,,"('this', 'application', 'take')",5
+,,"('not', 'working', 'not')",5
+,,"('working', 'in', 'phone')",5
+,,"('not', 'work', 'in')",5
+,,"('not', 'responding', 'please')",5
+,,"('application', 'not', 'responding')",5
+,,"('add', 'stop', 'route')",5
+,,"('update', 'doe', 'not')",5
+,,"('not', 'showing', 'route')",5
+,,"('in', 'this', 'application')",5
+,,"('not', 'this', 'application')",5
+,,"('not', 'get', 'direction')",5
+,,"('picture', 'in', 'picture')",5

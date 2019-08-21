@@ -1,0 +1,48 @@
+quadgrams_tweets,frequency,quadgrams_reviews,frequency_reviews
+"('hundred', 'personal', 'post', 'facebok')",6,"('every', 'time', 'open', 'application')",14
+"('personal', 'post', 'facebok', 'page')",6,"('please', 'fix', 'soon', 'possible')",12
+"('post', 'facebok', 'page', 'group')",6,"('this', 'application', 'doe', 'not')",12
+"('facebok', 'page', 'group', 'jai')",6,"('fix', 'this', 'soon', 'possible')",10
+"('page', 'group', 'jai', 'shri')",6,"('get', 'worse', 'every', 'update')",10
+"('group', 'jai', 'shri', 'baba')",6,"('not', 'even', 'log', 'in')",9
+"('jai', 'shri', 'baba', 'gangaram')",6,"('news', 'feed', 'doe', 'not')",9
+"('shri', 'baba', 'gangaram', 'got')",6,"('update', 'application', 'keep', 'crashing')",9
+"('baba', 'gangaram', 'got', 'deleted')",6,"('application', 'doe', 'not', 'work')",8
+"('gangaram', 'got', 'deleted', 'since')",6,"('this', 'application', 'get', 'worse')",8
+"('got', 'deleted', 'since', 'faced')",6,"('application', 'keep', 'crashing', 'not')",8
+"('deleted', 'since', 'faced', 'configuration')",6,"('doe', 'not', 'work', 'properly')",7
+"('since', 'faced', 'configuration', 'issue')",6,"('since', 'last', 'update', 'not')",7
+"('faced', 'configuration', 'issue', 'please')",6,"('update', 'doe', 'not', 'work')",7
+"('configuration', 'issue', 'please', 'check')",6,"('application', 'not', 'working', 'properly')",7
+"('issue', 'please', 'check', 'restore')",6,"('crash', 'every', 'time', 'open')",7
+"('please', 'check', 'restore', 'this')",6,"('please', 'fix', 'this', 'not')",6
+"('check', 'restore', 'this', 'regular')",6,"('please', 'fix', 'this', 'soon')",6
+"('restore', 'this', 'regular', 'normal')",6,"('keep', 'saying', 'not', 'connect')",6
+"('this', 'regular', 'normal', 'post')",6,"('not', 'load', 'news', 'feed')",6
+"('took', 'in', 'advertising', 'disabled')",6,"('doe', 'not', 'work', 'not')",6
+"('in', 'advertising', 'disabled', 'account')",6,"('application', 'please', 'fix', 'this')",6
+"('advertising', 'disabled', 'account', 'due')",6,"('new', 'update', 'new', 'update')",6
+"('disabled', 'account', 'due', 'mistaken')",6,"('always', 'say', 'not', 'connect')",6
+"('account', 'due', 'mistaken', 'intellectual')",6,"('please', 'fix', 'this', 'issue')",6
+"('due', 'mistaken', 'intellectual', 'right')",6,"('please', 'fix', 'this', 'problem')",6
+"('mistaken', 'intellectual', 'right', 'report')",6,"('faceon', 'application', 'keep', 'crashing')",6
+"('intellectual', 'right', 'report', 'company')",6,"('nothing', 'wrong', 'internet', 'connection')",6
+"('right', 'report', 'company', 'even')",6,"('application', 'get', 'worse', 'every')",5
+"('report', 'company', 'even', 'told')",6,"('not', 'let', 'log', 'in')",5
+"('company', 'even', 'told', 'mistake')",6,"('feed', 'doe', 'not', 'work')",5
+"('even', 'told', 'mistake', 'notice')",6,"('every', 'time', 'open', 'faceon')",5
+"('told', 'mistake', 'notice', 'havent')",6,"('new', 'update', 'doe', 'not')",5
+"('mistake', 'notice', 'havent', 'restored')",6,"('this', 'application', 'suck', 'this')",5
+"('notice', 'havent', 'restored', 'account')",6,"('not', 'log', 'in', 'faceon')",5
+"('havent', 'restored', 'account', 'ignore')",6,"('doe', 'not', 'work', 'well')",5
+"('restored', 'account', 'ignore', 'contact')",6,"('application', 'doe', 'not', 'load')",5
+"('account', 'ignore', 'contact', 'whats')",6,"('mess', 'sumat', 'work', 'fine')",5
+"('ignore', 'contact', 'whats', 'problem')",6,"('application', 'keep', 'getting', 'worse')",5
+"('please', 'fix', 'soon', 'possible')",5,"('last', 'update', 'please', 'fix')",5
+"('anyone', 'else', 'having', 'this')",5,"('application', 'crash', 'every', 'time')",5
+"('else', 'having', 'this', 'problem')",5,,
+"('please', 'check', 'help', 'hundred')",5,,
+"('check', 'help', 'hundred', 'personal')",5,,
+"('help', 'hundred', 'personal', 'post')",5,,
+"('face', 'brokeface', 'brokeface', 'brokeface')",5,,
+"('brokeface', 'brokeface', 'brokeface', 'broke')",5,,

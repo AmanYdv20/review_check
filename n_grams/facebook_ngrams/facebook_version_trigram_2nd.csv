@@ -1,0 +1,769 @@
+trigrams_tweets,frequency,trigrams_reviews,frequency_reviews
+"('please', 'fix', 'this')",71.0,"('please', 'fix', 'this')",155
+"('not', 'log', 'in')",60.0,"('doe', 'not', 'work')",105
+"('fix', 'this', 'problem')",32.0,"('not', 'log', 'in')",92
+"('fix', 'soon', 'possible')",32.0,"('this', 'application', 'not')",75
+"('fix', 'this', 'shit')",29.0,"('since', 'last', 'update')",49
+"('please', 'fix', 'soon')",28.0,"('new', 'update', 'not')",44
+"('issue', 'soon', 'possible')",27.0,"('log', 'back', 'in')",44
+"('fix', 'this', 'soon')",27.0,"('not', 'working', 'properly')",43
+"('fix', 'this', 'issue')",26.0,"('not', 'post', 'anything')",42
+"('not', 'log', 'into')",26.0,"('not', 'unload', 'photo')",39
+"('not', 'post', 'anything')",24.0,"('application', 'doe', 'not')",38
+"('gon', 'na', 'fix')",23.0,"('this', 'new', 'update')",38
+"('this', 'soon', 'possible')",23.0,"('not', 'post', 'comment')",37
+"('keep', 'getting', 'error')",21.0,"('not', 'let', 'post')",36
+"('resolve', 'this', 'issue')",20.0,"('not', 'even', 'log')",36
+"('still', 'not', 'log')",19.0,"('fix', 'this', 'problem')",33
+"('fix', 'fix', 'fix')",19.0,"('this', 'application', 'this')",32
+"('log', 'into', 'account')",17.0,"('faceon', 'not', 'working')",31
+"('need', 'fix', 'this')",17.0,"('application', 'not', 'let')",30
+"('soon', 'possible', 'not')",17.0,"('application', 'not', 'working')",30
+"('please', 'fix', 'facebok')",16.0,"('update', 'this', 'application')",29
+"('please', 'fix', 'issue')",16.0,"('application', 'this', 'application')",28
+"('anyone', 'else', 'having')",16.0,"('faceon', 'application', 'not')",27
+"('still', 'not', 'working')",16.0,"('application', 'keep', 'crashing')",27
+"('still', 'not', 'post')",16.0,"('doe', 'not', 'show')",27
+"('keep', 'saying', 'error')",15.0,"('not', 'let', 'log')",26
+"('log', 'in', 'facebok')",15.0,"('fix', 'this', 'issue')",25
+"('resolve', 'issue', 'soon')",15.0,"('fix', 'soon', 'possible')",25
+"('something', 'went', 'wrong')",15.0,"('update', 'doe', 'not')",25
+"('working', 'resolve', 'issue')",15.0,"('market', 'place', 'not')",25
+"('log', 'into', 'facebok')",14.0,"('in', 'this', 'application')",24
+"('not', 'related', 'attack')",14.0,"('not', 'comment', 'post')",23
+"('not', 'get', 'into')",13.0,"('fix', 'this', 'application')",23
+"('getting', 'this', 'error')",13.0,"('update', 'not', 'post')",23
+"('fix', 'this', 'please')",13.0,"('please', 'fix', 'faceon')",23
+"('getting', 'error', 'message')",13.0,"('even', 'log', 'in')",23
+"('having', 'this', 'issue')",12.0,"('news', 'feed', 'not')",23
+"('else', 'having', 'this')",12.0,"('not', 'get', 'into')",23
+"('having', 'trouble', 'accessing')",12.0,"('please', 'fix', 'soon')",22
+"('not', 'post', 'comment')",12.0,"('let', 'log', 'in')",22
+"('log', 'back', 'in')",12.0,"('this', 'application', 'suck')",21
+"('doe', 'not', 'work')",11.0,"('something', 'went', 'wrong')",21
+"('in', 'facebok', 'account')",11.0,"('not', 'work', 'not')",21
+"('issue', 'please', 'fix')",11.0,"('log', 'in', 'account')",21
+"('solve', 'this', 'problem')",11.0,"('back', 'in', 'hour')",21
+"('still', 'not', 'get')",11.0,"('fix', 'this', 'not')",21
+"('not', 'fix', 'problem')",11.0,"('in', 'faceon', 'application')",21
+"('fix', 'yo', 'shit')",11.0,"('change', 'cover', 'photo')",21
+"('having', 'this', 'problem')",11.0,"('last', 'update', 'not')",20
+"('please', 'fix', 'problem')",11.0,"('this', 'application', 'keep')",20
+"('get', 'shit', 'together')",11.0,"('new', 'update', 'suck')",20
+"('getting', 'error', 'code')",11.0,"('worst', 'application', 'ever')",20
+"('hurry', 'fix', 'this')",11.0,"('log', 'in', 'faceon')",19
+"('not', 'even', 'log')",11.0,"('faceon', 'not', 'let')",19
+"('having', 'trouble', 'logging')",10.0,"('not', 'let', 'comment')",19
+"('this', 'issue', 'soon')",10.0,"('fix', 'this', 'soon')",19
+"('please', 'resolve', 'this')",10.0,"('this', 'soon', 'possible')",19
+"('facebok', 'fix', 'this')",10.0,"('this', 'last', 'update')",19
+"('still', 'having', 'trouble')",10.0,"('doe', 'not', 'load')",19
+"('hope', 'fix', 'soon')",10.0,"('since', 'update', 'not')",19
+"('not', 'comment', 'post')",10.0,"('use', 'this', 'application')",19
+"('facebok', 'please', 'fix')",10.0,"('since', 'new', 'update')",18
+"('even', 'log', 'in')",10.0,"('application', 'not', 'open')",18
+"('not', 'send', 'photo')",10.0,"('every', 'time', 'try')",18
+"('still', 'not', 'login')",9.0,"('not', 'working', 'not')",18
+"('facebok', 'account', 'not')",9.0,"('not', 'see', 'comment')",17
+"('yal', 'need', 'fix')",9.0,"('log', 'into', 'account')",17
+"('fix', 'this', 'not')",9.0,"('update', 'not', 'let')",17
+"('unable', 'log', 'in')",9.0,"('in', 'news', 'feed')",17
+"('fix', 'please', 'fix')",9.0,"('faceon', 'doe', 'not')",17
+"('problem', 'soon', 'possible')",9.0,"('not', 'change', 'cover')",17
+"('fix', 'issue', 'not')",9.0,"('not', 'open', 'faceon')",17
+"('not', 'able', 'post')",9.0,"('doe', 'not', 'let')",17
+"('hour', 'still', 'not')",9.0,"('please', 'fix', 'application')",16
+"('this', 'issue', 'fixed')",9.0,"('not', 'let', 'like')",16
+"('focused', 'working', 'resolve')",9.0,"('update', 'faceon', 'application')",16
+"('issue', 'not', 'related')",9.0,"('not', 'even', 'post')",16
+"('not', 'fix', 'this')",9.0,"('post', 'anything', 'not')",16
+"('not', 'post', 'not')",9.0,"('not', 'large', 'enough')",15
+"('this', 'error', 'message')",8.0,"('this', 'application', 'still')",15
+"('keep', 'getting', 'this')",8.0,"('not', 'able', 'post')",15
+"('not', 'access', 'account')",8.0,"('faceon', 'please', 'fix')",15
+"('na', 'fix', 'this')",8.0,"('not', 'comment', 'like')",15
+"('please', 'look', 'into')",8.0,"('not', 'unload', 'picture')",15
+"('still', 'having', 'issue')",8.0,"('not', 'get', 'back')",15
+"('not', 'access', 'facebok')",8.0,"('keep', 'getting', 'worse')",15
+"('not', 'login', 'facebok')",8.0,"('faceon', 'not', 'responding')",15
+"('not', 'log', 'back')",8.0,"('not', 'log', 'into')",15
+"('not', 'even', 'login')",8.0,"('photo', 'in', 'group')",15
+"('please', 'please', 'fix')",8.0,"('instal', 'this', 'application')",14
+"('confirm', 'issue', 'not')",8.0,"('please', 'fix', 'not')",14
+"('trouble', 'accessing', 'facebok')",8.0,"('hate', 'this', 'application')",14
+"('soon', 'possible', 'please')",8.0,"('log', 'in', 'not')",14
+"('this', 'problem', 'please')",7.0,"('this', 'faceon', 'application')",14
+"('please', 'not', 'fix')",7.0,"('not', 'even', 'get')",14
+"('still', 'not', 'access')",7.0,"('marketplace', 'doe', 'not')",14
+"('not', 'able', 'access')",7.0,"('not', 'able', 'log')",13
+"('guy', 'please', 'fix')",7.0,"('post', 'comment', 'like')",13
+"('able', 'log', 'in')",7.0,"('not', 'log', 'back')",13
+"('log', 'in', 'not')",7.0,"('not', 'work', 'properly')",13
+"('ops', 'something', 'went')",7.0,"('latest', 'update', 'not')",13
+"('log', 'in', 'account')",7.0,"('not', 'like', 'post')",13
+"('code', 'please', 'fix')",7.0,"('application', 'not', 'even')",13
+"('still', 'having', 'problem')",7.0,"('let', 'post', 'anything')",13
+"('going', 'fix', 'this')",7.0,"('update', 'application', 'not')",13
+"('this', 'issue', 'resolved')",7.0,"('doe', 'not', 'allow')",13
+"('hour', 'later', 'still')",7.0,"('delete', 'this', 'application')",13
+"('doe', 'take', 'fix')",7.0,"('problem', 'this', 'application')",13
+"('problem', 'please', 'fix')",7.0,"('still', 'not', 'log')",13
+"('error', 'code', 'not')",7.0,"('every', 'time', 'open')",13
+"('not', 'upload', 'photo')",7.0,"('worst', 'update', 'ever')",13
+"('issue', 'not', 'able')",7.0,"('application', 'please', 'fix')",13
+"('not', 'post', 'facebok')",6.0,"('trying', 'log', 'in')",12
+"('please', 'fix', 'account')",6.0,"('using', 'this', 'application')",12
+"('resolve', 'this', 'problem')",6.0,"('post', 'please', 'fix')",12
+"('this', 'issue', 'facebok')",6.0,"('update', 'not', 'see')",12
+"('please', 'help', 'not')",6.0,"('this', 'application', 'doe')",12
+"('fix', 'problem', 'facebok')",6.0,"('not', 'use', 'faceon')",12
+"('able', 'get', 'back')",6.0,"('like', 'comment', 'post')",12
+"('this', 'issue', 'not')",6.0,"('not', 'comment', 'not')",12
+"('get', 'back', 'in')",6.0,"('keep', 'getting', 'error')",12
+"('this', 'issue', 'please')",6.0,"('comment', 'post', 'not')",12
+"('issue', 'logging', 'in')",6.0,"('this', 'application', 'get')",12
+"('fix', 'log', 'in')",6.0,"('please', 'fix', 'problem')",12
+"('soon', 'possible', 'fix')",6.0,"('tried', 'uninstaling', 'installing')",12
+"('not', 'get', 'in')",6.0,"('faceon', 'new', 'update')",12
+"('fix', 'still', 'not')",6.0,"('not', 'able', 'get')",12
+"('social', 'medium', 'platform')",6.0,"('every', 'single', 'time')",12
+"('trouble', 'logging', 'in')",6.0,"('fix', 'this', 'faceon')",12
+"('fix', 'problem', 'not')",6.0,"('doe', 'this', 'application')",12
+"('not', 'letting', 'post')",6.0,"('not', 'update', 'faceon')",12
+"('not', 'let', 'log')",6.0,"('post', 'in', 'group')",12
+"('not', 'able', 'use')",6.0,"('click', 'click', 'click')",12
+"('get', 'error', 'message')",6.0,"('not', 'go', 'away')",11
+"('please', 'hurry', 'fix')",6.0,"('comment', 'like', 'anything')",11
+"('post', 'not', 'comment')",6.0,"('update', 'not', 'able')",11
+"('facebok', 'family', 'aps')",6.0,"('please', 'fix', 'bug')",11
+"('unknown', 'network', 'error')",6.0,"('get', 'this', 'application')",11
+"('fix', 'this', 'hour')",6.0,"('not', 'like', 'comment')",11
+"('people', 'having', 'trouble')",6.0,"('not', 'post', 'not')",11
+"('get', 'act', 'together')",6.0,"('not', 'even', 'let')",11
+"('long', 'doe', 'take')",6.0,"('post', 'not', 'even')",11
+"('whats', 'going', 'not')",6.0,"('not', 'see', 'anything')",11
+"('trouble', 'logging', 'into')",5.0,"('not', 'know', 'happened')",11
+"('get', 'account', 'back')",5.0,"('sign', 'back', 'in')",11
+"('fix', 'this', 'right')",5.0,"('post', 'day', 'ago')",11
+"('not', 'working', 'properly')",5.0,"('comment', 'like', 'post')",11
+"('log', 'in', 'instagram')",5.0,"('update', 'suck', 'not')",11
+"('solve', 'this', 'issue')",5.0,"('application', 'keep', 'getting')",11
+"('get', 'into', 'account')",5.0,"('please', 'solve', 'this')",11
+"('into', 'facebok', 'account')",5.0,"('market', 'place', 'keep')",11
+"('not', 'even', 'get')",5.0,"('not', 'load', 'comment')",11
+"('banning', 'people', 'reason')",5.0,"('get', 'back', 'in')",11
+"('fix', 'shit', 'please')",5.0,"('please', 'fix', 'issue')",11
+"('facebok', 'not', 'even')",5.0,"('not', 'add', 'photo')",11
+"('facebok', 'account', 'please')",5.0,"('keep', 'seeing', 'post')",11
+"('facing', 'this', 'problem')",5.0,"('hate', 'new', 'update')",11
+"('please', 'solve', 'this')",5.0,"('this', 'stupid', 'application')",11
+"('having', 'problem', 'facebok')",5.0,"('recent', 'update', 'not')",11
+"('problem', 'facebok', 'not')",5.0,"('instal', 'deinstal', 'application')",11
+"('log', 'back', 'into')",5.0,"('this', 'application', 'phone')",11
+"('instagram', 'please', 'fix')",5.0,"('not', 'use', 'application')",11
+"('logging', 'in', 'facebok')",5.0,"('this', 'new', 'version')",11
+"('this', 'issue', 'this')",5.0,"('still', 'not', 'working')",10
+"('solve', 'problem', 'not')",5.0,"('not', 'working', 'please')",10
+"('post', 'anything', 'facebok')",5.0,"('not', 'post', 'status')",10
+"('guy', 'gon', 'na')",5.0,"('social', 'medium', 'application')",10
+"('fix', 'yal', 'shit')",5.0,"('tried', 'log', 'in')",10
+"('not', 'get', 'logged')",5.0,"('this', 'latest', 'update')",10
+"('logged', 'into', 'facebok')",5.0,"('not', 'see', 'photo')",10
+"('soon', 'possible', 'thank')",5.0,"('in', 'faceon', 'jail')",10
+"('not', 'let', 'post')",5.0,"('post', 'not', 'comment')",10
+"('still', 'doe', 'not')",5.0,"('faceon', 'application', 'keep')",10
+"('day', 'not', 'post')",5.0,"('like', 'comment', 'share')",10
+"('in', 'anyone', 'else')",5.0,"('comment', 'share', 'post')",10
+"('fix', 'shit', 'not')",5.0,"('would', 'not', 'let')",10
+"('fix', 'problem', 'please')",5.0,"('in', 'chronological', 'order')",10
+"('still', 'problem', 'not')",5.0,"('working', 'properly', 'not')",10
+"('this', 'problem', 'not')",5.0,"('not', 'able', 'open')",10
+"('soon', 'possible', 'still')",5.0,"('faceon', 'not', 'even')",10
+"('problem', 'not', 'get')",5.0,"('problem', 'soon', 'possible')",10
+"('this', 'issue', 'going')",5.0,"('try', 'log', 'in')",10
+"('problem', 'not', 'able')",5.0,"('get', 'into', 'account')",10
+"('soon', 'possible', 'confirm')",5.0,"('this', 'application', 'please')",10
+"('possible', 'confirm', 'issue')",5.0,"('fix', 'this', 'please')",10
+"('hurry', 'fix', 'issue')",5.0,"('keep', 'saying', 'maintenance')",10
+"('shit', 'please', 'fix')",5.0,"('not', 'post', 'like')",10
+"('fix', 'issue', 'soon')",5.0,"('while', 'watching', 'video')",10
+"('log', 'in', 'fix')",5.0,"('faceon', 'stopped', 'working')",10
+"('facebok', 'instagram', 'not')",5.0,"('time', 'this', 'application')",10
+"('fix', 'this', 'crap')",5.0,"('open', 'faceon', 'application')",10
+"('having', 'trouble', 'facebok')",5.0,"('this', 'update', 'not')",10
+"('facebok', 'instagram', 'whatsap')",5.0,"('update', 'please', 'fix')",10
+"('having', 'trouble', 'posting')",5.0,"('not', 'letting', 'post')",10
+"('facebok', 'not', 'working')",5.0,"('fixed', 'soon', 'possible')",10
+"('take', 'fix', 'this')",5.0,"('got', 'new', 'phone')",10
+"('going', 'fix', 'problem')",5.0,"('doe', 'not', 'even')",10
+"('not', 'sign', 'in')",5.0,"('still', 'doe', 'not')",10
+"('sign', 'in', 'facebok')",5.0,"('cover', 'photo', 'profile')",10
+"('this', 'problem', 'fix')",5.0,"('click', 'notification', 'notification')",10
+"('take', 'this', 'long')",5.0,"('faceon', 'market', 'place')",10
+"('this', 'problem', 'soon')",5.0,"('turn', 'location', 'service')",10
+"('fix', 'facebok', 'instagram')",5.0,"('able', 'log', 'in')",9
+"('working', 'fix', 'this')",5.0,"('not', 'unload', 'pic')",9
+"('better', 'fix', 'this')",5.0,"('want', 'this', 'application')",9
+"('problem', 'resolved', 'soon')",5.0,"('update', 'faceon', 'not')",9
+"('please', 'fix', 'fast')",5.0,"('wrong', 'this', 'application')",9
+"('saying', 'error', 'code')",5.0,"('getting', 'error', 'message')",9
+"('not', 'comment', 'anything')",5.0,"('not', 'like', 'not')",9
+,,"('not', 'anything', 'faceon')",9
+,,"('notification', 'not', 'go')",9
+,,"('worse', 'every', 'update')",9
+,,"('in', 'faceon', 'not')",9
+,,"('in', 'market', 'place')",9
+,,"('bad', 'application', 'not')",9
+,,"('page', 'not', 'load')",9
+,,"('not', 'see', 'picture')",9
+,,"('back', 'in', 'faceon')",9
+,,"('this', 'morning', 'not')",9
+,,"('since', 'latest', 'update')",9
+,,"('not', 'even', 'use')",9
+,,"('comment', 'please', 'fix')",9
+,,"('application', 'not', 'work')",9
+,,"('like', 'share', 'post')",9
+,,"('let', 'post', 'comment')",9
+,,"('every', 'time', 'update')",9
+,,"('faceon', 'application', 'faceon')",9
+,,"('thing', 'day', 'ago')",9
+,,"('post', 'like', 'comment')",9
+,,"('faceon', 'application', 'update')",9
+,,"('this', 'application', 'always')",9
+,,"('log', 'in', 'code')",9
+,,"('fix', 'new', 'update')",9
+,,"('not', 'sign', 'in')",9
+,,"('this', 'application', 'need')",9
+,,"('not', 'like', 'this')",9
+,,"('because', 'this', 'application')",9
+,,"('keep', 'crashing', 'not')",9
+,,"('marketplace', 'not', 'working')",9
+,,"('feed', 'doe', 'not')",9
+,,"('keep', 'showing', 'notification')",9
+,,"('take', 'much', 'space')",9
+,,"('faceon', 'account', 'not')",9
+,,"('not', 'open', 'not')",9
+,,"('not', 'get', 'rid')",8
+,,"('not', 'working', 'well')",8
+,,"('in', 'faceon', 'account')",8
+,,"('not', 'comment', 'anything')",8
+,,"('this', 'please', 'fix')",8
+,,"('not', 'login', 'account')",8
+,,"('post', 'comment', 'anything')",8
+,,"('already', 'seen', 'notification')",8
+,,"('log', 'in', 'say')",8
+,,"('not', 'open', 'account')",8
+,,"('this', 'need', 'fixed')",8
+,,"('day', 'ago', 'not')",8
+,,"('place', 'not', 'working')",8
+,,"('not', 'let', 'login')",8
+,,"('application', 'not', 'post')",8
+,,"('having', 'issue', 'faceon')",8
+,,"('back', 'into', 'account')",8
+,,"('not', 'work', 'well')",8
+,,"('faceon', 'required', 'maintenance')",8
+,,"('not', 'able', 'login')",8
+,,"('solve', 'this', 'problem')",8
+,,"('getting', 'worse', 'worse')",8
+,,"('faceon', 'please', 'help')",8
+,,"('not', 'share', 'post')",8
+,,"('since', 'recent', 'update')",8
+,,"('auto', 'update', 'turned')",8
+,,"('unfortunately', 'faceon', 'stopped')",8
+,,"('not', 'like', 'anything')",8
+,,"('updated', 'this', 'application')",8
+,,"('please', 'fix', 'notification')",8
+,,"('like', 'comment', 'anything')",8
+,,"('faceon', 'not', 'letting')",8
+,,"('not', 'let', 'in')",8
+,,"('update', 'keep', 'crashing')",8
+,,"('say', 'not', 'connect')",8
+,,"('still', 'not', 'get')",8
+,,"('application', 'suck', 'not')",8
+,,"('doe', 'not', 'open')",8
+,,"('since', 'this', 'morning')",8
+,,"('add', 'photo', 'album')",8
+,,"('faceon', 'keep', 'saying')",8
+,,"('not', 'unload', 'anything')",8
+,,"('update', 'new', 'update')",8
+,,"('faceon', 'not', 'able')",8
+,,"('this', 'application', 'work')",8
+,,"('fix', 'this', 'bug')",8
+,,"('matter', 'many', 'time')",8
+,,"('love', 'this', 'application')",8
+,,"('going', 'faceon', 'not')",8
+,,"('this', 'application', 'crash')",8
+,,"('not', 'let', 'sign')",8
+,,"('application', 'not', 'see')",8
+,,"('not', 'work', 'in')",8
+,,"('not', 'let', 'instal')",8
+,,"('doe', 'not', 'update')",8
+,,"('open', 'this', 'application')",8
+,,"('faceon', 'this', 'application')",8
+,,"('not', 'play', 'video')",8
+,,"('this', 'application', 'because')",8
+,,"('faceon', 'keep', 'stopping')",8
+,,"('install', 'this', 'application')",8
+,,"('photo', 'cover', 'photo')",8
+,,"('long', 'long', 'long')",8
+,,"('photo', 'not', 'large')",7
+,,"('not', 'let', 'anything')",7
+,,"('like', 'post', 'not')",7
+,,"('please', 'help', 'fix')",7
+,,"('log', 'into', 'faceon')",7
+,,"('not', 'reply', 'comment')",7
+,,"('this', 'application', 'never')",7
+,,"('not', 'want', 'this')",7
+,,"('new', 'update', 'faceon')",7
+,,"('see', 'comment', 'post')",7
+,,"('not', 'unload', 'video')",7
+,,"('not', 'share', 'anything')",7
+,,"('faceon', 'page', 'not')",7
+,,"('not', 'let', 'share')",7
+,,"('like', 'post', 'comment')",7
+,,"('working', 'last', 'update')",7
+,,"('log', 'in', 'this')",7
+,,"('not', 'anything', 'not')",7
+,,"('installed', 'this', 'application')",7
+,,"('not', 'update', 'application')",7
+,,"('not', 'like', 'share')",7
+,,"('unable', 'log', 'in')",7
+,,"('application', 'working', 'fine')",7
+,,"('download', 'this', 'application')",7
+,,"('new', 'update', 'really')",7
+,,"('day', 'this', 'application')",7
+,,"('post', 'anything', 'comment')",7
+,,"('back', 'in', 'not')",7
+,,"('annoying', 'please', 'fix')",7
+,,"('not', 'even', 'login')",7
+,,"('ever', 'since', 'update')",7
+,,"('get', 'back', 'into')",7
+,,"('last', 'two', 'update')",7
+,,"('need', 'fix', 'this')",7
+,,"('update', 'not', 'comment')",7
+,,"('soon', 'possible', 'not')",7
+,,"('page', 'please', 'fix')",7
+,,"('not', 'even', 'load')",7
+,,"('doe', 'not', 'go')",7
+,,"('application', 'every', 'time')",7
+,,"('keep', 'in', 'touch')",7
+,,"('not', 'one', 'having')",7
+,,"('two', 'factor', 'authentication')",7
+,,"('still', 'not', 'let')",7
+,,"('in', 'keep', 'saying')",7
+,,"('not', 'get', 'in')",7
+,,"('not', 'know', 'going')",7
+,,"('faceon', 'not', 'post')",7
+,,"('bad', 'bad', 'bad')",7
+,,"('able', 'get', 'back')",7
+,,"('change', 'profile', 'picture')",7
+,,"('comment', 'not', 'load')",7
+,,"('update', 'every', 'time')",7
+,,"('last', 'update', 'faceon')",7
+,,"('did', 'not', 'work')",7
+,,"('faceon', 'not', 'log')",7
+,,"('doe', 'not', 'seem')",7
+,,"('application', 'not', 'load')",7
+,,"('new', 'update', 'horrible')",7
+,,"('issue', 'please', 'fix')",7
+,,"('this', 'application', 'load')",7
+,,"('log', 'in', 'session')",7
+,,"('doe', 'not', 'refresh')",7
+,,"('this', 'doe', 'not')",7
+,,"('post', 'comment', 'react')",7
+,,"('get', 'error', 'message')",7
+,,"('need', 'fixed', 'soon')",7
+,,"('faceon', 'not', 'get')",7
+,,"('say', 'something', 'went')",7
+,,"('not', 'react', 'post')",7
+,,"('new', 'update', 'keep')",7
+,,"('problem', 'in', 'faceon')",7
+,,"('not', 'get', 'notification')",7
+,,"('last', 'update', 'application')",7
+,,"('application', 'get', 'worse')",7
+,,"('not', 'getting', 'notification')",7
+,,"('phone', 'please', 'fix')",7
+,,"('not', 'post', 'photo')",7
+,,"('this', 'application', 'going')",7
+,,"('everytime', 'open', 'application')",7
+,,"('make', 'this', 'application')",7
+,,"('time', 'log', 'in')",7
+,,"('not', 'watch', 'video')",7
+,,"('get', 'into', 'faceon')",7
+,,"('post', 'doe', 'not')",7
+,,"('problem', 'please', 'fix')",7
+,,"('new', 'notification', 'not')",7
+,,"('not', 'work', 'right')",7
+,,"('not', 'read', 'comment')",7
+,,"('unload', 'photo', 'video')",7
+,,"('in', 'this', 'update')",7
+,,"('not', 'able', 'react')",7
+,,"('notification', 'not', 'show')",7
+,,"('not', 'even', 'open')",7
+,,"('not', 'see', 'post')",7
+,,"('in', 'group', 'not')",7
+,,"('this', 'application', 'updating')",7
+,,"('not', 'instal', 'this')",7
+,,"('not', 'install', 'this')",7
+,,"('photo', 'please', 'fix')",7
+,,"('post', 'got', 'removed')",7
+,,"('open', 'faceon', 'account')",7
+,,"('photo', 'profile', 'picture')",7
+,,"('update', 'not', 'working')",7
+,,"('not', 'use', 'this')",7
+,,"('market', 'place', 'doe')",7
+,,"('code', 'not', 'send')",7
+,,"('get', 'act', 'together')",6
+,,"('this', 'application', 'faceon')",6
+,,"('comment', 'post', 'like')",6
+,,"('saying', 'faceon', 'stopped')",6
+,,"('still', 'not', 'able')",6
+,,"('go', 'away', 'even')",6
+,,"('working', 'please', 'fix')",6
+,,"('recent', 'post', 'not')",6
+,,"('faceon', 'not', 'work')",6
+,,"('uninstaled', 'installed', 'not')",6
+,,"('this', 'issue', 'please')",6
+,,"('account', 'please', 'fix')",6
+,,"('say', 'notification', 'not')",6
+,,"('let', 'like', 'post')",6
+,,"('ever', 'since', 'updated')",6
+,,"('many', 'time', 'not')",6
+,,"('something', 'wrong', 'this')",6
+,,"('comment', 'post', 'anything')",6
+,,"('see', 'old', 'post')",6
+,,"('new', 'faceon', 'update')",6
+,,"('anything', 'not', 'even')",6
+,,"('even', 'log', 'back')",6
+,,"('get', 'fixed', 'soon')",6
+,,"('day', 'not', 'able')",6
+,,"('send', 'friend', 'request')",6
+,,"('log', 'in', 'keep')",6
+,,"('application', 'did', 'not')",6
+,,"('updated', 'faceon', 'application')",6
+,,"('application', 'keep', 'updating')",6
+,,"('comment', 'doe', 'not')",6
+,,"('video', 'not', 'play')",6
+,,"('today', 'not', 'post')",6
+,,"('this', 'problem', 'soon')",6
+,,"('updated', 'version', 'not')",6
+,,"('application', 'keep', 'freezing')",6
+,,"('not', 'know', 'this')",6
+,,"('like', 'share', 'anything')",6
+,,"('not', 'happy', 'faceon')",6
+,,"('new', 'update', 'application')",6
+,,"('this', 'application', 'every')",6
+,,"('let', 'log', 'back')",6
+,,"('post', 'not', 'let')",6
+,,"('in', 'middle', 'reading')",6
+,,"('update', 'not', 'even')",6
+,,"('update', 'not', 'load')",6
+,,"('not', 'send', 'picture')",6
+,,"('share', 'post', 'anything')",6
+,,"('did', 'not', 'get')",6
+,,"('change', 'cover', 'pic')",6
+,,"('not', 'good', 'application')",6
+,,"('notification', 'please', 'fix')",6
+,,"('keep', 'saying', 'faceon')",6
+,,"('friend', 'post', 'faceon')",6
+,,"('still', 'having', 'problem')",6
+,,"('please', 'fix', 'thanks')",6
+,,"('marketplace', 'doe', 'work')",6
+,,"('this', 'application', 'year')",6
+,,"('picture', 'not', 'load')",6
+,,"('updated', 'faceon', 'not')",6
+,,"('not', 'make', 'sense')",6
+,,"('uninstaling', 'installing', 'application')",6
+,,"('doe', 'not', 'make')",6
+,,"('time', 'open', 'application')",6
+,,"('cover', 'photo', 'not')",6
+,,"('comment', 'react', 'anything')",6
+,,"('yet', 'another', 'update')",6
+,,"('like', 'new', 'update')",6
+,,"('not', 'access', 'account')",6
+,,"('even', 'though', 'not')",6
+,,"('could', 'not', 'post')",6
+,,"('in', 'please', 'fix')",6
+,,"('saying', 'faceon', 'maintenance')",6
+,,"('application', 'need', 'fixed')",6
+,,"('hour', 'please', 'fix')",6
+,,"('not', 'good', 'this')",6
+,,"('not', 'open', 'application')",6
+,,"('news', 'feed', 'doe')",6
+,,"('updating', 'this', 'application')",6
+,,"('not', 'let', 'see')",6
+,,"('every', 'time', 'click')",6
+,,"('see', 'recent', 'post')",6
+,,"('having', 'problem', 'this')",6
+,,"('faceon', 'say', 'faceon')",6
+,,"('this', 'problem', 'not')",6
+,,"('fix', 'application', 'please')",6
+,,"('not', 'load', 'not')",6
+,,"('log', 'in', 'because')",6
+,,"('this', 'application', 'update')",6
+,,"('take', 'much', 'time')",6
+,,"('anyone', 'else', 'having')",6
+,,"('people', 'may', 'know')",6
+,,"('soon', 'possible', 'please')",6
+,,"('doe', 'not', 'want')",6
+,,"('not', 'happy', 'not')",6
+,,"('not', 'send', 'code')",6
+,,"('not', 'want', 'see')",6
+,,"('application', 'open', 'application')",6
+,,"('tried', 'instal', 'deinstal')",6
+,,"('not', 'able', 'see')",6
+,,"('check', 'internet', 'connection')",6
+,,"('post', 'not', 'see')",6
+,,"('not', 'see', 'new')",6
+,,"('not', 'show', 'recent')",6
+,,"('this', 'damn', 'application')",6
+,,"('time', 'doe', 'not')",6
+,,"('fix', 'this', 'update')",6
+,,"('not', 'even', 'see')",6
+,,"('faceon', 'faceon', 'not')",6
+,,"('login', 'code', 'not')",6
+,,"('let', 'sign', 'in')",6
+,,"('frustrating', 'please', 'fix')",6
+,,"('version', 'doe', 'not')",6
+,,"('keep', 'coming', 'back')",6
+,,"('notification', 'not', 'working')",6
+,,"('seeing', 'thing', 'day')",6
+,,"('something', 'int', 'broken')",6
+,,"('phone', 'doe', 'not')",6
+,,"('application', 'latest', 'update')",6
+,,"('please', 'help', 'this')",6
+,,"('faceon', 'keep', 'crashing')",6
+,,"('button', 'doe', 'not')",6
+,,"('profile', 'picture', 'fix')",6
+,,"('see', 'photo', 'in')",6
+,,"('update', 'not', 'open')",6
+,,"('fix', 'market', 'place')",6
+,,"('video', 'unloaded', 'faceon')",6
+,,"('unloaded', 'faceon', 'page')",6
+,,"('not', 'login', 'faceon')",6
+,,"('application', 'notification', 'not')",5
+,,"('one', 'worst', 'aps')",5
+,,"('not', 'load', 'picture')",5
+,,"('having', 'this', 'problem')",5
+,,"('solve', 'this', 'issue')",5
+,,"('help', 'fix', 'this')",5
+,,"('application', 'never', 'work')",5
+,,"('always', 'something', 'wrong')",5
+,,"('want', 'unload', 'photo')",5
+,,"('application', 'stopped', 'working')",5
+,,"('working', 'not', 'post')",5
+,,"('application', 'still', 'doe')",5
+,,"('this', 'application', 'issue')",5
+,,"('doe', 'not', 'send')",5
+,,"('two', 'step', 'verification')",5
+,,"('update', 'did', 'not')",5
+,,"('not', 'view', 'photo')",5
+,,"('log', 'back', 'into')",5
+,,"('having', 'hard', 'time')",5
+,,"('having', 'problem', 'faceon')",5
+,,"('work', 'half', 'time')",5
+,,"('log', 'in', 'application')",5
+,,"('not', 'allow', 'like')",5
+,,"('please', 'sort', 'this')",5
+,,"('not', 'allow', 'comment')",5
+,,"('update', 'not', 'like')",5
+,,"('able', 'post', 'comment')",5
+,,"('not', 'update', 'status')",5
+,,"('code', 'did', 'not')",5
+,,"('ever', 'since', 'last')",5
+,,"('not', 'letting', 'comment')",5
+,,"('doe', 'not', 'help')",5
+,,"('picture', 'in', 'messenger')",5
+,,"('take', 'long', 'time')",5
+,,"('notification', 'not', 'not')",5
+,,"('receive', 'login', 'code')",5
+,,"('even', 'let', 'log')",5
+,,"('maintenance', 'back', 'in')",5
+,,"('post', 'not', 'post')",5
+,,"('post', 'share', 'comment')",5
+,,"('even', 'like', 'post')",5
+,,"('faceon', 'update', 'faceon')",5
+,,"('application', 'uninstaled', 'installed')",5
+,,"('give', 'zero', 'star')",5
+,,"('go', 'into', 'application')",5
+,,"('new', 'update', 'terrible')",5
+,,"('update', 'terrible', 'not')",5
+,,"('getting', 'worse', 'every')",5
+,,"('get', 'together', 'faceon')",5
+,,"('something', 'wrong', 'faceon')",5
+,,"('wrong', 'faceon', 'please')",5
+,,"('since', 'newest', 'update')",5
+,,"('faceon', 'not', 'unload')",5
+,,"('update', 'still', 'not')",5
+,,"('application', 'not', 'log')",5
+,,"('not', 'able', 'comment')",5
+,,"('comment', 'react', 'post')",5
+,,"('anything', 'not', 'let')",5
+,,"('back', 'news', 'feed')",5
+,,"('not', 'let', 'add')",5
+,,"('able', 'post', 'anything')",5
+,,"('comment', 'like', 'share')",5
+,,"('not', 'mention', 'not')",5
+,,"('latest', 'update', 'video')",5
+,,"('new', 'update', 'doe')",5
+,,"('video', 'doe', 'not')",5
+,,"('not', 'loading', 'properly')",5
+,,"('stupid', 'update', 'not')",5
+,,"('doe', 'work', 'not')",5
+,,"('not', 'post', 'in')",5
+,,"('update', 'not', 'use')",5
+,,"('not', 'working', 'in')",5
+,,"('notification', 'doe', 'not')",5
+,,"('able', 'log', 'back')",5
+,,"('not', 'even', 'like')",5
+,,"('one', 'having', 'problem')",5
+,,"('fix', 'this', 'new')",5
+,,"('update', 'make', 'this')",5
+,,"('update', 'get', 'worse')",5
+,,"('not', 'share', 'photo')",5
+,,"('anything', 'not', 'like')",5
+,,"('not', 'like', 'react')",5
+,,"('comment', 'not', 'open')",5
+,,"('problem', 'since', 'last')",5
+,,"('post', 'like', 'share')",5
+,,"('photo', 'album', 'in')",5
+,,"('application', 'not', 'get')",5
+,,"('could', 'not', 'unload')",5
+,,"('faceon', 'back', 'soon')",5
+,,"('every', 'week', 'update')",5
+,,"('update', 'every', 'day')",5
+,,"('really', 'need', 'get')",5
+,,"('application', 'would', 'not')",5
+,,"('application', 'update', 'application')",5
+,,"('nothing', 'working', 'not')",5
+,,"('comment', 'anything', 'not')",5
+,,"('account', 'not', 'get')",5
+,,"('saying', 'failed', 'post')",5
+,,"('problem', 'faceon', 'not')",5
+,,"('in', 'not', 'post')",5
+,,"('not', 'get', 'this')",5
+,,"('social', 'medium', 'platform')",5
+,,"('recent', 'news', 'feed')",5
+,,"('load', 'this', 'application')",5
+,,"('much', 'space', 'much')",5
+,,"('not', 'see', 'friend')",5
+,,"('last', 'update', 'unable')",5
+,,"('update', 'application', 'keep')",5
+,,"('log', 'in', 'back')",5
+,,"('please', 'please', 'please')",5
+,,"('in', 'group', 'still')",5
+,,"('notification', 'not', 'load')",5
+,,"('error', 'message', 'faceon')",5
+,,"('did', 'not', 'even')",5
+,,"('not', 'let', 'use')",5
+,,"('not', 'see', 'people')",5
+,,"('application', 'keep', 'saying')",5
+,,"('new', 'phone', 'not')",5
+,,"('video', 'in', 'faceon')",5
+,,"('not', 'know', 'wrong')",5
+,,"('this', 'not', 'good')",5
+,,"('update', 'notification', 'not')",5
+,,"('sometimes', 'doe', 'not')",5
+,,"('bug', 'need', 'fixed')",5
+,,"('please', 'help', 'application')",5
+,,"('video', 'not', 'playing')",5
+,,"('latest', 'update', 'unable')",5
+,,"('half', 'time', 'not')",5
+,,"('update', 'bad', 'not')",5
+,,"('not', 'work', 'application')",5
+,,"('newest', 'update', 'not')",5
+,,"('faceon', 'marketplace', 'not')",5
+,,"('application', 'crash', 'every')",5
+,,"('this', 'application', 'worse')",5
+,,"('phone', 'not', 'get')",5
+,,"('faceon', 'still', 'not')",5
+,,"('anything', 'faceon', 'not')",5
+,,"('people', 'friend', 'list')",5
+,,"('showing', 'notification', 'not')",5
+,,"('issue', 'application', 'not')",5
+,,"('see', 'new', 'post')",5
+,,"('comment', 'not', 'even')",5
+,,"('issue', 'soon', 'possible')",5
+,,"('group', 'amin', 'saying')",5
+,,"('nothing', 'wrong', 'internet')",5
+,,"('not', 'like', 'faceon')",5
+,,"('application', 'not', 'know')",5
+,,"('update', 'not', 'good')",5
+,,"('faceon', 'not', 'like')",5
+,,"('show', 'recent', 'post')",5
+,,"('notification', 'multiple', 'time')",5
+,,"('like', 'anything', 'not')",5
+,,"('get', 'worse', 'every')",5
+,,"('not', 'post', 'post')",5
+,,"('having', 'issue', 'application')",5
+,,"('place', 'not', 'load')",5
+,,"('notification', 'click', 'notification')",5
+,,"('not', 'know', 'problem')",5
+,,"('comment', 'not', 'post')",5
+,,"('notification', 'this', 'application')",5
+,,"('not', 'let', 'go')",5
+,,"('post', 'comment', 'not')",5
+,,"('not', 'sending', 'code')",5
+,,"('not', 'show', 'notification')",5
+,,"('version', 'not', 'good')",5
+,,"('this', 'issue', 'faceon')",5
+,,"('in', 'new', 'update')",5
+,,"('not', 'show', 'in')",5
+,,"('not', 'find', 'marketplace')",5
+,,"('not', 'download', 'faceon')",5
+,,"('not', 'let', 'delete')",5
+,,"('crash', 'every', 'time')",5
+,,"('not', 'like', 'new')",5
+,,"('get', 'in', 'faceon')",5
+,,"('this', 'faceon', 'not')",5
+,,"('not', 'working', 'faceon')",5
+,,"('faceon', 'application', 'always')",5
+,,"('another', 'faceon', 'account')",5
+,,"('not', 'responding', 'please')",5
+,,"('this', 'application', 'yesterday')",5
+,,"('in', 'comment', 'section')",5
+,,"('update', 'not', 'access')",5
+,,"('group', 'please', 'fix')",5
+,,"('update', 'update', 'update')",5
+,,"('even', 'though', 'already')",5
+,,"('please', 'fix', 'latest')",5
+,,"('faceon', 'account', 'this')",5
+,,"('old', 'post', 'not')",5
+,,"('post', 'not', 'show')",5
+,,"('update', 'this', 'update')",5
+,,"('faceon', 'many', 'time')",5
+,,"('doe', 'not', 'appear')",5
+,,"('video', 'start', 'playing')",5
+,,"('video', 'news', 'feed')",5
+,,"('someone', 'doe', 'buy')",5
+,,"('doe', 'buy', 'seller')",5
+,,"('latest', 'update', 'doe')",5
+,,"('issue', 'faceon', 'application')",5
+,,"('application', 'phone', 'not')",5
+,,"('faceon', 'application', 'this')",5
+,,"('application', 'show', 'notification')",5
+,,"('picture', 'fix', 'photo')",5
+,,"('fix', 'photo', 'cover')",5
+,,"('new', 'update', 'video')",5
+,,"('close', 'application', 'open')",5
+,,"('not', 'able', 'view')",5
+,,"('not', 'access', 'faceon')",5
+,,"('market', 'place', 'reason')",5
+,,"('not', 'work', 'anymore')",5
+,,"('guy', 'owns', 'faceon')",5
+,,"('owns', 'faceon', 'ever')",5
+,,"('faceon', 'ever', 'get')",5
+,,"('ever', 'get', 'hand')",5
+,,"('get', 'hand', 'mark')",5
+,,"('hand', 'mark', 'zuckerberg')",5
+,,"('not', 'delete', 'this')",5
+,,"('faceon', 'last', 'update')",5
+,,"('account', 'not', 'working')",5
+,,"('application', 'recent', 'update')",5
+,,"('faceon', 'not', 'open')",5
+,,"('account', 'doe', 'not')",5
+,,"('not', 'open', 'picture')",5
+,,"('not', 'user', 'friendly')",5
+,,"('location', 'service', 'not')",5
+,,"('photo', 'tab', 'in')",5
+,,"('tab', 'in', 'group')",5

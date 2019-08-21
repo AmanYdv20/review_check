@@ -1,0 +1,29 @@
+trigrams_tweets,frequency,trigrams_reviews,frequency_reviews
+"('found', 'answer', 'revenue', 'problem')",5,"('new', 'update', 'doe', 'not')",11.0
+"('answer', 'revenue', 'problem', 'stemming')",5,"('please', 'fix', 'this', 'issue')",8.0
+"('revenue', 'problem', 'stemming', 'halted')",5,"('front', 'camera', 'zoomed', 'in')",7.0
+"('problem', 'stemming', 'halted', 'growth')",5,"('not', 'let', 'log', 'in')",6.0
+"('stemming', 'halted', 'growth', 'show')",5,"('this', 'application', 'this', 'application')",6.0
+"('halted', 'growth', 'show', 'ad')",5,"('camera', 'roll', 'into', 'eye')",5.0
+"('growth', 'show', 'ad', 'in')",5,"('picture', 'camera', 'roll', 'eye')",5.0
+"('show', 'ad', 'in', 'aps')",5,"('this', 'new', 'update', 'suck')",5.0
+"('ad', 'in', 'aps', 'launch')",5,"('new', 'update', 'suck', 'not')",5.0
+"('in', 'aps', 'launch', 'snapchat')",5,"('please', 'fix', 'this', 'problem')",5.0
+"('aps', 'launch', 'snapchat', 'ad')",5,"('not', 'like', 'new', 'update')",5.0
+"('reason', 'account', 'could', 'locked')",5,"('map', 'doe', 'not', 'work')",5.0
+"('account', 'could', 'locked', 'learn')",5,"('this', 'new', 'update', 'not')",5.0
+"('could', 'locked', 'learn', 'team')",5,"('since', 'new', 'update', 'snap')",5.0
+"('locked', 'learn', 'team', 'snapchat')",5,"('ever', 'since', 'new', 'update')",5.0
+"('learn', 'team', 'snapchat', 'unable')",5,,
+"('team', 'snapchat', 'unable', 'unlock')",5,,
+"('snapchat', 'unable', 'unlock', 'account')",5,,
+"('unable', 'unlock', 'account', 'this')",5,,
+"('unlock', 'account', 'this', 'time')",5,,
+"('account', 'this', 'time', 'seeing')",5,,
+"('this', 'time', 'seeing', 'generic')",5,,
+"('time', 'seeing', 'generic', 'login')",5,,
+"('seeing', 'generic', 'login', 'error')",5,,
+"('generic', 'login', 'error', 'message')",5,,
+"('login', 'error', 'message', 'check')",5,,
+"('error', 'message', 'check', 'this')",5,,
+"('message', 'check', 'this', 'link')",5,,

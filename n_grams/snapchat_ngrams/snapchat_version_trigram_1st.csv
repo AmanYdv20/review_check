@@ -1,0 +1,831 @@
+trigrams_tweets,frequency,trigrams_reviews,frequency_reviews
+"('still', 'having', 'trouble')",28.0,"('please', 'fix', 'this')",235
+"('having', 'trouble', 'please')",23.0,"('this', 'new', 'update')",225
+"('trouble', 'please', 'reach')",23.0,"('new', 'update', 'not')",181
+"('see', 'error', 'message')",19.0,"('new', 'update', 'suck')",115
+"('take', 'hour', 'reactivated')",18.0,"('doe', 'not', 'work')",96
+"('hour', 'reactivated', 'try')",18.0,"('update', 'new', 'update')",72
+"('reactivated', 'try', 'waiting')",18.0,"('hate', 'new', 'update')",61
+"('try', 'waiting', 'day')",18.0,"('since', 'new', 'update')",56
+"('waiting', 'day', 'trying')",18.0,"('update', 'doe', 'not')",56
+"('day', 'trying', 'still')",18.0,"('like', 'new', 'update')",53
+"('trying', 'still', 'having')",18.0,"('love', 'this', 'application')",53
+"('having', 'trouble', 'adding')",17.0,"('new', 'update', 'new')",53
+"('select', 'account', 'login')",17.0,"('not', 'like', 'new')",49
+"('sorry', 'hear', 'trouble')",17.0,"('this', 'application', 'not')",48
+"('trouble', 'adding', 'friend')",16.0,"('update', 'not', 'let')",48
+"('hope', 'this', 'help')",16.0,"('this', 'application', 'this')",45
+"('account', 'sometimes', 'take')",16.0,"('doe', 'not', 'let')",44
+"('reach', 'select', 'account')",16.0,"('new', 'update', 'doe')",43
+"('adding', 'friend', 'make')",15.0,"('application', 'this', 'application')",42
+"('friend', 'make', 'sure')",15.0,"('doe', 'not', 'show')",39
+"('make', 'sure', 'strong')",15.0,"('new', 'update', 'horrible')",38
+"('sure', 'strong', 'network')",15.0,"('application', 'doe', 'not')",38
+"('please', 'note', 'snapchat')",15.0,"('fix', 'this', 'soon')",36
+"('note', 'snapchat', 'account')",15.0,"('new', 'update', 'terrible')",35
+"('snapchat', 'account', 'limited')",15.0,"('since', 'last', 'update')",35
+"('account', 'limited', 'having')",15.0,"('fix', 'new', 'update')",33
+"('limited', 'having', 'friend')",15.0,"('use', 'this', 'application')",33
+"('having', 'friend', 'time')",15.0,"('update', 'suck', 'not')",32
+"('friend', 'time', 'however')",15.0,"('picture', 'camera', 'roll')",30
+"('time', 'however', 'limit')",15.0,"('application', 'keep', 'crashing')",29
+"('however', 'limit', 'many')",15.0,"('every', 'time', 'try')",29
+"('limit', 'many', 'people')",15.0,"('snapshot', 'new', 'update')",28
+"('many', 'people', 'add')",15.0,"('application', 'new', 'update')",28
+"('sometimes', 'take', 'hour')",15.0,"('camera', 'roll', 'eye')",27
+"('please', 'fix', 'this')",15.0,"('new', 'update', 'trash')",27
+"('strong', 'network', 'entering')",14.0,"('not', 'send', 'snap')",27
+"('network', 'entering', 'username')",14.0,"('this', 'last', 'update')",26
+"('entering', 'username', 'correctly')",14.0,"('fix', 'this', 'issue')",26
+"('username', 'correctly', 'please')",14.0,"('take', 'forever', 'load')",26
+"('correctly', 'please', 'note')",14.0,"('update', 'this', 'application')",25
+"('people', 'add', 'hope')",14.0,"('snapshot', 'doe', 'not')",25
+"('add', 'hope', 'this')",14.0,"('please', 'fix', 'new')",24
+"('account', 'login', 'see')",14.0,"('new', 'update', 'snapshot')",24
+"('login', 'see', 'error')",14.0,"('application', 'not', 'let')",24
+"('deactivating', 'account', 'sometimes')",13.0,"('new', 'snapshot', 'update')",24
+"('please', 'reach', 'select')",13.0,"('new', 'update', 'bad')",24
+"('error', 'message', 'log')",13.0,"('fix', 'this', 'application')",24
+"('message', 'log', 'in')",13.0,"('go', 'back', 'old')",24
+"('snapchat', 'memory', 'never')",13.0,"('this', 'soon', 'possible')",23
+"('memory', 'never', 'fail')",13.0,"('application', 'please', 'fix')",23
+"('look', 'into', 'this')",12.0,"('not', 'save', 'story')",23
+"('hey', 'sorry', 'hear')",10.0,"('not', 'let', 'log')",23
+"('help', 'investigate', 'issue')",10.0,"('every', 'time', 'open')",23
+"('hey', 'having', 'trouble')",8.0,"('new', 'update', 'make')",23
+"('hear', 'trouble', 'dm')",8.0,"('last', 'update', 'not')",23
+"('never', 'fail', 'remind')",8.0,"('fix', 'this', 'problem')",23
+"('hey', 'seems', 'trouble')",7.0,"('update', 'please', 'fix')",23
+"('prohibit', 'use', 'unauthorized')",7.0,"('doe', 'not', 'even')",23
+"('use', 'unauthorized', 'thirdparty')",7.0,"('make', 'private', 'story')",23
+"('unauthorized', 'thirdparty', 'aps')",7.0,"('ever', 'since', 'update')",22
+"('thirdparty', 'aps', 'since')",7.0,"('not', 'even', 'open')",22
+"('aps', 'since', 'compromise')",7.0,"('doe', 'not', 'allow')",22
+"('since', 'compromise', 'account')",7.0,"('not', 'working', 'properly')",22
+"('compromise', 'account', 'security')",7.0,"('update', 'not', 'even')",22
+"('account', 'security', 'may')",7.0,"('new', 'update', 'say')",21
+"('security', 'may', 'continue')",7.0,"('private', 'story', 'not')",21
+"('may', 'continue', 'experience')",7.0,"('this', 'application', 'doe')",21
+"('continue', 'experience', 'difficulty')",7.0,"('fix', 'this', 'new')",21
+"('experience', 'difficulty', 'logging')",7.0,"('not', 'work', 'not')",21
+"('difficulty', 'logging', 'in')",7.0,"('new', 'update', 'really')",21
+"('logging', 'in', 'time')",7.0,"('this', 'recent', 'update')",21
+"('in', 'time', 'until')",7.0,"('new', 'update', 'keep')",20
+"('time', 'until', 'issue')",7.0,"('not', 'even', 'get')",20
+"('until', 'issue', 'resolve')",7.0,"('worst', 'application', 'ever')",20
+"('issue', 'resolve', 'team')",7.0,"('snap', 'not', 'send')",20
+"('resolve', 'team', 'snapchat')",7.0,"('not', 'let', 'update')",20
+"('team', 'snapchat', 'unable')",7.0,"('update', 'not', 'see')",20
+"('snapchat', 'unable', 'unlock')",7.0,"('gole', 'pixel', 'xl')",20
+"('unable', 'unlock', 'account')",7.0,"('filter', 'not', 'work')",20
+"('unlock', 'account', 'this')",7.0,"('not', 'even', 'let')",19
+"('account', 'this', 'time')",7.0,"('log', 'back', 'in')",19
+"('fix', 'this', 'problem')",7.0,"('not', 'save', 'picture')",19
+"('not', 'even', 'snapchat')",7.0,"('in', 'new', 'update')",19
+"('snapchat', 'need', 'fix')",7.0,"('suck', 'new', 'update')",19
+"('never', 'fail', 'make')",6.0,"('new', 'update', 'this')",19
+"('in', 'real', 'life')",6.0,"('recent', 'update', 'not')",19
+"('need', 'fix', 'this')",6.0,"('opened', 'minute', 'ago')",19
+"('make', 'premium', 'snapchat')",6.0,"('problem', 'new', 'update')",19
+"('trouble', 'dm', 'username')",6.0,"('update', 'not', 'good')",18
+"('having', 'bad', 'day')",5.0,"('not', 'even', 'see')",18
+"('need', 'look', 'into')",5.0,"('new', 'update', 'made')",18
+"('yal', 'need', 'fix')",5.0,"('not', 'get', 'notification')",18
+"('hey', 'prohibit', 'use')",5.0,"('new', 'update', 'please')",18
+"('fix', 'this', 'issue')",5.0,"('ever', 'since', 'new')",17
+"('snapchat', 'going', 'fix')",5.0,"('new', 'update', 'android')",17
+"('via', 'twitter', 'stuff')",5.0,"('fix', 'soon', 'possible')",17
+"('twitter', 'stuff', 'add')",5.0,"('photo', 'camera', 'roll')",17
+"('stuff', 'add', 'snapchat')",5.0,"('not', 'let', 'save')",17
+"('add', 'snapchat', 'instagram')",5.0,"('latest', 'update', 'not')",17
+"('snapchat', 'instagram', 'akshay')",5.0,"('this', 'latest', 'update')",17
+"('year', 'ago', 'today')",5.0,"('since', 'update', 'not')",17
+"('fix', 'front', 'camera')",5.0,"('not', 'even', 'use')",16
+"('submitting', 'ticket', 'give')",5.0,"('story', 'new', 'update')",16
+"('ticket', 'give', 'info')",5.0,"('not', 'select', 'multiple')",16
+"('give', 'info', 'case')",5.0,"('since', 'latest', 'update')",16
+"('info', 'case', 'help')",5.0,"('back', 'old', 'one')",16
+"('case', 'help', 'investigate')",5.0,"('please', 'fix', 'soon')",15
+"('team', 'not', 'always')",5.0,"('not', 'even', 'send')",15
+"('not', 'always', 'able')",5.0,"('let', 'log', 'in')",15
+"('always', 'able', 'respond')",5.0,"('please', 'fix', 'not')",15
+"('able', 'respond', 'every')",5.0,"('update', 'not', 'get')",15
+"('respond', 'every', 'email')",5.0,"('not', 'let', 'open')",15
+"('every', 'email', 'use')",5.0,"('got', 'new', 'phone')",15
+"('email', 'use', 'information')",5.0,"('like', 'this', 'application')",15
+"('use', 'information', 'provide')",5.0,"('new', 'update', 'back')",14
+"('information', 'provide', 'help')",5.0,"('camera', 'zoomed', 'in')",14
+"('provide', 'help', 'investigate')",5.0,"('snap', 'new', 'update')",14
+"('investigate', 'issue', 'work')",5.0,"('update', 'horrible', 'not')",14
+"('issue', 'work', 'fix')",5.0,"('update', 'not', 'work')",14
+"('front', 'camera', 'iphone')",5.0,"('fix', 'this', 'not')",14
+"('happy', 'valentine', 'day')",5.0,"('camera', 'doe', 'not')",14
+"('log', 'in', 'select')",5.0,"('this', 'application', 'suck')",14
+"('in', 'select', 'yes')",5.0,"('update', 'suck', 'new')",14
+"('select', 'yes', 'submit')",5.0,"('please', 'fix', 'update')",14
+"('way', 'fix', 'this')",5.0,"('every', 'single', 'time')",14
+"('get', 'in', 'trouble')",5.0,"('not', 'able', 'use')",14
+,,"('since', 'recent', 'update')",14
+,,"('snap', 'please', 'fix')",14
+,,"('please', 'fix', 'application')",14
+,,"('not', 'let', 'send')",13
+,,"('annoying', 'please', 'fix')",13
+,,"('update', 'not', 'send')",13
+,,"('not', 'work', 'well')",13
+,,"('not', 'log', 'in')",13
+,,"('update', 'not', 'able')",13
+,,"('not', 'record', 'video')",13
+,,"('message', 'say', 'opened')",13
+,,"('camera', 'roll', 'not')",13
+,,"('snapshot', 'please', 'fix')",13
+,,"('snapshot', 'not', 'working')",13
+,,"('this', 'application', 'because')",13
+,,"('application', 'not', 'working')",13
+,,"('not', 'even', 'take')",13
+,,"('phone', 'please', 'fix')",13
+,,"('get', 'new', 'update')",13
+,,"('not', 'work', 'properly')",13
+,,"('back', 'old', 'snapshot')",13
+,,"('keep', 'crashing', 'not')",13
+,,"('change', 'new', 'update')",12
+,,"('back', 'new', 'update')",12
+,,"('application', 'not', 'even')",12
+,,"('please', 'go', 'back')",12
+,,"('download', 'this', 'application')",12
+,,"('snap', 'not', 'load')",12
+,,"('not', 'save', 'photo')",12
+,,"('update', 'not', 'save')",12
+,,"('update', 'not', 'like')",12
+,,"('update', 'took', 'away')",12
+,,"('not', 'able', 'send')",12
+,,"('old', 'version', 'back')",12
+,,"('please', 'bring', 'back')",12
+,,"('fix', 'this', 'please')",12
+,,"('bring', 'back', 'old')",12
+,,"('new', 'update', 'worst')",12
+,,"('send', 'message', 'message')",12
+,,"('using', 'this', 'application')",12
+,,"('not', 'see', 'friend')",12
+,,"('doe', 'not', 'load')",12
+,,"('this', 'update', 'not')",12
+,,"('this', 'application', 'still')",12
+,,"('back', 'old', 'version')",12
+,,"('save', 'whole', 'story')",12
+,,"('application', 'not', 'open')",12
+,,"('social', 'medium', 'application')",12
+,,"('front', 'facing', 'camera')",12
+,,"('please', 'fix', 'bug')",12
+,,"('application', 'keep', 'saying')",11
+,,"('new', 'update', 'longer')",11
+,,"('worst', 'update', 'ever')",11
+,,"('memory', 'camera', 'roll')",11
+,,"('message', 'new', 'update')",11
+,,"('fix', 'this', 'update')",11
+,,"('not', 'like', 'update')",11
+,,"('because', 'new', 'update')",11
+,,"('updated', 'application', 'not')",11
+,,"('picture', 'in', 'eye')",11
+,,"('update', 'terrible', 'not')",11
+,,"('video', 'camera', 'roll')",11
+,,"('work', 'new', 'update')",11
+,,"('this', 'application', 'update')",11
+,,"('crash', 'every', 'time')",11
+,,"('update', 'get', 'worse')",11
+,,"('not', 'send', 'message')",11
+,,"('not', 'send', 'video')",11
+,,"('time', 'open', 'application')",11
+,,"('not', 'make', 'private')",11
+,,"('even', 'open', 'application')",11
+,,"('update', 'not', 'find')",11
+,,"('please', 'fix', 'problem')",11
+,,"('memory', 'not', 'load')",11
+,,"('new', 'update', 'ruined')",10
+,,"('new', 'update', 'confusing')",10
+,,"('soon', 'possible', 'not')",10
+,,"('new', 'update', 'snap')",10
+,,"('work', 'please', 'fix')",10
+,,"('application', 'gole', 'pixel')",10
+,,"('not', 'able', 'see')",10
+,,"('opened', 'min', 'ago')",10
+,,"('new', 'update', 'completely')",10
+,,"('not', 'new', 'update')",10
+,,"('new', 'update', 'take')",10
+,,"('new', 'update', 'absolutely')",10
+,,"('not', 'let', 'use')",10
+,,"('save', 'camera', 'roll')",10
+,,"('open', 'new', 'update')",10
+,,"('phone', 'new', 'update')",10
+,,"('still', 'doe', 'not')",10
+,,"('new', 'update', 'slow')",10
+,,"('application', 'keep', 'closing')",10
+,,"('friend', 'private', 'story')",10
+,,"('not', 'get', 'new')",10
+,,"('in', 'chat', 'not')",10
+,,"('use', 'new', 'update')",10
+,,"('not', 'load', 'snap')",10
+,,"('update', 'keep', 'crashing')",10
+,,"('not', 'even', 'load')",10
+,,"('new', 'update', 'awful')",10
+,,"('would', 'not', 'let')",10
+,,"('post', 'private', 'story')",10
+,,"('fix', 'this', 'this')",10
+,,"('say', 'opened', 'minute')",10
+,,"('not', 'let', 'post')",10
+,,"('update', 'this', 'new')",10
+,,"('application', 'this', 'new')",10
+,,"('save', 'entire', 'story')",10
+,,"('time', 'new', 'update')",10
+,,"('not', 'let', 'take')",10
+,,"('in', 'this', 'application')",10
+,,"('not', 'take', 'picture')",10
+,,"('edit', 'private', 'story')",10
+,,"('chat', 'new', 'update')",9
+,,"('say', 'someone', 'opened')",9
+,,"('not', 'see', 'typing')",9
+,,"('help', 'new', 'update')",9
+,,"('not', 'work', 'android')",9
+,,"('save', 'story', 'anymore')",9
+,,"('hate', 'this', 'new')",9
+,,"('this', 'application', 'get')",9
+,,"('not', 'let', 'download')",9
+,,"('doe', 'not', 'save')",9
+,,"('not', 'let', 'get')",9
+,,"('doe', 'not', 'want')",9
+,,"('not', 'like', 'this')",9
+,,"('new', 'update', 'application')",9
+,,"('not', 'let', 'see')",9
+,,"('slow', 'new', 'update')",9
+,,"('update', 'ever', 'since')",9
+,,"('latest', 'update', 'made')",9
+,,"('please', 'fix', 'issue')",9
+,,"('this', 'new', 'version')",9
+,,"('update', 'not', 'working')",9
+,,"('picture', 'in', 'chat')",9
+,,"('this', 'need', 'fixed')",9
+,,"('trash', 'new', 'update')",9
+,,"('great', 'new', 'update')",9
+,,"('not', 'know', 'not')",9
+,,"('phone', 'doe', 'not')",9
+,,"('message', 'message', 'say')",9
+,,"('latest', 'update', 'doe')",9
+,,"('update', 'say', 'opened')",9
+,,"('not', 'know', 'this')",9
+,,"('annoying', 'new', 'update')",9
+,,"('soon', 'possible', 'new')",9
+,,"('update', 'newest', 'update')",9
+,,"('this', 'update', 'this')",9
+,,"('update', 'this', 'update')",9
+,,"('message', 'doe', 'not')",9
+,,"('delete', 'this', 'application')",9
+,,"('try', 'take', 'picture')",9
+,,"('not', 'use', 'application')",9
+,,"('went', 'back', 'old')",9
+,,"('back', 'previous', 'version')",8
+,,"('not', 'send', 'picture')",8
+,,"('used', 'love', 'snapshot')",8
+,,"('not', 'let', 'anything')",8
+,,"('not', 'even', 'save')",8
+,,"('say', 'message', 'opened')",8
+,,"('take', 'long', 'time')",8
+,,"('open', 'application', 'application')",8
+,,"('update', 'did', 'not')",8
+,,"('camera', 'roll', 'photo')",8
+,,"('not', 'open', 'application')",8
+,,"('ever', 'since', 'this')",8
+,,"('bad', 'new', 'update')",8
+,,"('save', 'picture', 'camera')",8
+,,"('really', 'great', 'application')",8
+,,"('like', 'this', 'new')",8
+,,"('update', 'not', 'put')",8
+,,"('update', 'not', 'open')",8
+,,"('application', 'use', 'application')",8
+,,"('see', 'private', 'story')",8
+,,"('old', 'one', 'back')",8
+,,"('filter', 'not', 'working')",8
+,,"('new', 'update', 'annoying')",8
+,,"('doe', 'not', 'update')",8
+,,"('new', 'update', 'also')",8
+,,"('opened', 'new', 'update')",8
+,,"('really', 'good', 'application')",8
+,,"('update', 'not', 'know')",8
+,,"('love', 'snapshot', 'new')",8
+,,"('take', 'picture', 'video')",8
+,,"('message', 'say', 'message')",8
+,,"('time', 'this', 'application')",8
+,,"('private', 'story', 'anymore')",8
+,,"('not', 'work', 'anymore')",8
+,,"('ago', 'even', 'though')",8
+,,"('possible', 'new', 'update')",8
+,,"('log', 'into', 'account')",8
+,,"('this', 'application', 'keep')",8
+,,"('still', 'not', 'work')",8
+,,"('this', 'application', 'constantly')",8
+,,"('hate', 'this', 'update')",8
+,,"('go', 'into', 'application')",8
+,,"('this', 'application', 'lot')",8
+,,"('this', 'application', 'great')",8
+,,"('every', 'time', 'send')",8
+,,"('select', 'multiple', 'snap')",8
+,,"('keep', 'getting', 'worse')",8
+,,"('fine', 'new', 'update')",8
+,,"('this', 'application', 'really')",8
+,,"('this', 'stupid', 'application')",8
+,,"('update', 'trash', 'not')",8
+,,"('memory', 'please', 'fix')",8
+,,"('ever', 'since', 'updated')",8
+,,"('not', 'load', 'not')",8
+,,"('open', 'this', 'application')",8
+,,"('application', 'not', 'like')",8
+,,"('pic', 'camera', 'roll')",8
+,,"('eye', 'please', 'fix')",8
+,,"('anymore', 'new', 'update')",7
+,,"('good', 'new', 'update')",7
+,,"('not', 'get', 'back')",7
+,,"('let', 'log', 'back')",7
+,,"('every', 'time', 'log')",7
+,,"('update', 'not', 'use')",7
+,,"('updated', 'new', 'update')",7
+,,"('fix', 'this', 'bug')",7
+,,"('everytime', 'open', 'application')",7
+,,"('not', 'getting', 'notification')",7
+,,"('application', 'application', 'not')",7
+,,"('new', 'update', 'hate')",7
+,,"('please', 'fix', 'snapshot')",7
+,,"('suck', 'not', 'save')",7
+,,"('this', 'application', 'please')",7
+,,"('back', 'home', 'screen')",7
+,,"('hate', 'this', 'application')",7
+,,"('this', 'application', 'freeze')",7
+,,"('this', 'great', 'application')",7
+,,"('camera', 'roll', 'picture')",7
+,,"('see', 'friend', 'private')",7
+,,"('select', 'multiple', 'picture')",7
+,,"('this', 'application', 'ever')",7
+,,"('update', 'made', 'application')",7
+,,"('used', 'love', 'this')",7
+,,"('able', 'send', 'snap')",7
+,,"('snap', 'camera', 'roll')",7
+,,"('crashing', 'every', 'time')",7
+,,"('photo', 'in', 'eye')",7
+,,"('new', 'version', 'not')",7
+,,"('min', 'ago', 'even')",7
+,,"('update', 'not', 'add')",7
+,,"('not', 'know', 'happened')",7
+,,"('also', 'doe', 'not')",7
+,,"('application', 'application', 'say')",7
+,,"('update', 'application', 'keep')",7
+,,"('updated', 'this', 'application')",7
+,,"('anything', 'camera', 'roll')",7
+,,"('even', 'though', 'sent')",7
+,,"('not', 'even', 'work')",7
+,,"('go', 'back', 'way')",7
+,,"('application', 'did', 'not')",7
+,,"('update', 'every', 'time')",7
+,,"('opened', 'message', 'not')",7
+,,"('new', 'update', 'still')",7
+,,"('saying', 'people', 'opened')",7
+,,"('need', 'go', 'back')",7
+,,"('star', 'new', 'update')",7
+,,"('android', 'doe', 'not')",7
+,,"('did', 'not', 'even')",7
+,,"('horrible', 'new', 'update')",7
+,,"('snapshot', 'not', 'responding')",7
+,,"('friend', 'this', 'application')",7
+,,"('get', 'worse', 'worse')",7
+,,"('doe', 'not', 'seem')",7
+,,"('new', 'update', 'did')",7
+,,"('video', 'longer', 'second')",7
+,,"('know', 'new', 'update')",7
+,,"('snapshot', 'fix', 'this')",7
+,,"('let', 'take', 'picture')",7
+,,"('application', 'keep', 'freezing')",7
+,,"('android', 'this', 'application')",7
+,,"('not', 'add', 'people')",7
+,,"('video', 'in', 'memory')",7
+,,"('did', 'not', 'work')",7
+,,"('not', 'let', 'sign')",7
+,,"('snapshot', 'stopped', 'working')",7
+,,"('snapshot', 'keep', 'crashing')",7
+,,"('love', 'snapshot', 'this')",7
+,,"('not', 'connect', 'server')",7
+,,"('take', 'forever', 'send')",7
+,,"('not', 'able', 'save')",7
+,,"('new', 'update', 'phone')",7
+,,"('doe', 'not', 'give')",7
+,,"('not', 'give', 'option')",7
+,,"('recent', 'update', 'doe')",7
+,,"('data', 'saver', 'mode')",7
+,,"('update', 'still', 'not')",7
+,,"('screen', 'go', 'black')",7
+,,"('create', 'private', 'story')",7
+,,"('notification', 'sound', 'not')",7
+,,"('snap', 'doe', 'not')",7
+,,"('someone', 'opened', 'snap')",6
+,,"('send', 'please', 'fix')",6
+,,"('version', 'new', 'update')",6
+,,"('go', 'back', 'previous')",6
+,,"('please', 'please', 'fix')",6
+,,"('fix', 'this', 'snapshot')",6
+,,"('snapshot', 'updated', 'snapshot')",6
+,,"('like', 'application', 'application')",6
+,,"('in', 'this', 'update')",6
+,,"('front', 'camera', 'zoomed')",6
+,,"('add', 'private', 'story')",6
+,,"('update', 'snap', 'not')",6
+,,"('not', 'know', 'fix')",6
+,,"('try', 'open', 'snap')",6
+,,"('until', 'new', 'update')",6
+,,"('bad', 'not', 'even')",6
+,,"('not', 'know', 'going')",6
+,,"('not', 'see', 'message')",6
+,,"('camera', 'quality', 'snapshot')",6
+,,"('made', 'new', 'update')",6
+,,"('wrong', 'this', 'application')",6
+,,"('application', 'latest', 'update')",6
+,,"('get', 'this', 'application')",6
+,,"('not', 'load', 'anything')",6
+,,"('camera', 'look', 'like')",6
+,,"('update', 'application', 'not')",6
+,,"('not', 'work', 'phone')",6
+,,"('this', 'application', 'would')",6
+,,"('better', 'new', 'update')",6
+,,"('not', 'let', 'make')",6
+,,"('application', 'ever', 'since')",6
+,,"('this', 'application', 'time')",6
+,,"('story', 'please', 'fix')",6
+,,"('phone', 'samsung', 'galaxy')",6
+,,"('suck', 'this', 'new')",6
+,,"('issue', 'please', 'fix')",6
+,,"('in', 'memory', 'not')",6
+,,"('not', 'get', 'filter')",6
+,,"('not', 'see', 'snap')",6
+,,"('update', 'update', 'not')",6
+,,"('let', 'open', 'application')",6
+,,"('update', 'soon', 'possible')",6
+,,"('fixed', 'new', 'update')",6
+,,"('this', 'application', 'make')",6
+,,"('worse', 'every', 'update')",6
+,,"('this', 'problem', 'not')",6
+,,"('not', 'phone', 'because')",6
+,,"('take', 'much', 'space')",6
+,,"('story', 'private', 'story')",6
+,,"('enjoy', 'this', 'application')",6
+,,"('ago', 'sent', 'message')",6
+,,"('even', 'though', 'not')",6
+,,"('update', 'snapshot', 'not')",6
+,,"('new', 'update', 'good')",6
+,,"('this', 'application', 'much')",6
+,,"('update', 'suck', 'this')",6
+,,"('not', 'edit', 'picture')",6
+,,"('made', 'this', 'application')",6
+,,"('people', 'opened', 'message')",6
+,,"('one', 'please', 'fix')",6
+,,"('anymore', 'please', 'fix')",6
+,,"('photo', 'in', 'chat')",6
+,,"('make', 'picture', 'look')",6
+,,"('this', 'application', 'frustrating')",6
+,,"('application', 'get', 'worse')",6
+,,"('try', 'take', 'video')",6
+,,"('not', 'let', 'put')",6
+,,"('camera', 'roll', 'private')",6
+,,"('roll', 'private', 'story')",6
+,,"('hope', 'fix', 'this')",6
+,,"('update', 'absolutely', 'terrible')",6
+,,"('minute', 'ago', 'sent')",6
+,,"('minute', 'ago', 'even')",6
+,,"('even', 'take', 'picture')",6
+,,"('need', 'fixed', 'soon')",6
+,,"('update', 'not', 'allow')",6
+,,"('application', 'recent', 'update')",6
+,,"('newest', 'update', 'newest')",6
+,,"('not', 'see', 'writing')",6
+,,"('new', 'update', 'bug')",6
+,,"('camera', 'roll', 'in')",6
+,,"('phone', 'not', 'let')",6
+,,"('take', 'picture', 'picture')",6
+,,"('read', 'message', 'not')",6
+,,"('new', 'update', 'messed')",6
+,,"('since', 'this', 'new')",6
+,,"('update', 'doe', 'work')",6
+,,"('application', 'not', 'phone')",6
+,,"('people', 'opened', 'snap')",6
+,,"('min', 'ago', 'sent')",6
+,,"('tell', 'someone', 'opened')",6
+,,"('phone', 'every', 'time')",6
+,,"('keep', 'crashing', 'please')",6
+,,"('installed', 'this', 'application')",6
+,,"('using', 'snapshot', 'year')",6
+,,"('not', 'load', 'properly')",6
+,,"('not', 'see', 'memory')",6
+,,"('every', 'time', 'take')",6
+,,"('really', 'not', 'like')",6
+,,"('roll', 'into', 'eye')",6
+,,"('not', 'see', 'trophy')",6
+,,"('send', 'someone', 'message')",6
+,,"('tried', 'uninstaling', 'installing')",6
+,,"('not', 'get', 'update')",6
+,,"('not', 'load', 'please')",6
+,,"('doe', 'new', 'update')",6
+,,"('video', 'call', 'not')",6
+,,"('snapshot', 'not', 'work')",6
+,,"('snapshot', 'not', 'let')",6
+,,"('old', 'version', 'not')",6
+,,"('application', 'not', 'work')",6
+,,"('open', 'message', 'not')",6
+,,"('ever', 'since', 'got')",6
+,,"('stop', 'changing', 'thing')",6
+,,"('not', 'know', 'new')",6
+,,"('saying', 'application', 'updating')",6
+,,"('in', 'group', 'chat')",6
+,,"('new', 'update', 'always')",6
+,,"('having', 'this', 'issue')",6
+,,"('this', 'application', 'slow')",6
+,,"('application', 'android', 'user')",6
+,,"('keep', 'saying', 'application')",6
+,,"('ever', 'since', 'recent')",6
+,,"('send', 'snap', 'anymore')",6
+,,"('time', 'try', 'send')",6
+,,"('updating', 'not', 'let')",6
+,,"('still', 'not', 'got')",6
+,,"('every', 'time', 'go')",6
+,,"('memory', 'not', 'loading')",6
+,,"('update', 'recent', 'update')",6
+,,"('try', 'send', 'snap')",6
+,,"('application', 'not', 'save')",6
+,,"('let', 'sign', 'in')",6
+,,"('make', 'this', 'application')",6
+,,"('video', 'please', 'fix')",6
+,,"('not', 'use', 'this')",6
+,,"('snapshot', 'not', 'update')",6
+,,"('every', 'time', 'update')",6
+,,"('not', 'even', 'download')",6
+,,"('love', 'snapshot', 'not')",6
+,,"('update', 'snapshot', 'doe')",6
+,,"('log', 'back', 'into')",6
+,,"('people', 'private', 'story')",6
+,,"('group', 'chat', 'not')",6
+,,"('one', 'doe', 'not')",6
+,,"('latest', 'update', 'suck')",6
+,,"('let', 'update', 'new')",6
+,,"('good', 'application', 'not')",6
+,,"('soon', 'possible', 'this')",6
+,,"('new', 'update', 'lot')",6
+,,"('application', 'not', 'able')",6
+,,"('back', 'this', 'new')",6
+,,"('this', 'application', 'horrible')",6
+,,"('not', 'take', 'photo')",6
+,,"('take', 'way', 'much')",6
+,,"('this', 'application', 'need')",6
+,,"('doe', 'even', 'work')",6
+,,"('not', 'work', 'update')",6
+,,"('try', 'send', 'video')",6
+,,"('time', 'try', 'use')",6
+,,"('application', 'constantly', 'crashing')",6
+,,"('application', 'because', 'application')",6
+,,"('take', 'long', 'load')",6
+,,"('this', 'application', 'take')",6
+,,"('picture', 'video', 'in')",6
+,,"('application', 'not', 'use')",5
+,,"('in', 'chat', 'new')",5
+,,"('see', 'new', 'update')",5
+,,"('also', 'not', 'see')",5
+,,"('keep', 'saying', 'updating')",5
+,,"('saved', 'in', 'memory')",5
+,,"('filter', 'please', 'fix')",5
+,,"('snapshot', 'update', 'not')",5
+,,"('please', 'help', 'new')",5
+,,"('using', 'front', 'camera')",5
+,,"('please', 'look', 'into')",5
+,,"('not', 'use', 'filter')",5
+,,"('android', 'new', 'update')",5
+,,"('last', 'two', 'update')",5
+,,"('update', 'completely', 'ruined')",5
+,,"('snapshot', 'this', 'new')",5
+,,"('new', 'update', 'want')",5
+,,"('new', 'update', 'like')",5
+,,"('while', 'using', 'snapshot')",5
+,,"('last', 'update', 'really')",5
+,,"('new', 'update', 'every')",5
+,,"('version', 'this', 'application')",5
+,,"('save', 'story', 'memory')",5
+,,"('new', 'update', 'crash')",5
+,,"('update', 'suck', 'slow')",5
+,,"('fix', 'bug', 'soon')",5
+,,"('this', 'update', 'suck')",5
+,,"('account', 'doe', 'not')",5
+,,"('terrible', 'new', 'update')",5
+,,"('not', 'save', 'memory')",5
+,,"('please', 'change', 'back')",5
+,,"('doe', 'anyone', 'know')",5
+,,"('sometimes', 'not', 'even')",5
+,,"('camera', 'roll', 'anymore')",5
+,,"('compared', 'actual', 'camera')",5
+,,"('not', 'update', 'phone')",5
+,,"('notification', 'not', 'work')",5
+,,"('ever', 'since', 'latest')",5
+,,"('read', 'minute', 'ago')",5
+,,"('doe', 'not', 'play')",5
+,,"('did', 'not', 'update')",5
+,,"('install', 'this', 'application')",5
+,,"('love', 'application', 'use')",5
+,,"('crash', 'least', 'time')",5
+,,"('please', 'help', 'not')",5
+,,"('got', 'new', 'update')",5
+,,"('update', 'lot', 'bug')",5
+,,"('update', 'made', 'snapshot')",5
+,,"('loved', 'this', 'application')",5
+,,"('broke', 'not', 'fix')",5
+,,"('not', 'see', 'streak')",5
+,,"('new', 'update', 'people')",5
+,,"('get', 'worse', 'every')",5
+,,"('recently', 'updated', 'application')",5
+,,"('application', 'not', 'see')",5
+,,"('problem', 'please', 'fix')",5
+,,"('please', 'try', 'fix')",5
+,,"('notification', 'doe', 'not')",5
+,,"('half', 'time', 'not')",5
+,,"('samsung', 'galaxy', 'not')",5
+,,"('video', 'new', 'update')",5
+,,"('private', 'story', 'private')",5
+,,"('also', 'new', 'update')",5
+,,"('make', 'new', 'update')",5
+,,"('new', 'update', 'look')",5
+,,"('this', 'application', 'phone')",5
+,,"('message', 'minute', 'ago')",5
+,,"('this', 'application', 'new')",5
+,,"('new', 'update', 'show')",5
+,,"('not', 'send', 'anything')",5
+,,"('bring', 'old', 'version')",5
+,,"('change', 'friend', 'emosi')",5
+,,"('this', 'application', 'also')",5
+,,"('not', 'know', 'update')",5
+,,"('soon', 'possible', 'love')",5
+,,"('update', 'bad', 'not')",5
+,,"('not', 'able', 'open')",5
+,,"('roll', 'eye', 'please')",5
+,,"('story', 'doe', 'not')",5
+,,"('know', 'happened', 'this')",5
+,,"('please', 'help', 'snapshot')",5
+,,"('crash', 'everytime', 'open')",5
+,,"('camera', 'quality', 'android')",5
+,,"('not', 'open', 'snap')",5
+,,"('put', 'camera', 'roll')",5
+,,"('tired', 'this', 'application')",5
+,,"('let', 'log', 'into')",5
+,,"('application', 'would', 'not')",5
+,,"('force', 'close', 'application')",5
+,,"('not', 'edit', 'snap')",5
+,,"('update', 'hate', 'new')",5
+,,"('trying', 'take', 'picture')",5
+,,"('story', 'not', 'see')",5
+,,"('new', 'update', 'garbage')",5
+,,"('message', 'please', 'fix')",5
+,,"('get', 'stuck', 'not')",5
+,,"('send', 'new', 'update')",5
+,,"('update', 'really', 'bad')",5
+,,"('fix', 'this', 'really')",5
+,,"('camera', 'not', 'load')",5
+,,"('issue', 'new', 'update')",5
+,,"('wrong', 'new', 'update')",5
+,,"('fixed', 'soon', 'possible')",5
+,,"('save', 'photo', 'camera')",5
+,,"('story', 'camera', 'roll')",5
+,,"('never', 'this', 'problem')",5
+,,"('worse', 'not', 'even')",5
+,,"('love', 'using', 'snapshot')",5
+,,"('open', 'snap', 'friend')",5
+,,"('uninstaled', 'installed', 'application')",5
+,,"('not', 'work', 'new')",5
+,,"('update', 'not', 'make')",5
+,,"('everything', 'else', 'work')",5
+,,"('not', 'even', 'read')",5
+,,"('even', 'read', 'message')",5
+,,"('application', 'installed', 'application')",5
+,,"('time', 'please', 'fix')",5
+,,"('opened', 'snap', 'not')",5
+,,"('please', 'sort', 'this')",5
+,,"('make', 'new', 'account')",5
+,,"('even', 'send', 'snap')",5
+,,"('crashing', 'please', 'fix')",5
+,,"('worst', 'application', 'in')",5
+,,"('camera', 'quality', 'terrible')",5
+,,"('application', 'play', 'store')",5
+,,"('still', 'not', 'let')",5
+,,"('ever', 'since', 'last')",5
+,,"('snapshot', 'use', 'snapshot')",5
+,,"('update', 'awful', 'not')",5
+,,"('camera', 'roll', 'into')",5
+,,"('really', 'like', 'this')",5
+,,"('screen', 'turn', 'black')",5
+,,"('time', 'send', 'snap')",5
+,,"('sticker', 'doe', 'not')",5
+,,"('properly', 'doe', 'not')",5
+,,"('not', 'get', 'sound')",5
+,,"('bug', 'not', 'fixed')",5
+,,"('android', 'user', 'not')",5
+,,"('not', 'even', 'know')",5
+,,"('application', 'take', 'forever')",5
+,,"('filter', 'doe', 'not')",5
+,,"('snapshot', 'snapshot', 'doe')",5
+,,"('load', 'please', 'fix')",5
+,,"('worse', 'new', 'update')",5
+,,"('story', 'not', 'let')",5
+,,"('not', 'know', 'whats')",5
+,,"('new', 'version', 'snapshot')",5
+,,"('old', 'version', 'better')",5
+,,"('this', 'application', 'like')",5
+,,"('phone', 'not', 'mine')",5
+,,"('updated', 'application', 'application')",5
+,,"('one', 'star', 'because')",5
+,,"('picture', 'new', 'update')",5
+,,"('please', 'help', 'fix')",5
+,,"('new', 'update', 'deleted')",5
+,,"('say', 'new', 'update')",5
+,,"('video', 'doe', 'not')",5
+,,"('opened', 'message', 'minute')",5
+,,"('this', 'love', 'snapshot')",5
+,,"('application', 'love', 'snapshot')",5
+,,"('back', 'old', 'update')",5
+,,"('love', 'snapshot', 'snapshot')",5
+,,"('not', 'fix', 'this')",5
+,,"('gone', 'please', 'fix')",5
+,,"('this', 'application', 'android')",5
+,,"('this', 'because', 'this')",5
+,,"('because', 'this', 'application')",5
+,,"('really', 'annoying', 'please')",5
+,,"('new', 'update', 'took')",5
+,,"('not', 'good', 'not')",5
+,,"('friend', 'story', 'not')",5
+,,"('not', 'know', 'snapshot')",5
+,,"('application', 'crash', 'every')",5
+,,"('not', 'let', 'view')",5
+,,"('suck', 'not', 'see')",5
+,,"('love', 'application', 'not')",5
+,,"('great', 'application', 'not')",5
+,,"('use', 'snapshot', 'everyday')",5
+,,"('not', 'save', 'snap')",5
+,,"('say', 'snapshot', 'not')",5
+,,"('new', 'snapshot', 'alpha')",5
+,,"('update', 'suck', 'please')",5
+,,"('this', 'application', 'say')",5
+,,"('latest', 'update', 'worst')",5
+,,"('back', 'into', 'account')",5
+,,"('new', 'update', 'mean')",5
+,,"('not', 'show', 'delivered')",5
+,,"('not', 'getting', 'new')",5
+,,"('slow', 'doe', 'not')",5
+,,"('not', 'let', 'access')",5
+,,"('not', 'let', 'change')",5
+,,"('server', 'please', 'try')",5
+,,"('snapshot', 'this', 'application')",5
+,,"('not', 'work', 'snapshot')",5
+,,"('doe', 'not', 'run')",5
+,,"('not', 'let', 'add')",5
+,,"('weird', 'new', 'update')",5
+,,"('reason', 'new', 'update')",5
+,,"('not', 'see', 'anyone')",5
+,,"('not', 'use', 'snapshot')",5
+,,"('still', 'not', 'fixed')",5
+,,"('someone', 'opened', 'message')",5
+,,"('photo', 'please', 'fix')",5
+,,"('sent', 'two', 'hour')",5
+,,"('two', 'hour', 'ago')",5
+,,"('also', 'not', 'like')",5
+,,"('since', 'update', 'snapshot')",5
+,,"('new', 'update', 'give')",5
+,,"('this', 'worst', 'application')",5
+,,"('newest', 'update', 'not')",5
+,,"('new', 'update', 'super')",5
+,,"('eye', 'doe', 'not')",5
+,,"('something', 'wrong', 'this')",5
+,,"('eye', 'new', 'update')",5
+,,"('picture', 'in', 'memory')",5
+,,"('way', 'much', 'storage')",5
+,,"('update', 'last', 'update')",5
+,,"('video', 'take', 'forever')",5
+,,"('flash', 'doe', 'not')",5
+,,"('doe', 'not', 'take')",5
+,,"('keep', 'saying', 'not')",5
+,,"('anymore', 'this', 'application')",5
+,,"('latest', 'update', 'still')",5
+,,"('application', 'open', 'application')",5
+,,"('doe', 'not', 'record')",5
+,,"('recent', 'update', 'snapshot')",5
+,,"('new', 'update', 'glitch')",5
+,,"('not', 'update', 'snapshot')",5
+,,"('new', 'gole', 'pixel')",5
+,,"('especially', 'new', 'update')",5
+,,"('whenever', 'try', 'open')",5
+,,"('love', 'new', 'update')",5
+,,"('soon', 'possible', 'snapshot')",5
+,,"('not', 'work', 'please')",5
+,,"('would', 'not', 'work')",5
+,,"('huge', 'data', 'hog')",5
+,,"('memory', 'not', 'see')",5
+,,"('not', 'letting', 'log')",5
+,,"('update', 'go', 'back')",5
+,,"('not', 'get', 'this')",5
+,,"('new', 'android', 'update')",5
+,,"('back', 'old', 'font')",5
+,,"('horrible', 'not', 'even')",5
+,,"('font', 'went', 'back')",5
