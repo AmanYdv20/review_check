@@ -1,11 +1,11 @@
+#This file is for preprocessing the raw text data and it perfoms various operation like coherence resolution,removing unicode, removing extra exclamtion mark etc.
+#if any time you stuck somewhere then you can check it on newfile.log file or write your own log file for more info
+
 import re
 import spacy
 import neuralcoref
 from nltk.corpus import wordnet
 import pandas as pd
-#from nltk.corpus import stopwords
-#from nltk.stem import WordNetLemmatizer
-#from nltk.stem.porter import PorterStemmer
 from changeSlang import replaceAllSlang
 
 import logging
@@ -20,12 +20,12 @@ logger.setLevel(logging.INFO)
 nlp=spacy.load('en')
 neuralcoref.add_to_pipe(nlp)
 
-'''def coreference_resolution(text):
+def coreference_resolution(text):
     logger.info("Executed successfully") 
     print('execute')
     doc=nlp(text)
     ans=doc._.coref_resolved
-    return ans'''
+    return ans
 
 def removeUnicode(text):
     """ Removes unicode strings like "\u002c" and "x96" """
@@ -101,41 +101,12 @@ class preprocessing:
         self.data['text']=self.data['text'].apply(removeNumbers)
         self.data['text']=self.data['text'].apply(replaceAlpha)
         self.data['text']=self.data['text'].apply(replaceAllSlang)
-        #self.data['text']=self.data['text'].apply(coreference_resolution)
+        self.data['text']=self.data['text'].apply(coreference_resolution)
         
         
     def print_data(self):
         print(self.data.head())
 
-#df=pd.read_csv('random_data.csv')
-#df=df[:200]
-#pre=preprocessing(df)
 
-#text=''
-#for i in data['text']:
-#    text+=i
-#    text+=' '
-#text = re.sub('<.*>','',text)
-#tokenized = text.split()
-#esBigrams = ngrams(tokenized, 2)
-#esBigramFreq = Counter(esBigrams)
-#most_frequent=esBigramFreq.most_common(380)
-
-#repr(most_frequent)
-#f = open( 'bigrams.txt', 'w' )
-#f.write( 'most frequent bigrams= ' + repr(most_frequent) + '\n' )
-#f.close()
-
-#triBigrams = ngrams(tokenized, 3)
-#triBigramFreq = Counter(triBigrams)
-#most_frequent_trigrams=triBigramFreq.most_common(100)
-
-
-#quadBigrams = ngrams(tokenized, 4)
-#quadBigramFreq = Counter(quadBigrams)
-#quadBigramFreq.most_common(65)
-
-
-#task 3 started
 
         

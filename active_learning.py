@@ -1,3 +1,6 @@
+#This file is for doing active learning on tweets data and reviews data
+'''The files format should be correct i.e -All the labelled data should be in seed.csv, all the unlabelled data should be in unlabel.csv and file name query.csv will be generated'''
+
 import pandas as pd
 import numpy as np
 from sklearn import model_selection,linear_model, naive_bayes, metrics, svm
@@ -7,7 +10,6 @@ from sklearn import decomposition, ensemble
 from sklearn.preprocessing import LabelBinarizer
 from sklearn.model_selection import cross_val_score
 
-#from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from changeSlang import replaceAllSlang
 from finding_corpus import findCorpus
@@ -18,6 +20,7 @@ from scipy.sparse import hstack
 
 lb = LabelBinarizer()
 
+#for spliting the data in traning and testing set
 def split_train_test(dataframe, train_feature_name, train_label):
     """splits a given dataframe to train and validation sets"""
     train_x, valid_x, train_y, valid_y = model_selection.train_test_split(
@@ -46,18 +49,7 @@ def build_feature(text_data, senti_text, text_score, max_features):
     print(train_data.shape)
     return train_data
     #return final_train
-
-'''def build_feature(text_data, max_features):
-    """Builds a tfidf vector for the given data"""
-    Tfidf_vect = TfidfVectorizer(max_features)
-    Tfidf_vect.fit(unlabel['comment'])
     
-    x_train_tfidf = Tfidf_vect.transform(text_data)
-    
-    
-    return x_train_tfidf
-'''
-
 def train_model_accuracy_calculator(train_feature_data, train_label, max_features):
     """Trains with the given data with SVM. Includes a split method for k-fold cross validation (k=7)"""
     
@@ -123,27 +115,11 @@ seed['comment']=seed['comment'].apply(convert)
 
 seed=seed.dropna()
 seed=seed.reset_index()
-#seed= seed.drop(['margins'],axis=1)
 unlabel = pd.read_csv("unlabel.csv")
-#unlabel.dropna()
-#unlabel=unlabel[unlabel['Bug_report'].apply(lambda x: str(x).isdigit())]
-#unlabel['comment']=unlabel['comment'].apply(replaceAllSlang)
-#unlabel=unlabel.drop(['Unnamed: 9','Unnamed: 10','Unnamed: 11','Unnamed: 12','Unnamed: 13','Unnamed: 14','Unnamed: 15'],axis=1)
-#unlabel.to_csv('unlabel.csv')
 
-'''
-seed = pd.read_csv("classifier_test.csv")
-#seed= seed.drop(['margins'],axis=1)
-unlabel = pd.read_csv("test_data.csv")
-unlabel['comment']=unlabel['comment'].apply(replaceAllSlang)
-'''
-
-
-#unlabel_class=findCorpus(unlabel)
-#final_data=unlabel_class.final_data
-#unlabel['comment']=pd.Series(final_data)
 unlabel['comment']=unlabel['comment'].apply(convert)
 
+'''for checking if the star rating is between 1 to 5'''
 df=['0','1','2','3','4','5']
 b=[0,1,2,3,4,5]
 unlabel = unlabel[unlabel['score'].isin(df) | unlabel['score'].isin(b)]
@@ -165,35 +141,21 @@ unlabel_comment_feature = build_feature(unlabel["comment"],unlabel['text'], unla
 print(unlabel_comment_feature.shape)
 print(seed_comment_feature.shape)
 
-#train_feature=build_feature(seed['comment'],seed['text'],seed['score'],max_features=15000)
-
 model, accuracy,recall_score, precision_score,f1_score = train_model_accuracy_calculator(train_feature_data=seed_comment_feature, train_label=Train_Y,max_features=15000)
 print(model)
 print("Accuracy ",accuracy)
 print("Recall ",recall_score)
 print("Precision score ", precision_score)
 print("f1-score ", f1_score)
+
 #confusion matrix
 
 results=make_predictions(classifier_model=model,predic_feature_vetor=unlabel_comment_feature)
 margins = uncertainty(results)
 query(margins, unlabel, "margins", 500)
-#print(min(margins))
 
-#bug_report=model.predict(unlabel_comment_feature)
-
-#unlabel['bug_report']=bug_report
-#unlabel=unlabel[unlabel['text'].apply(lambda x: len(x.split(' ')) > 4)]
-
-#unlabel.to_csv('final_classification.csv',index=False)
 update_files(query_file="query.csv", seed_file="seed.csv", unlabel_file="unlabel.csv")
 
-'''oracle = pd.read_csv('query.csv')
-oracle=oracle[:500]
-oracle=oracle[oracle['comment'].apply(lambda x: len(str(x).split(',')) > 1)]
-
-type(oracle['comment'][0])
-print(len(oracle['comment'][0]))'''
 
 data=pd.read_csv('unlabel_final.csv')
 data=data[data['comment'].apply(lambda x: len(str(x).split(' ')) > 2)]

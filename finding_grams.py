@@ -1,3 +1,7 @@
+''' This file is to create the trigrams and quadgrams according the condition you will dercribed in below code
+You have to manually specify the the file names each time you will extract n-grams
+'''
+
 import pandas as pd
 from nltk.util import ngrams
 from collections import Counter
@@ -18,7 +22,9 @@ for word in extra_words:
 def remove_stopwords(texts):
     return [[word for word in simple_preprocess(str(doc)) if word not in stop_words] for doc in texts]
 
+'''function for finding the ngrams'''
 def finding_ngram(df,min_count,n=2):
+    '''df: dataframe with text column'''
     text=''
     for i in df['text']:
         text+=i+' '
@@ -31,7 +37,7 @@ def finding_ngram(df,min_count,n=2):
     f.write( 'most frequent bigrams= ' + repr(most_frequent) + '\n' )
     f.close()
     
-
+#specify the filename here for finding the trigrams and quadgrams
 data=pd.read_csv('./bug_report_tweets_data/google_tweets_data/google2019-02-01_2019-02-28.csv')
 
 data=pd.read_csv('./bug_report_reviews_data/google_reviews/Google2019-02-01_2019-02-28.csv')
@@ -84,6 +90,7 @@ d.append(df2)
 
 d=pd.concat(d,axis=1)
 
+#specify the desired filename you want to save the quadgrams
 d.to_csv('google_trigram_version_4th.csv',index=False)
 d.to_csv('google_quadgram_version_1st.csv',index=False)
 

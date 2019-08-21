@@ -1,18 +1,16 @@
+#This file is responsible for all the preprocessing before topic modelling of the text document.
+#It convert text to id2word and combining the bigram and trigrams to the text
+#the output of this file can be seen from the topic_modelling file
+#Please aware of the fact the code is considering the ranw text data in the column name "text", so please do not forgot it otherwise you will get an error.
+
 import re
-import pandas as pd
-from pprint import pprint
 import gensim
 import gensim.corpora as corpora
 from gensim.utils import simple_preprocess
-#from gensim.models import CoherenceModel
 import spacy
-#from check_stemer import tokenize
-# Plotting tools
-import pyLDAvis
-import pyLDAvis.gensim  # don't skip this
-#import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
 
+#importing the english model of spacy library 
 nlp = spacy.load('en', disable=['parser', 'ner'])
 
 stop_words = stopwords.words('english')
@@ -23,6 +21,7 @@ for word in extra_words:
     if word in stop_words:
         stop_words.remove(word)
 
+#replaces all the hyper link if any remaining after the preprocessing of data
 def replaceImage(text):
     """ Replaces url address with "url" """
     text=str(text)
@@ -37,6 +36,7 @@ def sent_to_words(sentences):
 def remove_stopwords(texts):
     return [[word for word in simple_preprocess(str(doc)) if word not in stop_words] for doc in texts]
 
+#lemmetizing the text
 def lemmatization(texts, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']):
     """https://spacy.io/api/annotation"""
     texts_out = []
@@ -45,6 +45,7 @@ def lemmatization(texts, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']):
         texts_out.append([token.lemma_ for token in doc if token.pos_ in allowed_postags])
     return texts_out
 
+#doing some preprocssing steps to confirm if everything is fine and remove any mistake if any.
 def pre_steps(data):
     data['text']=data['text'].apply(replaceImage)
     data = data.text.values.tolist()
@@ -58,6 +59,7 @@ def pre_steps(data):
     
     return data
 
+#class for finding the corpus for the given data
 class findCorpus:
     def __init__(self,data):
         self.data=data

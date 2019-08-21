@@ -1,3 +1,5 @@
+''''''
+
 import pandas as pd
 import random
 from pprint import pprint
@@ -9,20 +11,6 @@ import re
 
 import pickle
 from finding_corpus import findCorpus
-
-#%matplotlib inline
-
-# Enable logging for gensim - optional
-import logging
-logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.ERROR)
-
-import warnings
-warnings.filterwarnings("ignore",category=DeprecationWarning)
-
-import pyLDAvis
-import pyLDAvis.gensim  # don't skip this
-import matplotlib.pyplot as plt
-#%matplotlib inline
 
 random.seed(1000)
 
@@ -98,24 +86,6 @@ print(corpus[:1])
 
 #model_list, coherence_values = compute_coherence_values(dictionary=id2word, corpus=corpus, texts=final_data, start=10, limit=50, step=5)
 
-'''filename = 'coherenc_weight.pickle'
-outfile = open(filename,'wb')
-pickle.dump(coherence_values,outfile)
-outfile.close()
-
-import pickle
-filename = 'coherenc_weight.pickle'
-infile = open(filename,'rb')
-coherence_values = pickle.load(infile)
-infile.close()
-
-limit=50; start=10; step=5;
-x = range(start, limit, step)
-plt.plot(x, coherence_values)
-plt.xlabel("Num Topics")
-plt.ylabel("Coherence score")
-plt.legend(("coherence_values"), loc='best')
-plt.show()'''
 model_list, coherence_values = compute_coherence_values(dictionary=id2word, corpus=corpus, texts=final_data, start=5, limit=25, step=5)
 
 limit=25; start=5; step=5;
@@ -202,25 +172,6 @@ coherence_ldamallet = coherence_model_ldamallet.get_coherence()
 print('\nCoherence Score: ', coherence_ldamallet)
 
 print(ldamallet[corpus[10]])
-
-#************************************************************
-#So,until here, all parts related to finding the topics for the model is completed
-
-#model_list, coherence_values = compute_coherence_values(dictionary=id2word, corpus=corpus, texts=data_lemmatized, start=5, limit=55, step=5)
-
-#limit=55; start=5; step=5;
-#x = range(start, limit, step)
-#plt.plot(x, coherence_values)
-#plt.xlabel("Num Topics")
-#plt.ylabel("Coherence score")
-#plt.legend(("coherence_values"), loc='best')
-#plt.show()
-
-#for m, cv in zip(x, coherence_values):
-#    print("Num Topics =", m, " has Coherence Value of", round(cv, 4))
-
-#*************************************************************
-
 
 def find_topics(data):
     train_vecs = []

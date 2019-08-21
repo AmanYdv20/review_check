@@ -1,5 +1,6 @@
 import pandas as pd
-
+import datetime
+from matplotlib import pyplot
 
 filename=['amazon','facebook','google','google_map','google_play','messenger','outlook','snapchat','wechat','whatsapp']
 data=[]
@@ -78,3 +79,35 @@ def createChunk(df,app_name,start,end):
 count['date'] = pd.to_datetime(count['date'])
 createChunk(count,'Maps','2019-02-01', '2019-03-31')
 print(type(count['date'][21]))
+
+
+#below code is for finding tweets and retweets
+d=pd.read_csv('bug_report_data_tweets.csv')
+data.columns=['tweet-id2','timestamp','likes','replies','retweets','text','app_name']
+d=d.dropna()
+d[['tweet-id']]=d[['tweet-id']].apply(pd.to_numeric)
+d=pd.merge(d, data, left_on='tweet-id', right_on='tweet-id2', how='left').drop('tweet-id2', axis=1)
+
+d=d.drop(['timestamp_y','text_y','app_name_y'],axis=1)
+d.columns=['tweet-id','timestamp','text','app_name','comment','bug_report','likes','replies','retweets']
+d.to_csv('bug_report_tweets_data.csv',index=False)
+
+plot_data=d.groupby('timestamp').count()
+plot_data['timestamp']=plot_data.index
+plot_data['timestamp']=pd.to_datetime(plot_data['timestamp'])
+data1=plot_data['timestamp'][0]
+plot_data['Date'] = [dt.datetime.date(d) for d in plot_data['timestamp']]
+plot_data=plot_data.groupby('Date').count()
+plot_data.plot()
+pyplot.show()
+
+df=plot_.groupby('Name').resample('W-Mon', on='Date').sum().reset_index().sort_values(by='Date')
+
+
+d["timestamp"] = pd.to_datetime(d["timestamp"])
+d['date_minus_time'] = d["timestamp"].apply( lambda d : datetime.datetime(year=d.year, month=d.month, day=d.day))	
+d.set_index(d["date_minus_time"],inplace=True)
+
+df=d['likes'].resample('W', how='sum')
+df.plot()
+pyplot.show()

@@ -1,6 +1,7 @@
+#This file is for removing the stopwords, checking spelling and lemmetize the word, it should be called separately after the preprocessing file.
+#spelling checker takes time, so please have patience :)
+
 import re
-from functools import partial
-from collections import Counter
 import nltk
 from nltk.corpus import wordnet
 from nltk.corpus import stopwords
@@ -31,7 +32,7 @@ def addCapTag(word):
     else:
         return word
     
-
+#for removing elongated word in the text
 def replaceElongated(word):
     """ Replaces an elongated word with its basic form, unless the word exists in the lexicon """
 
@@ -62,16 +63,12 @@ def tokenize(text):
     for w in tokens:
         final_word = w.lower() # Technique 9: lowercases all characters
         final_word = replaceElongated(final_word) # Technique 11: replaces an elongated word with its basic form, unless the word exists in the lexicon
-        #if len(final_word)>1:
-            #final_word = spell.correction(final_word)
         if (final_word not in stoplist): # Technique 10: remove stopwords
-            #final_word = w.lower() # Technique 9: lowercases all characters
-            #final_word = replaceElongated(final_word) # Technique 11: replaces an elongated word with its basic form, unless the word exists in the lexicon
             final_word = addCapTag(w) # Technique 8: Finds a word with at least 3 characters capitalized and adds the tag ALL_CAPS_
             #final_word = w.lower() # Technique 9: lowercases all characters
             final_word = replaceElongated(final_word) # Technique 11: replaces an elongated word with its basic form, unless the word exists in the lexicon
-            #if len(final_word)>1:
-                #final_word = spell.correction(final_word) # Technique 12: correction of spelling errors
+            if len(final_word)>1:
+                final_word = spell.correction(final_word) # Technique 12: correction of spelling errors
             final_word = lemmatizer.lemmatize(final_word) # Technique 14: lemmatizes words
             #final_word = stemmer.stem(final_word) # Technique 15: apply stemming to words
         
