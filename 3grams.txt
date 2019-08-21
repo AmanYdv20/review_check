@@ -1,1 +1,0 @@
-most frequent bigrams= [(('i', 'can', 'not'), 232), (('i', 'do', 'not'), 115), (('goole', 'play', 'music'), 107), (('on', 'my', 'phone'), 63), (('this', 'application', 'is'), 61)]
